@@ -34,6 +34,7 @@ jobs:
         run: |
           cp changes.json docs/changes.json
           cp config.json  docs/config.json
+          cp latest.json  docs/latest.json
 
       - name: Commit changes (if any)
         run: |

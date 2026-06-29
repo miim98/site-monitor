@@ -9,38 +9,27 @@
   href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css">
 <style>
   :root {
-    --accent: #5b6ef5;       /* UIUX 래퍼런스 (인디고) */
-    --accent-soft: #eef0ff;
-    --news: #f5910b;         /* 뉴스레터 (주황) */
-    --news-deep: #d97706;
-    --news-soft: #fff3e0;
-    --etc: #b9c0d4;
-    --navy: #1f2545;
-    --title: #1c2342;
-    --text: #2b3252;
-    --muted: #8b93ab;
+    --bg: #f0f1f3;            /* 밝은 그레이 배경 */
     --card: #ffffff;
-    --border: #eceef5;
-    --add: #10b981;
-    --add-bg: #e7f9f1;
-    --add-line: #d3f1e3;
-    --del: #f4516c;
-    --del-bg: #fff0f2;
-    --del-line: #ffd9df;
-    --shadow: 0 1px 2px rgba(31,37,69,.04), 0 10px 30px rgba(31,37,69,.07);
-    --radius: 20px;
+    --ink: #16181d;          /* 거의 블랙 (타이틀/포인트) */
+    --text: #3a3d44;
+    --muted: #9298a2;
+    --border: #e6e8ec;
+    --line: #eef0f3;
+    --bar-uiux: #1b1d22;     /* UIUX = 블랙 바 */
+    --bar-news: #c2c6cd;     /* 뉴스레터 = 그레이 바 */
+    --soft-dark: #e9eaee;
+    --soft: #f1f2f4;
+    --del-soft: #f4f5f7;
+    --shadow: 0 1px 2px rgba(20,22,28,.04), 0 8px 24px rgba(20,22,28,.06);
+    --radius: 18px;
   }
   * { box-sizing: border-box; }
   html, body { margin: 0; }
   body {
-    min-height: 100vh; color: var(--text);
+    min-height: 100vh; color: var(--text); background: var(--bg);
     font-family: "Pretendard", -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo",
       "Noto Sans KR", Roboto, sans-serif;
-    background:
-      radial-gradient(1200px 500px at 15% -8%, #e7ecff 0%, transparent 55%),
-      radial-gradient(1100px 520px at 100% 0%, #f6eafe 0%, transparent 50%),
-      linear-gradient(180deg, #f4f6fc 0%, #f7f5fb 100%);
-    background-attachment: fixed;
     -webkit-font-smoothing: antialiased;
   }
   .wrap { max-width: 1080px; margin: 0 auto; padding: 36px 20px 80px; }
@@ -48,29 +37,28 @@
   /* ── Header ── */
   .brand { display: flex; align-items: center; gap: 10px; margin-bottom: 18px; }
   .logo {
-    width: 34px; height: 34px; border-radius: 10px;
-    background: linear-gradient(135deg, var(--accent), var(--news));
-    display: grid; place-items: center; color: #fff; font-size: 18px;
-    box-shadow: 0 6px 16px rgba(91,110,245,.3);
+    width: 34px; height: 34px; border-radius: 10px; background: var(--ink);
+    display: grid; place-items: center; color: #fff; font-size: 17px;
   }
-  .brand b { font-size: 1.02rem; font-weight: 800; color: var(--navy); letter-spacing: -.01em; }
-  h1 { font-size: 1.9rem; font-weight: 800; letter-spacing: -.02em; color: var(--title); margin: 0 0 6px; line-height: 1.25; }
+  .brand b { font-size: 1.02rem; font-weight: 800; color: var(--ink); letter-spacing: -.01em; }
+  h1 { font-size: 1.9rem; font-weight: 800; letter-spacing: -.02em; color: var(--ink); margin: 0 0 6px; line-height: 1.25; }
   .sub { color: var(--muted); font-size: .92rem; }
 
-  /* ── Tabs ── */
+  /* ── Tabs (블랙/그레이) ── */
   .tabs { display: flex; gap: 22px; margin: 26px 0 6px; border-bottom: 1px solid var(--border); flex-wrap: wrap; }
   .tab {
     background: none; border: 0; padding: 0 2px 12px; cursor: pointer; font-family: inherit;
     font-size: 1rem; font-weight: 700; color: var(--muted); position: relative; letter-spacing: -.01em;
   }
-  .tab.active { color: var(--navy); }
+  .tab.active { color: var(--ink); }
   .tab.active::after {
     content: ""; position: absolute; left: 0; right: 0; bottom: -1px; height: 3px;
-    background: var(--accent); border-radius: 3px;
+    background: var(--ink); border-radius: 3px;
   }
-  .tab .n { font-size: .76rem; color: var(--accent); font-weight: 800; margin-left: 5px;
-    background: var(--accent-soft); padding: 1px 7px; border-radius: 999px; }
-  .tab[data-tab="changes"] .n { color: var(--news-deep); background: var(--news-soft); }
+  .tab .n {
+    font-size: .76rem; color: var(--text); font-weight: 800; margin-left: 5px;
+    background: var(--soft); padding: 1px 7px; border-radius: 999px;
+  }
 
   /* ── Filter chips ── */
   .filters { display: flex; flex-wrap: wrap; gap: 8px; margin: 18px 0 4px; }
@@ -79,23 +67,22 @@
     padding: 7px 13px; border-radius: 999px; font-size: .8rem; font-weight: 600;
     cursor: pointer; user-select: none; transition: .12s; box-shadow: var(--shadow);
   }
-  .chip:hover { color: var(--navy); border-color: #d8ddf0; }
-  .chip.active { background: var(--accent); border-color: var(--accent); color: #fff; box-shadow: 0 6px 16px rgba(91,110,245,.3); }
+  .chip:hover { color: var(--ink); border-color: #d4d8df; }
+  .chip.active { background: var(--ink); border-color: var(--ink); color: #fff; }
 
-  /* ── Read bar (변경 내역) ── */
+  /* ── Read bar ── */
   .readbar {
     display: flex; align-items: center; justify-content: space-between; gap: 12px;
     background: var(--card); border: 1px solid var(--border); border-radius: 14px;
     padding: 12px 16px; margin: 18px 0 4px; box-shadow: var(--shadow); flex-wrap: wrap;
   }
-  .readbar .label { font-size: .9rem; font-weight: 700; color: var(--navy); }
-  .readbar .label b { color: var(--news-deep); }
+  .readbar .label { font-size: .9rem; font-weight: 700; color: var(--ink); }
   .readbtn {
-    border: 0; background: var(--navy); color: #fff; font-family: inherit; font-weight: 700;
+    border: 0; background: var(--ink); color: #fff; font-family: inherit; font-weight: 700;
     font-size: .85rem; padding: 9px 16px; border-radius: 10px; cursor: pointer; transition: .12s;
     display: inline-flex; align-items: center; gap: 6px;
   }
-  .readbtn:hover { background: var(--accent); }
+  .readbtn:hover { background: #3a3d44; }
   .readbtn svg { width: 15px; height: 15px; }
 
   /* ── Grid & Cards ── */
@@ -105,29 +92,25 @@
     background: var(--card); border: 1px solid var(--border); border-radius: var(--radius);
     padding: 20px 20px 18px; box-shadow: var(--shadow); text-decoration: none; color: inherit;
     cursor: pointer; transition: transform .12s ease, box-shadow .12s ease;
-    min-height: 168px; overflow: hidden;
+    min-height: 150px; overflow: hidden;
   }
-  .card::before { content: ""; position: absolute; left: 0; top: 0; bottom: 0; width: 5px; opacity: .95; }
-  .card.cat-uiux::before { background: var(--accent); }
-  .card.cat-news::before { background: var(--news); }
-  .card.cat-etc::before  { background: var(--etc); }
-  .card:hover { transform: translateY(-3px); box-shadow: 0 6px 14px rgba(31,37,69,.08), 0 18px 40px rgba(31,37,69,.12); }
-  .card.cat-news { background: linear-gradient(180deg, #fffdfa 0%, #ffffff 38%); }
+  .card::before { content: ""; position: absolute; left: 0; top: 0; bottom: 0; width: 5px; }
+  .card.cat-uiux::before { background: var(--bar-uiux); }
+  .card.cat-news::before { background: var(--bar-news); }
+  .card.cat-etc::before  { background: var(--bar-news); }
+  .card:hover { transform: translateY(-3px); box-shadow: 0 6px 14px rgba(20,22,28,.08), 0 16px 36px rgba(20,22,28,.12); }
 
   .c-head { display: flex; align-items: flex-start; justify-content: space-between; gap: 12px; }
-  .c-title { font-size: 1.12rem; font-weight: 800; color: var(--title); letter-spacing: -.01em; word-break: break-all; line-height: 1.3; }
+  .c-title { font-size: 1.1rem; font-weight: 800; color: var(--ink); letter-spacing: -.01em; word-break: break-all; line-height: 1.3; }
   .c-time { color: var(--muted); font-size: .78rem; font-weight: 600; white-space: nowrap; flex-shrink: 0; margin-top: 3px; }
   .c-date { color: var(--muted); font-size: .76rem; margin-top: 4px; }
-  .newdot { display: inline-block; width: 7px; height: 7px; border-radius: 50%; background: var(--news); margin-left: 7px; vertical-align: middle; }
+  .newdot { display: inline-block; width: 7px; height: 7px; border-radius: 50%; background: var(--ink); margin-left: 7px; vertical-align: middle; }
 
   .open-btn {
-    position: absolute; right: 16px; bottom: 16px; width: 38px; height: 38px; border-radius: 12px;
-    background: var(--navy); color: #fff; display: grid; place-items: center;
-    box-shadow: 0 6px 14px rgba(31,37,69,.28); transition: .12s;
+    position: absolute; right: 16px; bottom: 16px; width: 38px; height: 38px; border-radius: 11px;
+    background: var(--ink); color: #fff; display: grid; place-items: center; transition: .12s;
   }
-  .card.cat-uiux:hover .open-btn { background: var(--accent); }
-  .card.cat-news:hover .open-btn { background: var(--news); }
-  .card:hover .open-btn { transform: scale(1.06); }
+  .card:hover .open-btn { background: #3a3d44; transform: scale(1.06); }
   .open-btn svg { width: 17px; height: 17px; }
 
   .tags { display: flex; flex-wrap: wrap; gap: 7px; margin: 14px 0 0; }
@@ -136,37 +119,35 @@
     font-size: .76rem; font-weight: 700; padding: 4px 9px 4px 7px; border-radius: 8px;
   }
   .tag svg { width: 13px; height: 13px; }
-  .tag.add { color: var(--add); background: var(--add-bg); }
-  .tag.del { color: var(--del); background: var(--del-bg); }
-  .tag.cat-uiux { color: var(--accent); background: var(--accent-soft); }
-  .tag.cat-news { color: var(--news-deep); background: var(--news-soft); }
-  .tag.cat-etc  { color: var(--muted); background: #f2f4fa; }
-  .tag.watch { color: var(--add); background: var(--add-bg); }
-  .tag.method { color: var(--muted); background: #f2f4fa; }
+  .tag.cat-uiux { color: var(--ink);  background: var(--soft-dark); }
+  .tag.cat-news { color: #6b7079;      background: var(--soft); }
+  .tag.cat-etc  { color: #6b7079;      background: var(--soft); }
+  .tag.latest, .tag.method, .tag.watch { color: #6b7079; background: var(--soft); }
+  .tag.add { color: var(--ink);  background: var(--soft-dark); }       /* 추가 = 진한 */
+  .tag.del { color: #8a8f98; background: var(--soft); }                /* 삭제 = 연한 */
 
   .lines { margin: 12px 0 0; display: flex; flex-direction: column; gap: 8px; padding-right: 44px; }
-  .block { border-radius: 10px; padding: 9px 11px; font-size: .83rem; line-height: 1.5; }
-  .block.add { background: var(--add-bg); border: 1px solid var(--add-line); }
-  .block.del { background: var(--del-bg); border: 1px solid var(--del-line); }
+  .block { border-radius: 10px; padding: 9px 11px; font-size: .83rem; line-height: 1.5; border: 1px solid var(--line); }
+  .block.add { background: var(--soft); }
+  .block.del { background: var(--del-soft); }
   .ln { display: flex; gap: 7px; align-items: flex-start; }
   .ln + .ln { margin-top: 3px; }
   .ln .mk { font-weight: 800; flex-shrink: 0; line-height: 1.5; }
-  .block.add .mk { color: var(--add); }
-  .block.del .mk { color: var(--del); }
-  .block.del .tx { text-decoration: line-through; color: #b06; opacity: .75; }
+  .block.add .mk { color: var(--ink); }
+  .block.del .mk { color: var(--muted); }
+  .block.del .tx { text-decoration: line-through; color: var(--muted); }
   .tx { word-break: break-word; }
   .more { font-size: .76rem; color: var(--muted); margin-top: 5px; font-weight: 600; }
 
-  .empty-note { font-size: .85rem; color: var(--muted); margin: 14px 0 2px; }
   .watch-desc { font-size: .85rem; color: var(--muted); margin-top: 12px; padding-right: 44px; }
   .state { text-align: center; color: var(--muted); padding: 70px 16px; }
-  .state .big { font-size: 2.4rem; margin-bottom: 12px; }
+  .state .big { font-size: 2.2rem; margin-bottom: 12px; filter: grayscale(1); }
   .hidden { display: none !important; }
 </style>
 </head>
 <body>
   <div class="wrap">
-    <div class="brand"><span class="logo">📚</span><b>Reference Hub</b></div>
+    <div class="brand"><span class="logo">▦</span><b>Reference Hub</b></div>
     <h1>UIUX 관련 래퍼런스 및 뉴스레터 모음</h1>
     <div class="sub">UIUX 래퍼런스와 뉴스레터의 변경 사항을 한곳에 모았습니다.</div>
 
@@ -184,7 +165,6 @@
 const TZ = "Asia/Seoul";
 const LS_KEY = "siteMonitor:lastSeen";
 
-/* 카테고리 매핑 */
 const CATEGORY = {
   "plusx-experience": "uiux",
   "dfy-work": "uiux",
@@ -211,7 +191,7 @@ function relTime(iso){const d=new Date(iso),now=new Date(),s=Math.round((now-d)/
 function esc(s){return String(s).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));}
 function host(u){try{return new URL(u).host.replace(/^www\./,"");}catch(e){return u;}}
 
-let CHANGES = [], SITES = [], activeSite = null, activeTab = "all";
+let CHANGES = [], SITES = [], LATEST = [], activeSite = null, activeTab = "all";
 let lastSeen = loadLastSeen();
 
 function loadLastSeen(){try{const v=localStorage.getItem(LS_KEY);return v?new Date(v):new Date(0);}catch(e){return new Date(0);}}
@@ -251,21 +231,47 @@ function changeCard(c, markNew){
   </a>`;
 }
 
+function linkCard(siteName, item){
+  const cat=catOf(siteName);
+  return `<a class="card cat-${cat}" href="${esc(item.link)}" target="_blank" rel="noopener noreferrer">
+    <div class="c-head"><div><div class="c-title">${esc(item.title)}</div><div class="c-date">${esc(siteName)} · ${esc(host(item.link))}</div></div></div>
+    <div class="tags">${catTag(cat)}<span class="tag latest">최신 글</span></div>
+    <span class="open-btn" aria-label="링크 열기">${ICON_OPEN}</span>
+  </a>`;
+}
+
 function siteCard(s){
   const cat=catOf(s.name), method=s.js?"JS 렌더링":"정적 HTML";
   return `<a class="card cat-${cat}" href="${esc(s.url)}" target="_blank" rel="noopener noreferrer">
     <div class="c-head"><div><div class="c-title">${esc(s.name)}</div><div class="c-date">${esc(host(s.url))}</div></div></div>
     <div class="tags">${catTag(cat)}<span class="tag method">${method}</span></div>
-    <div class="watch-desc">아직 감지된 변경이 없습니다.</div>
+    <div class="watch-desc">감시 중인 사이트입니다.</div>
     <span class="open-btn" aria-label="사이트 열기">${ICON_OPEN}</span>
   </a>`;
+}
+
+/* 전체가 비었을 때: 사이트별 최신 링크 2개씩(없으면 사이트 카드로 폴백) */
+function latestCards(){
+  const map={}; LATEST.forEach(e=>{ map[e.site]=(e.items||[]).slice(0,2); });
+  let html="";
+  if(SITES.length){
+    SITES.forEach(s=>{
+      const items=map[s.name];
+      html += (items&&items.length) ? items.map(it=>linkCard(s.name,it)).join("") : siteCard(s);
+    });
+  } else {
+    LATEST.forEach(e=>{ (e.items||[]).slice(0,2).forEach(it=>{ html+=linkCard(e.site,it); }); });
+  }
+  return html
+    ? `<div class="grid">${html}</div>`
+    : `<div class="state"><div class="big">✓</div>표시할 항목이 없습니다.</div>`;
 }
 
 function renderFilters(){
   const el=document.getElementById("filters");
   const base = activeTab==="all" ? CHANGES : activeTab==="changes" ? unread() : [];
   const sites=[...new Set(base.map(c=>c.site))];
-  if((activeTab!=="all"&&activeTab!=="changes")||sites.length<2){el.classList.add("hidden");el.innerHTML="";return;}
+  if((activeTab!=="all"&&activeTab!=="changes")||!CHANGES.length||sites.length<2){el.classList.add("hidden");el.innerHTML="";return;}
   el.classList.remove("hidden");
   el.innerHTML=`<span class="chip${activeSite===null?" active":""}" data-s="">전체</span>`+
     sites.map(s=>`<span class="chip${activeSite===s?" active":""}" data-s="${esc(s)}">${esc(s)}</span>`).join("");
@@ -276,8 +282,7 @@ function renderView(){
   const v=document.getElementById("view");
 
   if(activeTab==="sites"){
-    v.innerHTML = SITES.length
-      ? `<div class="grid">${SITES.map(siteCard).join("")}</div>`
+    v.innerHTML = SITES.length ? `<div class="grid">${SITES.map(siteCard).join("")}</div>`
       : `<div class="state">감시 사이트 정보를 불러오지 못했습니다.</div>`;
     return;
   }
@@ -285,25 +290,25 @@ function renderView(){
   if(activeTab==="all"){
     if(CHANGES.length){
       const items=activeSite?CHANGES.filter(c=>c.site===activeSite):CHANGES;
-      v.innerHTML=`<div class="empty-note">최근 2주간 쌓인 모든 변경 내역입니다.</div><div class="grid">${items.map(c=>changeCard(c,true)).join("")}</div>`;
+      v.innerHTML=`<div class="grid">${items.map(c=>changeCard(c,true)).join("")}</div>`;
     } else {
-      v.innerHTML=`<div class="empty-note">✅ 아직 기록된 변경이 없습니다. 현재 감시 중인 사이트입니다.</div><div class="grid">${SITES.slice(0,5).map(siteCard).join("")}</div>`;
+      v.innerHTML=latestCards();   // 변경 없음 → 사이트별 최신 링크
     }
     return;
   }
 
-  // changes(변경 내역) = 미확인 변경만
+  // 변경 내역 = 미확인만
   const list=unread().filter(c=>!activeSite||c.site===activeSite);
   const total=unread().length;
   if(total){
-    const bar=`<div class="readbar"><span class="label">읽지 않은 변경 <b>${total}</b>건</span>
-      <button class="readbtn" id="markRead">${ICON_CHECK} 모두 확인</button></div>`;
-    v.innerHTML=bar+`<div class="grid">${list.map(c=>changeCard(c,true)).join("")}</div>`;
+    v.innerHTML=`<div class="readbar"><span class="label">읽지 않은 변경 ${total}건</span>
+      <button class="readbtn" id="markRead">${ICON_CHECK} 모두 확인</button></div>
+      <div class="grid">${list.map(c=>changeCard(c,true)).join("")}</div>`;
     document.getElementById("markRead").onclick=()=>{
       lastSeen=new Date(); saveLastSeen(lastSeen); activeSite=null; updateCounts(); renderFilters(); renderView();
     };
   } else {
-    v.innerHTML=`<div class="state"><div class="big">🎉</div>새로 확인할 변경이 없습니다.<br><span style="font-size:.84rem">새 변경이 감지되면 여기에 표시됩니다. (전체 탭에서 지난 내역을 볼 수 있어요)</span></div>`;
+    v.innerHTML=`<div class="state"><div class="big">✓</div>새로 확인할 변경이 없습니다.<br><span style="font-size:.84rem">전체 탭에서 지난 내역을 볼 수 있어요.</span></div>`;
   }
 }
 
@@ -322,12 +327,13 @@ function setTab(t){
 async function getJSON(p){const r=await fetch(p+"?t="+Date.now(),{cache:"no-store"});if(!r.ok)throw new Error(p+" HTTP "+r.status);return r.json();}
 
 async function load(){
-  const [ch,cfg]=await Promise.allSettled([getJSON("./changes.json"),getJSON("./config.json")]);
+  const [ch,cfg,lt]=await Promise.allSettled([getJSON("./changes.json"),getJSON("./config.json"),getJSON("./latest.json")]);
   CHANGES=(ch.status==="fulfilled"&&Array.isArray(ch.value)?ch.value:[])
     .filter(c=>c&&c.timestamp).sort((a,b)=>new Date(b.timestamp)-new Date(a.timestamp));
   SITES=(cfg.status==="fulfilled"&&cfg.value&&Array.isArray(cfg.value.sites))?cfg.value.sites:[];
+  LATEST=(lt.status==="fulfilled"&&Array.isArray(lt.value))?lt.value:[];
   if(ch.status==="rejected"&&cfg.status==="rejected"){
-    document.getElementById("view").innerHTML=`<div class="state"><div class="big">⚠️</div>데이터를 불러오지 못했습니다.<br><span style="font-size:.82rem">${esc(ch.reason.message)}</span></div>`;
+    document.getElementById("view").innerHTML=`<div class="state"><div class="big">!</div>데이터를 불러오지 못했습니다.</div>`;
     return;
   }
   document.querySelectorAll(".tab").forEach(b=>b.onclick=()=>setTab(b.dataset.tab));
