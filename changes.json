@@ -1,1 +1,13 @@
-[]
+[
+  {
+    "timestamp": "2026-06-29T13:05:23.987941+00:00",
+    "site": "designcompass-아티클",
+    "url": "https://designcompass.org/article/",
+    "added": [
+      "AI 프로덕트 빌더의 시대"
+    ],
+    "removed": [
+      "토큰 사용량은 성과가 아니다"
+    ]
+  }
+]
