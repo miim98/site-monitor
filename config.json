@@ -2,14 +2,39 @@
   "retention_days": 7,
   "sites": [
     {
-      "name": "example-notice",
-      "url": "https://example.com/notice",
+      "name": "yozm-매거진-최신",
+      "url": "https://yozm.wishket.com/magazine/list/new/",
       "selector": null
     },
     {
-      "name": "example-blog-only-list",
-      "url": "https://example.com/blog",
-      "selector": ".post-list"
+      "name": "plusx-experience",
+      "url": "https://www.plus-ex.com/experience",
+      "selector": null
+    },
+    {
+      "name": "dfy-work",
+      "url": "https://www.dfy.co.kr/work",
+      "selector": null
+    },
+    {
+      "name": "designcompass-매거진",
+      "url": "https://designcompass.org/magazine/",
+      "selector": null
+    },
+    {
+      "name": "designcompass-아티클",
+      "url": "https://designcompass.org/article/",
+      "selector": null
+    },
+    {
+      "name": "contentformcontext-home",
+      "url": "https://contentformcontext.com/",
+      "selector": null
+    },
+    {
+      "name": "does-web-mobile-platform",
+      "url": "https://www.does.kr/projects/web-mobile-platform/",
+      "selector": null
     }
   ]
 }
