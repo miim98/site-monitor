@@ -1,0 +1,15 @@
+{
+  "retention_days": 7,
+  "sites": [
+    {
+      "name": "example-notice",
+      "url": "https://example.com/notice",
+      "selector": null
+    },
+    {
+      "name": "example-blog-only-list",
+      "url": "https://example.com/blog",
+      "selector": ".post-list"
+    }
+  ]
+}
