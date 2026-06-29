@@ -9,12 +9,14 @@
     {
       "name": "plusx-experience",
       "url": "https://www.plus-ex.com/experience",
-      "selector": null
+      "selector": null,
+      "js": true
     },
     {
       "name": "dfy-work",
       "url": "https://www.dfy.co.kr/work",
-      "selector": null
+      "selector": null,
+      "js": true
     },
     {
       "name": "designcompass-매거진",

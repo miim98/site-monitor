@@ -49,10 +49,9 @@ def normalize(text):
     return "\n".join(ln for ln in lines if ln)
 
 
-def fetch_text(url, selector=None):
-    resp = requests.get(url, headers=HEADERS, timeout=30)
-    resp.raise_for_status()
-    soup = BeautifulSoup(resp.text, "lxml")
+def extract_text(html, selector=None):
+    """HTML에서 보이는 텍스트만 뽑아 정규화한다(requests/playwright 공용)."""
+    soup = BeautifulSoup(html, "lxml")
     for tag in soup(["script", "style", "noscript"]):
         tag.decompose()
     if selector:
@@ -66,6 +65,39 @@ def fetch_text(url, selector=None):
     else:
         text = (soup.body or soup).get_text("\n")
     return normalize(text)
+
+
+def fetch_text(url, selector=None):
+    """정적 HTML 경로(requests). 대부분의 사이트는 이걸로 충분."""
+    resp = requests.get(url, headers=HEADERS, timeout=30)
+    resp.raise_for_status()
+    return extract_text(resp.text, selector)
+
+
+def fetch_text_js(url, selector=None):
+    """JS 렌더링 경로(Playwright). config 에서 "js": true 인 사이트만 사용."""
+    from playwright.sync_api import sync_playwright
+
+    with sync_playwright() as p:
+        browser = p.chromium.launch()
+        page = browser.new_page(user_agent=HEADERS["User-Agent"], locale="ko-KR")
+        try:
+            page.goto(url, wait_until="networkidle", timeout=60000)
+            # 인트로 애니메이션이 끝나고 본 콘텐츠가 그려질 시간을 준다.
+            page.wait_for_timeout(6000)
+            # 지연 로딩(스크롤 시 채워지는) 콘텐츠를 유도한다.
+            for _ in range(5):
+                page.mouse.wheel(0, 4000)
+                page.wait_for_timeout(800)
+            if selector:
+                try:
+                    page.wait_for_selector(selector, timeout=15000)
+                except Exception:
+                    pass  # 못 잡으면 extract_text 의 전체-페이지 폴백에 맡긴다
+            html = page.content()
+        finally:
+            browser.close()
+    return extract_text(html, selector)
 
 
 def safe_name(name):
@@ -130,8 +162,9 @@ def main():
         name, url = site["name"], site["url"]
         selector = site.get("selector")
         snap_path = SNAP_DIR / f"{safe_name(name)}.txt"
+        fetch = fetch_text_js if site.get("js") else fetch_text
         try:
-            new_text = fetch_text(url, selector)
+            new_text = fetch(url, selector)
         except Exception as e:
             print(f"[ERROR] {name}: {e}", file=sys.stderr)
             continue
