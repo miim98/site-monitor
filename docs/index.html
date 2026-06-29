@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>사이트 변경 모니터</title>
+<style>
+  :root {
+    --bg: #f6f7f9;
+    --card: #ffffff;
+    --text: #1b1f24;
+    --muted: #6b7280;
+    --border: #e5e7eb;
+    --accent: #2563eb;
+    --add: #16a34a;
+    --add-bg: #ecfdf3;
+    --del: #dc2626;
+    --del-bg: #fef2f2;
+    --shadow: 0 1px 2px rgba(0,0,0,.04), 0 4px 12px rgba(0,0,0,.05);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #0d1117; --card: #161b22; --text: #e6edf3; --muted: #8b949e;
+      --border: #30363d; --accent: #4493f8; --add: #3fb950; --add-bg: #12261a;
+      --del: #f85149; --del-bg: #2a1416; --shadow: 0 1px 2px rgba(0,0,0,.4);
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bg); color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Apple SD Gothic Neo",
+      "Noto Sans KR", Roboto, sans-serif;
+    line-height: 1.55; -webkit-font-smoothing: antialiased;
+  }
+  .wrap { max-width: 760px; margin: 0 auto; padding: 24px 16px 64px; }
+  header { margin-bottom: 20px; }
+  h1 { font-size: 1.4rem; margin: 0 0 4px; letter-spacing: -.01em; }
+  .sub { color: var(--muted); font-size: .85rem; }
+  .meta-row {
+    display: flex; flex-wrap: wrap; gap: 8px 14px; align-items: center;
+    margin-top: 12px; font-size: .8rem; color: var(--muted);
+  }
+  .filters { display: flex; flex-wrap: wrap; gap: 6px; margin: 16px 0 18px; }
+  .chip {
+    border: 1px solid var(--border); background: var(--card); color: var(--muted);
+    padding: 5px 11px; border-radius: 999px; font-size: .78rem; cursor: pointer;
+    user-select: none; transition: .12s;
+  }
+  .chip:hover { border-color: var(--accent); color: var(--text); }
+  .chip.active { background: var(--accent); border-color: var(--accent); color: #fff; }
+  .card {
+    display: block; background: var(--card); border: 1px solid var(--border);
+    border-radius: 14px; padding: 16px 18px; margin-bottom: 12px;
+    box-shadow: var(--shadow); text-decoration: none; color: inherit;
+    cursor: pointer; transition: transform .1s, border-color .12s;
+  }
+  .card:hover { transform: translateY(-1px); border-color: var(--accent); }
+  .card-top { display: flex; align-items: baseline; justify-content: space-between; gap: 10px; }
+  .site { font-weight: 650; font-size: 1.02rem; color: var(--accent); word-break: break-all; }
+  .site .ext { font-size: .72rem; opacity: .6; margin-left: 4px; }
+  .time { color: var(--muted); font-size: .76rem; white-space: nowrap; flex-shrink: 0; }
+  .badges { display: flex; gap: 6px; margin: 10px 0 8px; }
+  .badge { font-size: .72rem; font-weight: 600; padding: 2px 8px; border-radius: 6px; }
+  .badge.add { color: var(--add); background: var(--add-bg); }
+  .badge.del { color: var(--del); background: var(--del-bg); }
+  .preview {
+    margin: 0; font-size: .84rem; color: var(--text);
+    background: var(--add-bg); border-left: 3px solid var(--add);
+    border-radius: 6px; padding: 9px 12px;
+    white-space: pre-wrap; word-break: break-word;
+    max-height: 7.4em; overflow: hidden; position: relative;
+  }
+  .preview.faded::after {
+    content: ""; position: absolute; left: 0; right: 0; bottom: 0; height: 1.8em;
+    background: linear-gradient(transparent, var(--add-bg));
+  }
+  .url { margin-top: 9px; font-size: .73rem; color: var(--muted); word-break: break-all; }
+  .state { text-align: center; color: var(--muted); padding: 56px 16px; }
+  .state .big { font-size: 2.2rem; margin-bottom: 10px; }
+  a.foot { color: var(--accent); text-decoration: none; }
+  .dot { width: 7px; height: 7px; border-radius: 50%; background: var(--add); display: inline-block; }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <h1>📡 사이트 변경 모니터</h1>
+      <div class="sub">감시 중인 사이트의 최근 변경 내역</div>
+      <div class="meta-row" id="meta"></div>
+    </header>
+    <div class="filters" id="filters"></div>
+    <div id="list"></div>
+  </div>
+
+<script>
+const TZ = "Asia/Seoul";
+
+function fmtTime(iso) {
+  const d = new Date(iso);
+  if (isNaN(d)) return iso || "";
+  const s = d.toLocaleString("ko-KR", {
+    timeZone: TZ, year: "numeric", month: "2-digit", day: "2-digit",
+    hour: "2-digit", minute: "2-digit", hour12: false
+  });
+  return s.replace(/\. /g, ".").replace(/\.(\d{2}:)/, " $1");
+}
+
+function relTime(iso) {
+  const d = new Date(iso), now = new Date();
+  const sec = Math.round((now - d) / 1000);
+  if (isNaN(d) || sec < 0) return "";
+  if (sec < 60) return "방금 전";
+  const min = Math.round(sec / 60);
+  if (min < 60) return min + "분 전";
+  const hr = Math.round(min / 60);
+  if (hr < 24) return hr + "시간 전";
+  const day = Math.round(hr / 24);
+  return day + "일 전";
+}
+
+function escapeHtml(s) {
+  return String(s).replace(/[&<>"']/g, c =>
+    ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+}
+
+let ALL = [];
+let activeSite = null;
+
+function render() {
+  const list = document.getElementById("list");
+  const items = (activeSite ? ALL.filter(c => c.site === activeSite) : ALL);
+
+  if (!ALL.length) {
+    list.innerHTML = `<div class="state"><div class="big">✅</div>
+      아직 기록된 변경이 없습니다.<br>
+      <span style="font-size:.85rem">모니터가 변화를 감지하면 여기에 카드로 쌓입니다.</span></div>`;
+    return;
+  }
+  if (!items.length) {
+    list.innerHTML = `<div class="state">선택한 사이트의 변경 내역이 없습니다.</div>`;
+    return;
+  }
+
+  list.innerHTML = items.map(c => {
+    const added = (c.added || []).filter(Boolean);
+    const preview = added.slice(0, 6).join("\n");
+    const faded = added.length > 6 ? " faded" : "";
+    const addBadge = added.length
+      ? `<span class="badge add">+${added.length} 추가</span>` : "";
+    const delN = (c.removed || []).filter(Boolean).length;
+    const delBadge = delN ? `<span class="badge del">−${delN} 삭제</span>` : "";
+    const previewBlock = preview
+      ? `<pre class="preview${faded}">${escapeHtml(preview)}</pre>` : "";
+    return `<a class="card" href="${escapeHtml(c.url)}" target="_blank" rel="noopener noreferrer">
+      <div class="card-top">
+        <span class="site">${escapeHtml(c.site)}<span class="ext">↗</span></span>
+        <span class="time" title="${escapeHtml(fmtTime(c.timestamp))}">${escapeHtml(relTime(c.timestamp))}</span>
+      </div>
+      <div class="badges">${addBadge}${delBadge}
+        <span class="time" style="margin-left:auto">${escapeHtml(fmtTime(c.timestamp))}</span>
+      </div>
+      ${previewBlock}
+      <div class="url">${escapeHtml(c.url)}</div>
+    </a>`;
+  }).join("");
+}
+
+function renderFilters() {
+  const sites = [...new Set(ALL.map(c => c.site))];
+  const el = document.getElementById("filters");
+  if (sites.length < 2) { el.innerHTML = ""; return; }
+  el.innerHTML =
+    `<span class="chip${activeSite === null ? " active" : ""}" data-site="">전체</span>` +
+    sites.map(s => `<span class="chip${activeSite === s ? " active" : ""}" data-site="${escapeHtml(s)}">${escapeHtml(s)}</span>`).join("");
+  el.querySelectorAll(".chip").forEach(ch => ch.addEventListener("click", () => {
+    activeSite = ch.dataset.site || null;
+    renderFilters(); render();
+  }));
+}
+
+function renderMeta() {
+  const meta = document.getElementById("meta");
+  const sites = new Set(ALL.map(c => c.site)).size;
+  const latest = ALL.length ? fmtTime(ALL[0].timestamp) : "—";
+  meta.innerHTML =
+    `<span><span class="dot"></span> 변경 ${ALL.length}건</span>` +
+    `<span>· 사이트 ${sites}곳</span>` +
+    `<span>· 최근 변경 ${escapeHtml(latest)}</span>`;
+}
+
+async function load() {
+  try {
+    const res = await fetch("./changes.json?t=" + Date.now(), { cache: "no-store" });
+    if (!res.ok) throw new Error("HTTP " + res.status);
+    const data = await res.json();
+    ALL = (Array.isArray(data) ? data : [])
+      .filter(c => c && c.timestamp)
+      .sort((a, b) => new Date(b.timestamp) - new Date(a.timestamp));
+  } catch (e) {
+    document.getElementById("list").innerHTML =
+      `<div class="state"><div class="big">⚠️</div>
+       changes.json을 불러오지 못했습니다.<br>
+       <span style="font-size:.82rem">${escapeHtml(e.message)}</span></div>`;
+    return;
+  }
+  renderMeta(); renderFilters(); render();
+}
+
+load();
+</script>
+</body>
+</html>
