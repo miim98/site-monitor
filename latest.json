@@ -1,33 +1,5 @@
 [
   {
-    "site": "designcompass-매거진",
-    "url": "https://designcompass.org/magazine/",
-    "items": [
-      {
-        "title": "네이버, AI탭 정식 출시",
-        "link": "https://designcompass.org/2026/06/29/naver-ai-tab-search-launch/"
-      },
-      {
-        "title": "낫싱 Phone (4b), 미니를 잇는 작은 스마트폰",
-        "link": "https://designcompass.org/2026/06/29/nothing-phone-4b-mini-phone/"
-      }
-    ]
-  },
-  {
-    "site": "designcompass-아티클",
-    "url": "https://designcompass.org/article/",
-    "items": [
-      {
-        "title": "AI 프로덕트 빌더의 시대",
-        "link": "https://designcompass.org/2026/06/29/age-of-ai-product-building/"
-      },
-      {
-        "title": "프롬프트 인풋",
-        "link": "https://designcompass.org/2026/06/24/prompt-input/"
-      }
-    ]
-  },
-  {
     "site": "does-web-mobile-platform",
     "url": "https://www.does.kr/projects/web-mobile-platform/",
     "items": [
