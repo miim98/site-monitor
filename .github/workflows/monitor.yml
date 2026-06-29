@@ -31,7 +31,9 @@ jobs:
         run: python monitor.py
 
       - name: Update dashboard data
-        run: cp changes.json docs/changes.json
+        run: |
+          cp changes.json docs/changes.json
+          cp config.json  docs/config.json
 
       - name: Commit changes (if any)
         run: |

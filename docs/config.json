@@ -1,0 +1,32 @@
+{
+  "retention_days": 7,
+  "sites": [
+    {
+      "name": "plusx-experience",
+      "url": "https://www.plus-ex.com/experience",
+      "selector": null,
+      "js": true
+    },
+    {
+      "name": "dfy-work",
+      "url": "https://www.dfy.co.kr/work",
+      "selector": ".work-list",
+      "js": true
+    },
+    {
+      "name": "designcompass-매거진",
+      "url": "https://designcompass.org/magazine/",
+      "selector": null
+    },
+    {
+      "name": "designcompass-아티클",
+      "url": "https://designcompass.org/article/",
+      "selector": null
+    },
+    {
+      "name": "does-web-mobile-platform",
+      "url": "https://www.does.kr/projects/web-mobile-platform/",
+      "selector": null
+    }
+  ]
+}
