@@ -2,8 +2,14 @@
   "retention_days": 7,
   "sites": [
     {
-      "name": "yozm-매거진-최신",
-      "url": "https://yozm.wishket.com/magazine/list/new/",
+      "name": "yozm-매거진-ai",
+      "url": "https://yozm.wishket.com/magazine/list/ai/",
+      "selector": null,
+      "js": true
+    },
+    {
+      "name": "yozm-매거진-design",
+      "url": "https://yozm.wishket.com/magazine/list/design/",
       "selector": null,
       "js": true
     },
@@ -28,12 +34,6 @@
       "name": "designcompass-아티클",
       "url": "https://designcompass.org/article/",
       "selector": null
-    },
-    {
-      "name": "contentformcontext-home",
-      "url": "https://contentformcontext.com/",
-      "selector": null,
-      "js": true
     },
     {
       "name": "does-web-mobile-platform",
