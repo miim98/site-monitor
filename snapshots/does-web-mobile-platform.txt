@@ -1,0 +1,286 @@
+프로젝트 문의
+프로젝트 문의
+Projects
+About
+Team
+News
+Contact
+Project Request
+project@does.kr
+Careers
+career@does.kr
+Tel
++82 2 3143 5258
+Address
+서울시 마포구 양화로 23길 36
+더즈 인터랙티브 빌딩
+d.creative lab
+facebook
+instagram
+vimeo
+Projects
+All
+344
+All
+344
+Featured
+56
+Featured
+56
+Web/Mobile Platform
+43
+Web/Mobile Platform
+43
+Interactive
+22
+Interactive
+22
+Art&Culture
+7
+Art&Culture
+7
+Virtual Experience
+13
+Virtual Experience
+13
+3D Film
+6
+3D Film
+6
+WebGL
+15
+WebGL
+15
+Game
+6
+Game
+6
+Exhibition
+11
+Exhibition
+11
+Global
+7
+Global
+7
+Product
+15
+Product
+15
+Service
+7
+Service
+7
+Brand
+10
+Brand
+10
+Digital Experience
+25
+Digital Experience
+25
+Archive
+101
+Archive
+101
+>
+한국전력공사 통합 디지털 플랫폼
+Web/Mobile Platform
+>
+KT&G 기업 웹사이트
+Web/Mobile Platform
+>
+삼천리 공식 웹사이트
+Web/Mobile Platform
+>
+나이키 BREAKING GROUND
+Web/Mobile Platform
+>
+삼성서울병원 영문 홈페이지
+Web/Mobile Platform
+>
+나이키 에어맥스 Dn8
+Mobile Platform
+,
+Global
+>
+JB금융지주 웹사이트
+Web/Mobile Platform
+>
+이지스자산운용 브랜드 플랫폼
+Web/Mobile Platform
+>
+롯데월드타워몰 플랫폼
+Web/Mobile Platform
+>
+현대자동차 셔클 MaaS
+Mobile Platform
+,
+Interactive
+,
+3D Video
+,
+Digital Experience
+>
+W컨셉 UI/UX 디자인 컨설팅
+Web/Mobile Platform
+,
+UX Strategy
+,
+Visual Design
+>
+롯데 타임빌라스 수원점 마이크로사이트
+Web/Mobile Platform
+>
+한화그룹 국문 플랫폼
+Web/Mobile Platform
+>
+야놀자 그룹 글로벌 브랜드 웹사이트
+Web/Mobile Platform
+>
+한화글로벌
+Web/Mobile Platform
+,
+Interactive
+,
+UX Strategy
+,
+Development
+>
+상쾌환 브랜드 사이트
+Web/Mobile Platform
+,
+WebGL
+>
+삼성물산 – 상사부문 웹 사이트
+Web/Mobile Platform
+>
+팩토리얼 성수 브랜드 사이트
+Web/Mobile Platform
+>
+SK케미칼 이음 플랫폼 리뉴얼
+Web/Mobile Platform
+,
+Service
+>
+삼성자산운용 통합 플랫폼
+Web/Mobile Platform
+>
+롯데백화점 모바일 앱
+Application · Mobile Platform · Global
+>
+한화에어로스페이스 플랫폼
+Web/Mobile Platform
+>
+롯데백화점 웹사이트 리뉴얼
+Web/Mobile Platform
+>
+갤럭시Z 메타버스 체험존
+Brand promotion
+,
+Digital Experience
+>
+카카오 춘식이 관찰일기
+Brand promotion
+,
+Digital Experience
+>
+현대자동차 로보틱스랩 플랫폼
+Web/Mobile Platform
+>
+한국타이어 글로벌 플랫폼
+Web/Mobile Platform
+>
+한국타이어 세일즈 플랫폼
+Web/Mobile Platform
+>
+삼성물산 지주사 플랫폼
+Web/Mobile Platform
+>
+스마일게이트 플랫폼
+Web/Mobile Platform
+>
+반다이몰 멤버십 & 커머스
+Web/Mobile Platform
+,
+E-commerce
+>
+신세계 넥스페리움
+Service
+,
+Web/Mobile Platform
+>
+정관장 브랜드 플랫폼
+Web/Mobile Platform
+>
+SK매직 플랫폼
+Web/Mobile Platform
+>
+한국인삼공사 플랫폼
+Web/Mobile Platform
+>
+엔씨소프트 플랫폼
+Web/Mobile Platform
+>
+두산인프라코어 플랫폼
+Web/Mobile Platform
+>
+두산그룹 플랫폼
+Web/Mobile Platform
+>
+신세계백화점 플랫폼
+Web/Mobile Platform
+>
+LIFEPLUS 플랫폼
+Web/Mobile Platform
+>
+BMW LUXURY 플랫폼
+Web/Mobile Platform
+>
+It’s NEW 플랫폼
+Web/Mobile Platform
+>
+CJ프레시웨이 플랫폼
+Web/Mobile Platform
+Projects
+About
+Team
+News
+Contact
+Project Request
+project@does.kr
+Careers
+career@does.kr
+Tel
++82 2 3143 5258
+Address
+서울시 마포구 양화로 23길 36
+더즈 인터랙티브 빌딩
+facebook
+instagram
+vimeo
+© 2026 does interactive.
+All Rights Reserved.
+개인정보 수집 및 이용에 대한 안내
+×
+KEPCO Digital Universe
+KEPCO Digital Universe
+고객 관점의 티어 구조 재정립을 통해 서비스를 7개 웹사이트로 분리하고, 각 플랫폼별 콘텐츠 아키텍처를 독립 설계했습니다. 그 결과, 대표 홈페이지 1 Depth 메뉴를 13개에서 6개 이하로 축소하고, 콘텐츠를 목적·기능별로 재구성해 정보 탐색 효율을 크게 개선했습니다.
+KEPCO TOMORROW
+KEPCO TOMORROW
+KEPCO TOMORROW
+KEPCO TOMORROW
+KEPCO TOMORROW
+KRDS·WEB 접근성 가이드 준수
+디자인 시스템 구축
+디자인시스템 구축 과정에서 KRDS 디자인 가이드와 웹접근성 심사기준을 100% 준수하여, 디지털 취약계층까지 고려한 포용적 디자인을 구현했습니다. 이를 통해 공공서비스 플랫폼으로서 한국전력공사의 서비스 품격을 한 단계 더 높였습니다.
+글로벌 비즈니스 브랜딩 비주얼 아이덴티티
+한국전력공사의 국내외 브랜드 포지셔닝을 다각도로 분석하여 글로벌 리더십 강화와 비즈니스 기회 창출을 위한 디자인 방향을 수립했습니다.
+주요 콘텐츠를 독창적이고 일관된 3D 비주얼 에셋으로 시각화하여, 브랜드의 비전과 핵심 메시지를 효과적으로 전달했습니다.
+사용자 관점의 서비스 이용 흐름 설계
+통합 로그인 시스템을 적용하여 사이트별로 분리되어 있던 회원정보를 하나로 묶어 서비스 관리자와 이용자 모두의 편의성을 크게 향상시켰습니다. 이와 함께 장기간 운영되며 각기 달라졌던 고객소통 메뉴의 UX를 통일 및 개선하여, 일관되고 직관적인 사용자 경험을 제공합니다.
+개인화 중심 한전ON·모바일서비스 UIUX 고도화
+개인화 중심 한전ON·모바일서비스 UIUX 고도화
+한전ON은 메인과 마이페이지에서 요금 조회와 즐겨찾는 민원 메뉴를 전면에 제공해, 개인화 중심의 사용자 맞춤형 경험을 구현했습니다.
+또한 한전ON 디자인 가이드를 기반으로 타 모바일 서비스까지 메인 디자인을 확장 제안함으로써, 확장성과 일관성을 갖춘 지속 가능한 디자인 체계를 구축했습니다.
+KEPCO Image Area
