@@ -2,18 +2,6 @@
   "retention_days": 7,
   "sites": [
     {
-      "name": "yozm-매거진-ai",
-      "url": "https://yozm.wishket.com/magazine/list/ai/",
-      "selector": null,
-      "js": true
-    },
-    {
-      "name": "yozm-매거진-design",
-      "url": "https://yozm.wishket.com/magazine/list/design/",
-      "selector": null,
-      "js": true
-    },
-    {
       "name": "plusx-experience",
       "url": "https://www.plus-ex.com/experience",
       "selector": null,
@@ -22,7 +10,7 @@
     {
       "name": "dfy-work",
       "url": "https://www.dfy.co.kr/work",
-      "selector": null,
+      "selector": ".work-list",
       "js": true
     },
     {
