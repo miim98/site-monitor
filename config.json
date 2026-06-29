@@ -4,7 +4,8 @@
     {
       "name": "yozm-매거진-최신",
       "url": "https://yozm.wishket.com/magazine/list/new/",
-      "selector": null
+      "selector": null,
+      "js": true
     },
     {
       "name": "plusx-experience",
@@ -31,7 +32,8 @@
     {
       "name": "contentformcontext-home",
       "url": "https://contentformcontext.com/",
-      "selector": null
+      "selector": null,
+      "js": true
     },
     {
       "name": "does-web-mobile-platform",

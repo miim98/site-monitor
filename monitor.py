@@ -101,7 +101,9 @@ def fetch_text_js(url, selector=None):
 
 
 def safe_name(name):
-    return re.sub(r"[^A-Za-z0-9_.-]", "_", name)
+    # 한글 등 유니코드 글자(\w)는 보존하고, 경로 구분자·공백 등 위험한 문자만 치환한다.
+    # (ASCII 만 남기면 서로 다른 한글 이름이 같은 파일명으로 충돌하므로 보존이 중요)
+    return re.sub(r"[^\w.-]", "_", name, flags=re.UNICODE)
 
 
 def diff_lines(old, new):
