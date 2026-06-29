@@ -1,5 +1,5 @@
 {
-  "retention_days": 7,
+  "retention_days": 14,
   "sites": [
     {
       "name": "plusx-experience",

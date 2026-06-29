@@ -3,15 +3,19 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>사이트 변경 모니터</title>
+<title>UIUX 래퍼런스 & 뉴스레터 모음</title>
 <link rel="preconnect" href="https://cdn.jsdelivr.net">
 <link rel="stylesheet"
   href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css">
 <style>
   :root {
-    --accent: #5b6ef5;       /* 포인트 컬러 (인디고) */
+    --accent: #5b6ef5;       /* UIUX 래퍼런스 (인디고) */
     --accent-soft: #eef0ff;
-    --navy: #1f2545;         /* 타이틀/네이비 버튼 */
+    --news: #f5910b;         /* 뉴스레터 (주황) */
+    --news-deep: #d97706;
+    --news-soft: #fff3e0;
+    --etc: #b9c0d4;
+    --navy: #1f2545;
     --title: #1c2342;
     --text: #2b3252;
     --muted: #8b93ab;
@@ -45,22 +49,16 @@
   .brand { display: flex; align-items: center; gap: 10px; margin-bottom: 18px; }
   .logo {
     width: 34px; height: 34px; border-radius: 10px;
-    background: linear-gradient(135deg, var(--accent), #8a7bf7);
+    background: linear-gradient(135deg, var(--accent), var(--news));
     display: grid; place-items: center; color: #fff; font-size: 18px;
-    box-shadow: 0 6px 16px rgba(91,110,245,.35);
+    box-shadow: 0 6px 16px rgba(91,110,245,.3);
   }
   .brand b { font-size: 1.02rem; font-weight: 800; color: var(--navy); letter-spacing: -.01em; }
-  h1 { font-size: 1.9rem; font-weight: 800; letter-spacing: -.02em; color: var(--title); margin: 0 0 6px; }
+  h1 { font-size: 1.9rem; font-weight: 800; letter-spacing: -.02em; color: var(--title); margin: 0 0 6px; line-height: 1.25; }
   .sub { color: var(--muted); font-size: .92rem; }
-  .stats { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 16px; }
-  .stat {
-    background: var(--card); border: 1px solid var(--border); border-radius: 12px;
-    padding: 8px 14px; font-size: .82rem; color: var(--muted); box-shadow: var(--shadow);
-  }
-  .stat b { color: var(--navy); font-weight: 800; font-size: .95rem; margin-right: 3px; }
 
   /* ── Tabs ── */
-  .tabs { display: flex; gap: 22px; margin: 26px 0 6px; border-bottom: 1px solid var(--border); }
+  .tabs { display: flex; gap: 22px; margin: 26px 0 6px; border-bottom: 1px solid var(--border); flex-wrap: wrap; }
   .tab {
     background: none; border: 0; padding: 0 2px 12px; cursor: pointer; font-family: inherit;
     font-size: 1rem; font-weight: 700; color: var(--muted); position: relative; letter-spacing: -.01em;
@@ -72,6 +70,7 @@
   }
   .tab .n { font-size: .76rem; color: var(--accent); font-weight: 800; margin-left: 5px;
     background: var(--accent-soft); padding: 1px 7px; border-radius: 999px; }
+  .tab[data-tab="changes"] .n { color: var(--news-deep); background: var(--news-soft); }
 
   /* ── Filter chips ── */
   .filters { display: flex; flex-wrap: wrap; gap: 8px; margin: 18px 0 4px; }
@@ -83,6 +82,22 @@
   .chip:hover { color: var(--navy); border-color: #d8ddf0; }
   .chip.active { background: var(--accent); border-color: var(--accent); color: #fff; box-shadow: 0 6px 16px rgba(91,110,245,.3); }
 
+  /* ── Read bar (변경 내역) ── */
+  .readbar {
+    display: flex; align-items: center; justify-content: space-between; gap: 12px;
+    background: var(--card); border: 1px solid var(--border); border-radius: 14px;
+    padding: 12px 16px; margin: 18px 0 4px; box-shadow: var(--shadow); flex-wrap: wrap;
+  }
+  .readbar .label { font-size: .9rem; font-weight: 700; color: var(--navy); }
+  .readbar .label b { color: var(--news-deep); }
+  .readbtn {
+    border: 0; background: var(--navy); color: #fff; font-family: inherit; font-weight: 700;
+    font-size: .85rem; padding: 9px 16px; border-radius: 10px; cursor: pointer; transition: .12s;
+    display: inline-flex; align-items: center; gap: 6px;
+  }
+  .readbtn:hover { background: var(--accent); }
+  .readbtn svg { width: 15px; height: 15px; }
+
   /* ── Grid & Cards ── */
   .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 16px; margin-top: 20px; }
   .card {
@@ -92,26 +107,27 @@
     cursor: pointer; transition: transform .12s ease, box-shadow .12s ease;
     min-height: 168px; overflow: hidden;
   }
-  .card::before {
-    content: ""; position: absolute; left: 0; top: 0; bottom: 0; width: 5px;
-    background: var(--accent); opacity: .9;
-  }
-  .card.kind-add::before { background: var(--add); }
-  .card.kind-del::before { background: var(--del); }
-  .card.kind-mix::before { background: linear-gradient(var(--add), var(--del)); }
+  .card::before { content: ""; position: absolute; left: 0; top: 0; bottom: 0; width: 5px; opacity: .95; }
+  .card.cat-uiux::before { background: var(--accent); }
+  .card.cat-news::before { background: var(--news); }
+  .card.cat-etc::before  { background: var(--etc); }
   .card:hover { transform: translateY(-3px); box-shadow: 0 6px 14px rgba(31,37,69,.08), 0 18px 40px rgba(31,37,69,.12); }
+  .card.cat-news { background: linear-gradient(180deg, #fffdfa 0%, #ffffff 38%); }
 
   .c-head { display: flex; align-items: flex-start; justify-content: space-between; gap: 12px; }
   .c-title { font-size: 1.12rem; font-weight: 800; color: var(--title); letter-spacing: -.01em; word-break: break-all; line-height: 1.3; }
   .c-time { color: var(--muted); font-size: .78rem; font-weight: 600; white-space: nowrap; flex-shrink: 0; margin-top: 3px; }
   .c-date { color: var(--muted); font-size: .76rem; margin-top: 4px; }
+  .newdot { display: inline-block; width: 7px; height: 7px; border-radius: 50%; background: var(--news); margin-left: 7px; vertical-align: middle; }
 
   .open-btn {
     position: absolute; right: 16px; bottom: 16px; width: 38px; height: 38px; border-radius: 12px;
     background: var(--navy); color: #fff; display: grid; place-items: center;
     box-shadow: 0 6px 14px rgba(31,37,69,.28); transition: .12s;
   }
-  .card:hover .open-btn { background: var(--accent); transform: scale(1.06); }
+  .card.cat-uiux:hover .open-btn { background: var(--accent); }
+  .card.cat-news:hover .open-btn { background: var(--news); }
+  .card:hover .open-btn { transform: scale(1.06); }
   .open-btn svg { width: 17px; height: 17px; }
 
   .tags { display: flex; flex-wrap: wrap; gap: 7px; margin: 14px 0 0; }
@@ -122,7 +138,10 @@
   .tag svg { width: 13px; height: 13px; }
   .tag.add { color: var(--add); background: var(--add-bg); }
   .tag.del { color: var(--del); background: var(--del-bg); }
-  .tag.watch { color: var(--accent); background: var(--accent-soft); }
+  .tag.cat-uiux { color: var(--accent); background: var(--accent-soft); }
+  .tag.cat-news { color: var(--news-deep); background: var(--news-soft); }
+  .tag.cat-etc  { color: var(--muted); background: #f2f4fa; }
+  .tag.watch { color: var(--add); background: var(--add-bg); }
   .tag.method { color: var(--muted); background: #f2f4fa; }
 
   .lines { margin: 12px 0 0; display: flex; flex-direction: column; gap: 8px; padding-right: 44px; }
@@ -140,7 +159,6 @@
 
   .empty-note { font-size: .85rem; color: var(--muted); margin: 14px 0 2px; }
   .watch-desc { font-size: .85rem; color: var(--muted); margin-top: 12px; padding-right: 44px; }
-
   .state { text-align: center; color: var(--muted); padding: 70px 16px; }
   .state .big { font-size: 2.4rem; margin-bottom: 12px; }
   .hidden { display: none !important; }
@@ -148,14 +166,14 @@
 </head>
 <body>
   <div class="wrap">
-    <div class="brand"><span class="logo">📡</span><b>Site Monitor</b></div>
-    <h1>사이트 변경 모니터</h1>
-    <div class="sub">감시 중인 사이트의 변경 내역을 한눈에 확인하세요.</div>
-    <div class="stats" id="stats"></div>
+    <div class="brand"><span class="logo">📚</span><b>Reference Hub</b></div>
+    <h1>UIUX 관련 래퍼런스 및 뉴스레터 모음</h1>
+    <div class="sub">UIUX 래퍼런스와 뉴스레터의 변경 사항을 한곳에 모았습니다.</div>
 
     <div class="tabs">
-      <button class="tab active" data-tab="changes" id="tab-changes">변경 내역<span class="n" id="cnt-ch">0</span></button>
-      <button class="tab" data-tab="sites" id="tab-sites">감시 사이트<span class="n" id="cnt-st">0</span></button>
+      <button class="tab active" data-tab="all">전체<span class="n" id="cnt-all">0</span></button>
+      <button class="tab" data-tab="changes">변경 내역<span class="n" id="cnt-ch">0</span></button>
+      <button class="tab" data-tab="sites">감시 사이트<span class="n" id="cnt-st">0</span></button>
     </div>
 
     <div class="filters hidden" id="filters"></div>
@@ -164,10 +182,26 @@
 
 <script>
 const TZ = "Asia/Seoul";
+const LS_KEY = "siteMonitor:lastSeen";
+
+/* 카테고리 매핑 */
+const CATEGORY = {
+  "plusx-experience": "uiux",
+  "dfy-work": "uiux",
+  "does-web-mobile-platform": "uiux",
+  "designcompass-매거진": "news",
+  "designcompass-아티클": "news"
+};
+const CAT_LABEL = { uiux: "UIUX 래퍼런스", news: "뉴스레터", etc: "기타" };
+const catOf = n => CATEGORY[n] || "etc";
+
 const ICON_OPEN = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7M9 7h8v8"/></svg>';
 const ICON_PLUS = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg>';
 const ICON_MINUS = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"><path d="M5 12h14"/></svg>';
 const ICON_EYE = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M1 12s4-7 11-7 11 7 11 7-4 7-11 7S1 12 1 12z"/><circle cx="12" cy="12" r="3"/></svg>';
+const ICON_REF = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 7l10-4 10 4-10 4z"/><path d="M2 12l10 4 10-4"/><path d="M2 17l10 4 10-4"/></svg>';
+const ICON_MAIL = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><rect x="2.5" y="4.5" width="19" height="15" rx="2.5"/><path d="m3 6 9 7 9-7"/></svg>';
+const ICON_CHECK = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>';
 
 function fmtTime(iso){const d=new Date(iso);if(isNaN(d))return iso||"";
   return d.toLocaleString("ko-KR",{timeZone:TZ,year:"numeric",month:"2-digit",day:"2-digit",hour:"2-digit",minute:"2-digit",hour12:false}).replace(/\.\s*/g,m=>m.includes(":")?m:".").replace(/\.$/,"");}
@@ -177,12 +211,22 @@ function relTime(iso){const d=new Date(iso),now=new Date(),s=Math.round((now-d)/
 function esc(s){return String(s).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));}
 function host(u){try{return new URL(u).host.replace(/^www\./,"");}catch(e){return u;}}
 
-let CHANGES = [], SITES = [], activeSite = null, activeTab = "changes";
+let CHANGES = [], SITES = [], activeSite = null, activeTab = "all";
+let lastSeen = loadLastSeen();
 
-function changeCard(c){
+function loadLastSeen(){try{const v=localStorage.getItem(LS_KEY);return v?new Date(v):new Date(0);}catch(e){return new Date(0);}}
+function saveLastSeen(d){try{localStorage.setItem(LS_KEY,d.toISOString());}catch(e){}}
+function unread(){return CHANGES.filter(c=>new Date(c.timestamp)>lastSeen);}
+
+function catTag(cat){
+  const icon = cat==="news"?ICON_MAIL : cat==="uiux"?ICON_REF : ICON_EYE;
+  return `<span class="tag cat-${cat}">${icon} ${CAT_LABEL[cat]}</span>`;
+}
+
+function changeCard(c, markNew){
+  const cat=catOf(c.site);
   const added=(c.added||[]).filter(Boolean), removed=(c.removed||[]).filter(Boolean);
-  let kind = added.length&&removed.length ? "mix" : removed.length ? "del" : "add";
-  const tags = [
+  const badges=[
     added.length?`<span class="tag add">${ICON_PLUS} 추가 ${added.length}</span>`:"",
     removed.length?`<span class="tag del">${ICON_MINUS} 삭제 ${removed.length}</span>`:""
   ].join("");
@@ -195,24 +239,23 @@ function changeCard(c){
     const sh=removed.slice(0,3);
     blocks+=`<div class="block del">${sh.map(l=>`<div class="ln"><span class="mk">−</span><span class="tx">${esc(l)}</span></div>`).join("")}${removed.length>3?`<div class="more">−${removed.length-3}줄 더 삭제됨</div>`:""}</div>`;
   }
-  return `<a class="card kind-${kind}" href="${esc(c.url)}" target="_blank" rel="noopener noreferrer">
+  const isNew = markNew && new Date(c.timestamp)>lastSeen;
+  return `<a class="card cat-${cat}" href="${esc(c.url)}" target="_blank" rel="noopener noreferrer">
     <div class="c-head">
-      <div><div class="c-title">${esc(c.site)}</div><div class="c-date">${esc(fmtTime(c.timestamp))}</div></div>
+      <div><div class="c-title">${esc(c.site)}${isNew?'<span class="newdot" title="새 변경"></span>':""}</div><div class="c-date">${esc(fmtTime(c.timestamp))}</div></div>
       <div class="c-time">${esc(relTime(c.timestamp))}</div>
     </div>
-    <div class="tags">${tags}</div>
+    <div class="tags">${catTag(cat)}${badges}</div>
     <div class="lines">${blocks}</div>
     <span class="open-btn" aria-label="사이트 열기">${ICON_OPEN}</span>
   </a>`;
 }
 
 function siteCard(s){
-  const method = s.js ? "JS 렌더링" : "정적 HTML";
-  return `<a class="card" href="${esc(s.url)}" target="_blank" rel="noopener noreferrer">
-    <div class="c-head">
-      <div><div class="c-title">${esc(s.name)}</div><div class="c-date">${esc(host(s.url))}</div></div>
-    </div>
-    <div class="tags"><span class="tag watch">${ICON_EYE} 감시 중</span><span class="tag method">${method}</span></div>
+  const cat=catOf(s.name), method=s.js?"JS 렌더링":"정적 HTML";
+  return `<a class="card cat-${cat}" href="${esc(s.url)}" target="_blank" rel="noopener noreferrer">
+    <div class="c-head"><div><div class="c-title">${esc(s.name)}</div><div class="c-date">${esc(host(s.url))}</div></div></div>
+    <div class="tags">${catTag(cat)}<span class="tag method">${method}</span></div>
     <div class="watch-desc">아직 감지된 변경이 없습니다.</div>
     <span class="open-btn" aria-label="사이트 열기">${ICON_OPEN}</span>
   </a>`;
@@ -220,9 +263,9 @@ function siteCard(s){
 
 function renderFilters(){
   const el=document.getElementById("filters");
-  if(activeTab!=="changes"||CHANGES.length<2){el.classList.add("hidden");el.innerHTML="";return;}
-  const sites=[...new Set(CHANGES.map(c=>c.site))];
-  if(sites.length<2){el.classList.add("hidden");el.innerHTML="";return;}
+  const base = activeTab==="all" ? CHANGES : activeTab==="changes" ? unread() : [];
+  const sites=[...new Set(base.map(c=>c.site))];
+  if((activeTab!=="all"&&activeTab!=="changes")||sites.length<2){el.classList.add("hidden");el.innerHTML="";return;}
   el.classList.remove("hidden");
   el.innerHTML=`<span class="chip${activeSite===null?" active":""}" data-s="">전체</span>`+
     sites.map(s=>`<span class="chip${activeSite===s?" active":""}" data-s="${esc(s)}">${esc(s)}</span>`).join("");
@@ -231,44 +274,52 @@ function renderFilters(){
 
 function renderView(){
   const v=document.getElementById("view");
+
   if(activeTab==="sites"){
     v.innerHTML = SITES.length
       ? `<div class="grid">${SITES.map(siteCard).join("")}</div>`
       : `<div class="state">감시 사이트 정보를 불러오지 못했습니다.</div>`;
     return;
   }
-  // changes tab
-  if(CHANGES.length){
-    const items=activeSite?CHANGES.filter(c=>c.site===activeSite):CHANGES;
-    v.innerHTML=`<div class="grid">${items.map(changeCard).join("")}</div>`;
+
+  if(activeTab==="all"){
+    if(CHANGES.length){
+      const items=activeSite?CHANGES.filter(c=>c.site===activeSite):CHANGES;
+      v.innerHTML=`<div class="empty-note">최근 2주간 쌓인 모든 변경 내역입니다.</div><div class="grid">${items.map(c=>changeCard(c,true)).join("")}</div>`;
+    } else {
+      v.innerHTML=`<div class="empty-note">✅ 아직 기록된 변경이 없습니다. 현재 감시 중인 사이트입니다.</div><div class="grid">${SITES.slice(0,5).map(siteCard).join("")}</div>`;
+    }
+    return;
+  }
+
+  // changes(변경 내역) = 미확인 변경만
+  const list=unread().filter(c=>!activeSite||c.site===activeSite);
+  const total=unread().length;
+  if(total){
+    const bar=`<div class="readbar"><span class="label">읽지 않은 변경 <b>${total}</b>건</span>
+      <button class="readbtn" id="markRead">${ICON_CHECK} 모두 확인</button></div>`;
+    v.innerHTML=bar+`<div class="grid">${list.map(c=>changeCard(c,true)).join("")}</div>`;
+    document.getElementById("markRead").onclick=()=>{
+      lastSeen=new Date(); saveLastSeen(lastSeen); activeSite=null; updateCounts(); renderFilters(); renderView();
+    };
   } else {
-    // 변경 기록 없음 → 최근(감시) 사이트 5개를 카드로
-    const recent=SITES.slice(0,5);
-    v.innerHTML = recent.length
-      ? `<div class="empty-note">✅ 아직 기록된 변경이 없습니다. 현재 감시 중인 사이트입니다.</div>
-         <div class="grid">${recent.map(siteCard).join("")}</div>`
-      : `<div class="state"><div class="big">✅</div>아직 기록된 변경이 없습니다.</div>`;
+    v.innerHTML=`<div class="state"><div class="big">🎉</div>새로 확인할 변경이 없습니다.<br><span style="font-size:.84rem">새 변경이 감지되면 여기에 표시됩니다. (전체 탭에서 지난 내역을 볼 수 있어요)</span></div>`;
   }
 }
 
-function renderStats(){
-  const sites=new Set(CHANGES.map(c=>c.site)).size;
-  const latest=CHANGES.length?fmtTime(CHANGES[0].timestamp):"—";
-  document.getElementById("stats").innerHTML=
-    `<span class="stat"><b>${CHANGES.length}</b>건 변경</span>`+
-    `<span class="stat"><b>${SITES.length}</b>곳 감시</span>`+
-    `<span class="stat">최근 변경 <b>${esc(latest)}</b></span>`;
-  document.getElementById("cnt-ch").textContent=CHANGES.length;
+function updateCounts(){
+  document.getElementById("cnt-all").textContent=CHANGES.length;
+  document.getElementById("cnt-ch").textContent=unread().length;
   document.getElementById("cnt-st").textContent=SITES.length;
 }
 
 function setTab(t){
-  activeTab=t;activeSite=null;
+  activeTab=t; activeSite=null;
   document.querySelectorAll(".tab").forEach(b=>b.classList.toggle("active",b.dataset.tab===t));
-  renderFilters();renderView();
+  renderFilters(); renderView();
 }
 
-async function getJSON(path){const r=await fetch(path+"?t="+Date.now(),{cache:"no-store"});if(!r.ok)throw new Error(path+" HTTP "+r.status);return r.json();}
+async function getJSON(p){const r=await fetch(p+"?t="+Date.now(),{cache:"no-store"});if(!r.ok)throw new Error(p+" HTTP "+r.status);return r.json();}
 
 async function load(){
   const [ch,cfg]=await Promise.allSettled([getJSON("./changes.json"),getJSON("./config.json")]);
@@ -276,12 +327,11 @@ async function load(){
     .filter(c=>c&&c.timestamp).sort((a,b)=>new Date(b.timestamp)-new Date(a.timestamp));
   SITES=(cfg.status==="fulfilled"&&cfg.value&&Array.isArray(cfg.value.sites))?cfg.value.sites:[];
   if(ch.status==="rejected"&&cfg.status==="rejected"){
-    document.getElementById("view").innerHTML=
-      `<div class="state"><div class="big">⚠️</div>데이터를 불러오지 못했습니다.<br><span style="font-size:.82rem">${esc(ch.reason.message)}</span></div>`;
+    document.getElementById("view").innerHTML=`<div class="state"><div class="big">⚠️</div>데이터를 불러오지 못했습니다.<br><span style="font-size:.82rem">${esc(ch.reason.message)}</span></div>`;
     return;
   }
   document.querySelectorAll(".tab").forEach(b=>b.onclick=()=>setTab(b.dataset.tab));
-  renderStats();renderFilters();renderView();
+  updateCounts(); renderFilters(); renderView();
 }
 load();
 </script>
