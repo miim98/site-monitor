@@ -27,7 +27,14 @@ SNAP_DIR = ROOT / "snapshots"
 CHANGES_JSON = ROOT / "changes.json"
 CHANGES_MD = ROOT / "CHANGES.md"
 
-HEADERS = {"User-Agent": "Mozilla/5.0 (compatible; site-monitor/1.0)"}
+HEADERS = {
+    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
+                  "AppleWebKit/537.36 (KHTML, like Gecko) "
+                  "Chrome/124.0.0.0 Safari/537.36",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,"
+              "image/avif,image/webp,*/*;q=0.8",
+    "Accept-Language": "ko-KR,ko;q=0.9,en;q=0.8",
+}
 MAX_LINES_PER_CHANGE = 60  # 변경 한 건당 기록할 최대 줄 수(폭주 방지)
 
 
