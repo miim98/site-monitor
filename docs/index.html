@@ -136,6 +136,12 @@
   .tag.cat-etc  { color: #6b7079;          background: var(--soft); }
   .tag.latest, .tag.method, .tag.watch { color: #6b7079; background: var(--soft); }
 
+  .info-note {
+    margin: 20px 0 4px; padding: 11px 15px; border-radius: 12px;
+    background: var(--soft); border: 1px solid var(--border);
+    color: var(--text); font-size: .85rem; line-height: 1.5;
+  }
+  .info-note b { color: var(--ink); font-weight: 800; }
   .watch-desc { font-size: .85rem; color: var(--muted); margin-top: 12px; padding-right: 44px; }
   .state { text-align: center; color: var(--muted); padding: 70px 16px; }
   .state .big { font-size: 2.2rem; margin-bottom: 12px; filter: grayscale(1); }
@@ -247,7 +253,7 @@ function latestCards(){
     LATEST.forEach(e=>{ (e.items||[]).slice(0,2).forEach(it=>{ html+=linkCard(e.site,it); }); });
   }
   return html
-    ? `<div class="grid">${html}</div>`
+    ? `<div class="info-note">아직 감지된 새 글이 없어, 사이트별 <b>최신 글</b>을 대신 보여줍니다. (새 글이 올라오면 여기에 쌓여요)</div><div class="grid">${html}</div>`
     : `<div class="state"><div class="big">✓</div>표시할 항목이 없습니다.</div>`;
 }
 
