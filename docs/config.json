@@ -28,7 +28,9 @@
     {
       "name": "does-web-mobile-platform",
       "url": "https://www.does.kr/projects/web-mobile-platform/",
-      "selector": null
+      "selector": null,
+      "item_selector": "a[href*='/project/']",
+      "js": true
     }
   ]
 }

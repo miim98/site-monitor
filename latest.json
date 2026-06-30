@@ -19,11 +19,11 @@
     "items": [
       {
         "title": "NYPC (Website)",
-        "link": "https://www.dfy.co.kr/work"
+        "link": "https://www.dfy.co.kr/work/nypc"
       },
       {
         "title": "LG TV (Website)",
-        "link": "https://www.dfy.co.kr/work"
+        "link": "https://www.dfy.co.kr/work/lg-tv-1"
       }
     ]
   },
@@ -60,12 +60,12 @@
     "url": "https://www.does.kr/projects/web-mobile-platform/",
     "items": [
       {
-        "title": "All 344",
-        "link": "https://www.does.kr/projects"
+        "title": "kepco",
+        "link": "https://www.does.kr/project/kepco/"
       },
       {
-        "title": "Featured 56",
-        "link": "https://www.does.kr/projects/featured/"
+        "title": "ktng",
+        "link": "https://www.does.kr/project/ktng/"
       }
     ]
   }

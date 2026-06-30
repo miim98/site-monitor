@@ -17,7 +17,7 @@ import re
 import sys
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
-from urllib.parse import urljoin
+from urllib.parse import urljoin, unquote
 
 import requests
 from bs4 import BeautifulSoup
@@ -112,23 +112,33 @@ def _extract_by_item_selector(html, selector, base_url, item_selector, limit):
         scope = soup
     out, seen = [], set()
     for node in scope.select(item_selector):
-        a = node.find("a", href=True)
-        href = a["href"].strip() if a else ""
+        # 링크: 항목 자신 또는 내부의 href/to(Vue router-link 등) 요소에서
+        if node.has_attr("href") or node.has_attr("to"):
+            el = node
+        else:
+            el = node.find(lambda t: t.has_attr("href") or t.has_attr("to"))
+        href = ((el.get("href") or el.get("to")) if el else "") or ""
+        href = href.strip()
         if href.startswith("#"):
             link = base_url + href
         elif href and not href.startswith(("javascript:", "mailto:", "tel:")):
             link = urljoin(base_url, href)
         else:
             link = base_url
+
+        # 제목: 텍스트 → (짧거나 'N award'면) 이미지 alt → (그래도 부실하면) 링크 슬러그
         txt = re.sub(r"\s+", " ", node.get_text(" ")).strip()
         img = node.find("img")
         alt = re.sub(r"\s+", " ", img.get("alt", "")).strip() if (img and img.get("alt")) else ""
-        # 텍스트가 비었거나 'N award' 류면 이미지 alt를 제목으로 쓴다
-        raw = alt if ((len(txt) < 4 or re.fullmatch(r"\d+\s*awards?", txt, re.I)) and alt) else txt
-        title = clean_title(raw)
-        if len(title) < 2 or len(title) > 120 or title in seen:
+        cand = alt if ((len(txt) < 4 or re.fullmatch(r"\d+\s*awards?", txt, re.I)) and alt) else (txt or alt)
+        title = clean_title(cand)
+        if len(title) < 2 and link and link != base_url:
+            slug = unquote(link.rstrip("/").split("/")[-1])
+            title = clean_title(slug.replace("-", " ").replace("_", " "))
+
+        if len(title) < 2 or len(title) > 120 or (link, title) in seen:
             continue
-        seen.add(title)
+        seen.add((link, title))
         out.append({"title": title, "link": link})
         if len(out) >= limit:
             break
