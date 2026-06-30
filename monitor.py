@@ -148,7 +148,9 @@ def render_md(items, retention_days):
 def main():
     config = load_config()
     retention = int(config.get("retention_days", 14))
-    items = load_json(CHANGES_JSON, [])   # 누적된 '새 항목' 목록
+    # 누적된 '새 항목' 목록 (구 형식 텍스트-diff 항목은 걸러낸다)
+    items = [c for c in load_json(CHANGES_JSON, [])
+             if isinstance(c, dict) and c.get("title") and c.get("link")]
     seen = load_json(SEEN_JSON, {})        # 사이트별 이미 본 링크
     now_iso = datetime.now(timezone.utc).isoformat()
     latest = []
