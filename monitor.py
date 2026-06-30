@@ -90,6 +90,59 @@ def extract_links(html, selector, base_url, limit=DETECT_LIMIT):
     return out
 
 
+def clean_title(t):
+    """추출한 제목에서 잡음(작품번호·저작권·접미사·괄호 공백)을 정리한다."""
+    t = re.sub(r"\s+", " ", t).strip()
+    t = re.sub(r"^\(\s*N°\s*\d+\s*\)\s*", "", t)               # dfy "( N°10895 )" 제거
+    t = re.sub(r"\s*©\S+\s*$", "", t)                          # "©2K26" 제거
+    t = re.sub(r"\s*eXperience\s*-\s*Plus X\s*$", "", t, flags=re.I)  # plusx alt 접미사
+    t = re.sub(r"\(\s+", "(", t)
+    t = re.sub(r"\s+\)", ")", t)
+    return t.strip()
+
+
+def _extract_by_item_selector(html, selector, base_url, item_selector, limit):
+    """항목이 <a> 링크가 아니라 JS 버튼/이미지인 사이트용. item_selector 로 항목을 잡고
+    제목은 텍스트(없으면 이미지 alt)에서, 링크는 내부 <a> 또는 목록 페이지로 한다."""
+    soup = BeautifulSoup(html, "lxml")
+    for tag in soup(["script", "style", "noscript"]):
+        tag.decompose()
+    scope = soup.select_one(selector) if selector else (soup.body or soup)
+    if scope is None:
+        scope = soup
+    out, seen = [], set()
+    for node in scope.select(item_selector):
+        a = node.find("a", href=True)
+        href = a["href"].strip() if a else ""
+        if href.startswith("#"):
+            link = base_url + href
+        elif href and not href.startswith(("javascript:", "mailto:", "tel:")):
+            link = urljoin(base_url, href)
+        else:
+            link = base_url
+        txt = re.sub(r"\s+", " ", node.get_text(" ")).strip()
+        img = node.find("img")
+        alt = re.sub(r"\s+", " ", img.get("alt", "")).strip() if (img and img.get("alt")) else ""
+        # 텍스트가 비었거나 'N award' 류면 이미지 alt를 제목으로 쓴다
+        raw = alt if ((len(txt) < 4 or re.fullmatch(r"\d+\s*awards?", txt, re.I)) and alt) else txt
+        title = clean_title(raw)
+        if len(title) < 2 or len(title) > 120 or title in seen:
+            continue
+        seen.add(title)
+        out.append({"title": title, "link": link})
+        if len(out) >= limit:
+            break
+    return out
+
+
+def extract_items(html, selector, base_url, item_selector=None, limit=DETECT_LIMIT):
+    """사이트에서 글/작업 목록 항목을 뽑는다.
+    item_selector 가 있으면 그 방식(JS 버튼·이미지형), 없으면 <a> 링크 기반."""
+    if item_selector:
+        return _extract_by_item_selector(html, selector, base_url, item_selector, limit)
+    return extract_links(html, selector, base_url, limit)
+
+
 def fetch_html(url, selector=None, js=False):
     """페이지 HTML을 가져온다. js=True 면 Playwright(실제 브라우저)로 렌더링."""
     if not js:
@@ -164,30 +217,35 @@ def main():
             print(f"[ERROR] {name}: {e}", file=sys.stderr)
             continue
 
-        site_items = extract_links(html, selector, url, limit=DETECT_LIMIT)
+        site_items = extract_items(html, selector, url,
+                                   site.get("item_selector"), limit=DETECT_LIMIT)
         if site_items:
             latest.append({"site": name, "url": url,
                            "items": site_items[:LATEST_PER_SITE]})
 
+        # 항목 식별 키: (링크+제목). 링크가 없는 사이트(여러 항목이 같은 목록 URL)도 구분 가능.
+        def key(it):
+            return f'{it["link"]}||{it["title"]}'
+
         prev = seen.get(name)
         if prev is None:
             # 최초 실행: 현재 목록을 기준으로만 저장(새 항목 기록 없음)
-            seen[name] = [it["link"] for it in site_items][:SEEN_CAP]
-            print(f"[INIT]  {name}: 기준 링크 {len(seen[name])}개 저장")
+            seen[name] = [key(it) for it in site_items][:SEEN_CAP]
+            print(f"[INIT]  {name}: 기준 항목 {len(seen[name])}개 저장")
             continue
 
         prev_set = set(prev)
-        new_items = [it for it in site_items if it["link"] not in prev_set]
+        new_items = [it for it in site_items if key(it) not in prev_set]
         for it in new_items:
             items.append({
                 "timestamp": now_iso,   # 감지된 시각
                 "site": name,
                 "url": url,             # 사이트(목록) 주소 — 참고용
                 "title": it["title"],
-                "link": it["link"],     # 글 상세 페이지 주소 — 카드 클릭 시 이동
+                "link": it["link"],     # 상세 페이지(없으면 목록) 주소 — 카드 클릭 시 이동
             })
-        # 새 링크를 앞에 붙이고 상한까지만 보관
-        seen[name] = ([it["link"] for it in new_items] + prev)[:SEEN_CAP]
+        # 새 항목 키를 앞에 붙이고 상한까지만 보관
+        seen[name] = ([key(it) for it in new_items] + prev)[:SEEN_CAP]
         tag = "NEW " if new_items else "SAME"
         print(f"[{tag}] {name}: 새 항목 {len(new_items)}개")
 

@@ -1,5 +1,33 @@
 [
   {
+    "site": "plusx-experience",
+    "url": "https://www.plus-ex.com/experience",
+    "items": [
+      {
+        "title": "pledis",
+        "link": "https://www.plus-ex.com/experience#pledis"
+      },
+      {
+        "title": "km",
+        "link": "https://www.plus-ex.com/experience#km"
+      }
+    ]
+  },
+  {
+    "site": "dfy-work",
+    "url": "https://www.dfy.co.kr/work",
+    "items": [
+      {
+        "title": "NYPC (Website)",
+        "link": "https://www.dfy.co.kr/work"
+      },
+      {
+        "title": "LG TV (Website)",
+        "link": "https://www.dfy.co.kr/work"
+      }
+    ]
+  },
+  {
     "site": "designcompass-매거진",
     "url": "https://designcompass.org/magazine/",
     "items": [

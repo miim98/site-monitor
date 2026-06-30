@@ -5,12 +5,14 @@
       "name": "plusx-experience",
       "url": "https://www.plus-ex.com/experience",
       "selector": null,
+      "item_selector": ".experience__item",
       "js": true
     },
     {
       "name": "dfy-work",
       "url": "https://www.dfy.co.kr/work",
       "selector": ".work-list",
+      "item_selector": ".work-unit",
       "js": true
     },
     {
