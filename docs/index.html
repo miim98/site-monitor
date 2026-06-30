@@ -186,6 +186,10 @@ const ICON_REF = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" str
 const ICON_MAIL = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><rect x="2.5" y="4.5" width="19" height="15" rx="2.5"/><path d="m3 6 9 7 9-7"/></svg>';
 const ICON_CHECK = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>';
 
+// 모바일: 같은 탭으로 열어 브라우저 뒤로가기가 동작하게. 데스크톱: 새 탭.
+const ON_MOBILE = window.matchMedia("(pointer: coarse)").matches || window.innerWidth < 768;
+const LINK_ATTR = ON_MOBILE ? 'target="_self"' : 'target="_blank" rel="noopener noreferrer"';
+
 function fmtTime(iso){const d=new Date(iso);if(isNaN(d))return iso||"";
   return d.toLocaleString("ko-KR",{timeZone:TZ,year:"numeric",month:"2-digit",day:"2-digit",hour:"2-digit",minute:"2-digit",hour12:false}).replace(/\.\s*/g,m=>m.includes(":")?m:".").replace(/\.$/,"");}
 function relTime(iso){const d=new Date(iso),now=new Date(),s=Math.round((now-d)/1000);
@@ -210,7 +214,7 @@ function itemCard(c, markNew){
   const cat=catOf(c.site);
   const isNew = markNew && new Date(c.timestamp)>lastSeen;
   const link = c.link || c.url;   // 상세 페이지로 이동
-  return `<a class="card cat-${cat}" href="${esc(link)}" target="_blank" rel="noopener noreferrer">
+  return `<a class="card cat-${cat}" href="${esc(link)}" ${LINK_ATTR}>
     <div class="c-head">
       <div><div class="c-title">${esc(c.title || c.site)}${isNew?'<span class="newdot" title="새 글"></span>':""}</div>
       <div class="c-date">${esc(fmtTime(c.timestamp))} · ${esc(c.site)}</div></div>
@@ -223,7 +227,7 @@ function itemCard(c, markNew){
 
 function linkCard(siteName, item){
   const cat=catOf(siteName);
-  return `<a class="card cat-${cat}" href="${esc(item.link)}" target="_blank" rel="noopener noreferrer">
+  return `<a class="card cat-${cat}" href="${esc(item.link)}" ${LINK_ATTR}>
     <div class="c-head"><div><div class="c-title">${esc(item.title)}</div><div class="c-date">${esc(siteName)} · ${esc(host(item.link))}</div></div></div>
     <div class="tags">${catTag(cat)}<span class="tag latest">최신 글</span></div>
     <span class="open-btn" aria-label="링크 열기">${ICON_OPEN}</span>
@@ -232,7 +236,7 @@ function linkCard(siteName, item){
 
 function siteCard(s){
   const cat=catOf(s.name), method=s.js?"JS 렌더링":"정적 HTML";
-  return `<a class="card cat-${cat}" href="${esc(s.url)}" target="_blank" rel="noopener noreferrer">
+  return `<a class="card cat-${cat}" href="${esc(s.url)}" ${LINK_ATTR}>
     <div class="c-head"><div><div class="c-title">${esc(s.name)}</div><div class="c-date">${esc(host(s.url))}</div></div></div>
     <div class="tags">${catTag(cat)}<span class="tag method">${method}</span></div>
     <div class="watch-desc">감시 중인 사이트입니다.</div>
