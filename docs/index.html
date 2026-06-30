@@ -135,21 +135,6 @@
   .tag.cat-news { color: var(--news-deep); background: var(--news-soft); }
   .tag.cat-etc  { color: #6b7079;          background: var(--soft); }
   .tag.latest, .tag.method, .tag.watch { color: #6b7079; background: var(--soft); }
-  .tag.add { color: var(--add); background: var(--add-bg); }            /* 추가 = 초록 */
-  .tag.del { color: var(--del); background: var(--del-bg); }            /* 삭제 = 빨강 */
-
-  .lines { margin: 12px 0 0; display: flex; flex-direction: column; gap: 8px; padding-right: 44px; }
-  .block { border-radius: 10px; padding: 9px 11px; font-size: .83rem; line-height: 1.5; border: 1px solid var(--line); }
-  .block.add { background: var(--add-bg); border-color: var(--add-line); }
-  .block.del { background: var(--del-bg); border-color: var(--del-line); }
-  .ln { display: flex; gap: 7px; align-items: flex-start; }
-  .ln + .ln { margin-top: 3px; }
-  .ln .mk { font-weight: 800; flex-shrink: 0; line-height: 1.5; }
-  .block.add .mk { color: var(--add); }
-  .block.del .mk { color: var(--del); }
-  .block.del .tx { text-decoration: line-through; color: #b06; opacity: .8; }
-  .tx { word-break: break-word; }
-  .more { font-size: .76rem; color: var(--muted); margin-top: 5px; font-weight: 600; }
 
   .watch-desc { font-size: .85rem; color: var(--muted); margin-top: 12px; padding-right: 44px; }
   .state { text-align: center; color: var(--muted); padding: 70px 16px; }
@@ -215,31 +200,18 @@ function catTag(cat){
   return `<span class="tag cat-${cat}">${icon} ${CAT_LABEL[cat]}</span>`;
 }
 
-function changeCard(c, markNew){
+function itemCard(c, markNew){
   const cat=catOf(c.site);
-  const added=(c.added||[]).filter(Boolean), removed=(c.removed||[]).filter(Boolean);
-  const badges=[
-    added.length?`<span class="tag add">${ICON_PLUS} 추가 ${added.length}</span>`:"",
-    removed.length?`<span class="tag del">${ICON_MINUS} 삭제 ${removed.length}</span>`:""
-  ].join("");
-  let blocks="";
-  if(added.length){
-    const sh=added.slice(0,5);
-    blocks+=`<div class="block add">${sh.map(l=>`<div class="ln"><span class="mk">+</span><span class="tx">${esc(l)}</span></div>`).join("")}${added.length>5?`<div class="more">+${added.length-5}줄 더 추가됨</div>`:""}</div>`;
-  }
-  if(removed.length){
-    const sh=removed.slice(0,3);
-    blocks+=`<div class="block del">${sh.map(l=>`<div class="ln"><span class="mk">−</span><span class="tx">${esc(l)}</span></div>`).join("")}${removed.length>3?`<div class="more">−${removed.length-3}줄 더 삭제됨</div>`:""}</div>`;
-  }
   const isNew = markNew && new Date(c.timestamp)>lastSeen;
-  return `<a class="card cat-${cat}" href="${esc(c.url)}" target="_blank" rel="noopener noreferrer">
+  const link = c.link || c.url;   // 상세 페이지로 이동
+  return `<a class="card cat-${cat}" href="${esc(link)}" target="_blank" rel="noopener noreferrer">
     <div class="c-head">
-      <div><div class="c-title">${esc(c.site)}${isNew?'<span class="newdot" title="새 변경"></span>':""}</div><div class="c-date">${esc(fmtTime(c.timestamp))}</div></div>
+      <div><div class="c-title">${esc(c.title || c.site)}${isNew?'<span class="newdot" title="새 글"></span>':""}</div>
+      <div class="c-date">${esc(fmtTime(c.timestamp))} · ${esc(c.site)}</div></div>
       <div class="c-time">${esc(relTime(c.timestamp))}</div>
     </div>
-    <div class="tags">${catTag(cat)}${badges}</div>
-    <div class="lines">${blocks}</div>
-    <span class="open-btn" aria-label="사이트 열기">${ICON_OPEN}</span>
+    <div class="tags">${catTag(cat)}</div>
+    <span class="open-btn" aria-label="상세 페이지 열기">${ICON_OPEN}</span>
   </a>`;
 }
 
@@ -302,9 +274,9 @@ function renderView(){
   if(activeTab==="all"){
     if(CHANGES.length){
       const items=activeSite?CHANGES.filter(c=>c.site===activeSite):CHANGES;
-      v.innerHTML=`<div class="grid">${items.map(c=>changeCard(c,true)).join("")}</div>`;
+      v.innerHTML=`<div class="grid">${items.map(c=>itemCard(c,true)).join("")}</div>`;
     } else {
-      v.innerHTML=latestCards();   // 변경 없음 → 사이트별 최신 링크
+      v.innerHTML=latestCards();   // 새 글 없음 → 사이트별 최신 링크
     }
     return;
   }
@@ -315,7 +287,7 @@ function renderView(){
   if(total){
     v.innerHTML=`<div class="readbar"><span class="label">읽지 않은 변경 ${total}건</span>
       <button class="readbtn" id="markRead">${ICON_CHECK} 모두 확인</button></div>
-      <div class="grid">${list.map(c=>changeCard(c,true)).join("")}</div>`;
+      <div class="grid">${list.map(c=>itemCard(c,true)).join("")}</div>`;
     document.getElementById("markRead").onclick=()=>{
       lastSeen=new Date(); saveLastSeen(lastSeen); activeSite=null; updateCounts(); renderFilters(); renderView();
     };
