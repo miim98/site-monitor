@@ -28,6 +28,34 @@
     ]
   },
   {
+    "site": "designcompass-매거진",
+    "url": "https://designcompass.org/magazine/",
+    "items": [
+      {
+        "title": "오픈클로 iOS와 Android 앱 출시",
+        "link": "https://designcompass.org/2026/06/30/openclaw-ios%ec%99%80-android/"
+      },
+      {
+        "title": "트럼프가 독립선언문을 가린 미국 250주년 여권",
+        "link": "https://designcompass.org/2026/06/30/trump-patriot-passport-design-controversy/"
+      }
+    ]
+  },
+  {
+    "site": "designcompass-아티클",
+    "url": "https://designcompass.org/article/",
+    "items": [
+      {
+        "title": "AI 프로덕트 빌더의 시대",
+        "link": "https://designcompass.org/2026/06/29/age-of-ai-product-building/"
+      },
+      {
+        "title": "프롬프트 인풋",
+        "link": "https://designcompass.org/2026/06/24/prompt-input/"
+      }
+    ]
+  },
+  {
     "site": "does-web-mobile-platform",
     "url": "https://www.does.kr/projects/web-mobile-platform/",
     "items": [
