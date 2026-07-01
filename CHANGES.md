@@ -1,6 +1,6 @@
 # 새 글 모니터 (최근 14일)
 
-_마지막 실행: 2026-07-01 12:05 UTC_
+_마지막 실행: 2026-07-01 15:42 UTC_
 
 - `2026-07-01T12:03:46.226449+00:00` · does-web-mobile-platform — [한국전력공사 통합 디지털 플랫폼](https://www.does.kr/project/kepco/)
 - `2026-07-01T12:03:46.226449+00:00` · does-web-mobile-platform — [KT&G 기업 웹사이트](https://www.does.kr/project/ktng/)
