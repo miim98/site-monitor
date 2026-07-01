@@ -15,6 +15,7 @@
 import json
 import re
 import sys
+import time
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
 from urllib.parse import urljoin, unquote
@@ -153,8 +154,22 @@ def extract_items(html, selector, base_url, item_selector=None, limit=DETECT_LIM
     return extract_links(html, selector, base_url, limit)
 
 
-def fetch_html(url, selector=None, js=False):
-    """페이지 HTML을 가져온다. js=True 면 Playwright(실제 브라우저)로 렌더링."""
+def fetch_html(url, selector=None, js=False, attempts=2):
+    """페이지 HTML을 가져온다. 간헐적 차단(403 등)에 대비해 재시도한다."""
+    last = None
+    for i in range(attempts):
+        try:
+            return _fetch_once(url, selector, js)
+        except Exception as e:
+            last = e
+            if i < attempts - 1:
+                print(f"  [retry] {url}: {str(e)[:60]}", file=sys.stderr)
+                time.sleep(4)
+    raise last
+
+
+def _fetch_once(url, selector=None, js=False):
+    """페이지 HTML을 한 번 가져온다. js=True 면 Playwright(실제 브라우저)로 렌더링."""
     if not js:
         resp = requests.get(url, headers=HEADERS, timeout=30)
         resp.raise_for_status()

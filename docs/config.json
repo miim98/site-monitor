@@ -18,12 +18,14 @@
     {
       "name": "designcompass-매거진",
       "url": "https://designcompass.org/magazine/",
-      "selector": null
+      "selector": null,
+      "js": true
     },
     {
       "name": "designcompass-아티클",
       "url": "https://designcompass.org/article/",
-      "selector": null
+      "selector": null,
+      "js": true
     },
     {
       "name": "does-web-mobile-platform",
