@@ -28,6 +28,34 @@
     ]
   },
   {
+    "site": "designcompass-매거진",
+    "url": "https://designcompass.org/magazine/",
+    "items": [
+      {
+        "title": "OpenAI, Codex 전용 미니 키보드",
+        "link": "https://designcompass.org/2026/07/01/openai-codex-micro-keyboard/"
+      },
+      {
+        "title": "알프스 2030, 산과 빛으로 만든 새로운 올림픽 브랜드 공개",
+        "link": "https://designcompass.org/2026/07/01/alpes-2030-brand-identity/"
+      }
+    ]
+  },
+  {
+    "site": "designcompass-아티클",
+    "url": "https://designcompass.org/article/",
+    "items": [
+      {
+        "title": "AI 프로덕트 빌더의 시대",
+        "link": "https://designcompass.org/2026/06/29/age-of-ai-product-building/"
+      },
+      {
+        "title": "프롬프트 인풋",
+        "link": "https://designcompass.org/2026/06/24/prompt-input/"
+      }
+    ]
+  },
+  {
     "site": "does-web-mobile-platform",
     "url": "https://www.does.kr/projects/web-mobile-platform/",
     "items": [
