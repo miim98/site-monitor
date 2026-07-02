@@ -1,6 +1,6 @@
 # 새 글 모니터 (최근 14일)
 
-_마지막 실행: 2026-07-02 07:31 UTC_
+_마지막 실행: 2026-07-02 10:38 UTC_
 
 - `2026-07-02T03:22:23.321530+00:00` · designcompass-매거진 — [2026 월드컵 로고 논란, 정체성vs시스템](https://designcompass.org/2026/07/02/fifa-world-cup-2026-logo-controversy/)
 - `2026-07-02T03:22:23.321530+00:00` · designcompass-매거진 — [현대카드, 알파벳카드를 독자 브랜드로 분리](https://designcompass.org/2026/07/02/hyundaicard-alphabet-card-branding/)
