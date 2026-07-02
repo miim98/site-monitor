@@ -1,7 +1,9 @@
 # 새 글 모니터 (최근 14일)
 
-_마지막 실행: 2026-07-01 23:14 UTC_
+_마지막 실행: 2026-07-02 03:24 UTC_
 
+- `2026-07-02T03:22:23.321530+00:00` · designcompass-매거진 — [2026 월드컵 로고 논란, 정체성vs시스템](https://designcompass.org/2026/07/02/fifa-world-cup-2026-logo-controversy/)
+- `2026-07-02T03:22:23.321530+00:00` · designcompass-매거진 — [현대카드, 알파벳카드를 독자 브랜드로 분리](https://designcompass.org/2026/07/02/hyundaicard-alphabet-card-branding/)
 - `2026-07-01T12:03:46.226449+00:00` · does-web-mobile-platform — [한국전력공사 통합 디지털 플랫폼](https://www.does.kr/project/kepco/)
 - `2026-07-01T12:03:46.226449+00:00` · does-web-mobile-platform — [KT&G 기업 웹사이트](https://www.does.kr/project/ktng/)
 - `2026-07-01T12:03:46.226449+00:00` · does-web-mobile-platform — [나이키 BREAKING GROUND](https://www.does.kr/project/nike-breaking-ground/)
