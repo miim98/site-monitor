@@ -1,6 +1,6 @@
 # 새 글 모니터 (최근 14일)
 
-_마지막 실행: 2026-07-03 23:02 UTC_
+_마지막 실행: 2026-07-04 02:42 UTC_
 
 - `2026-07-03T02:45:19.839741+00:00` · designcompass-매거진 — [메타, AI 미니게임 제작 앱 Pocket 출시](https://designcompass.org/2026/07/03/meta-pocket-ai-game-app/)
 - `2026-07-03T02:45:19.839741+00:00` · designcompass-매거진 — [Claude Fable 5 수출 제한 해제…전 세계 서비스 재개](https://designcompass.org/2026/07/03/us-lifts-export-controls-on-claude-fable-5/)
