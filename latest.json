@@ -28,34 +28,6 @@
     ]
   },
   {
-    "site": "designcompass-매거진",
-    "url": "https://designcompass.org/magazine/",
-    "items": [
-      {
-        "title": "메타, AI 미니게임 제작 앱 Pocket 출시",
-        "link": "https://designcompass.org/2026/07/03/meta-pocket-ai-game-app/"
-      },
-      {
-        "title": "Claude Fable 5 수출 제한 해제…전 세계 서비스 재개",
-        "link": "https://designcompass.org/2026/07/03/us-lifts-export-controls-on-claude-fable-5/"
-      }
-    ]
-  },
-  {
-    "site": "designcompass-아티클",
-    "url": "https://designcompass.org/article/",
-    "items": [
-      {
-        "title": "AI 프로덕트 빌더의 시대",
-        "link": "https://designcompass.org/2026/06/29/age-of-ai-product-building/"
-      },
-      {
-        "title": "프롬프트 인풋",
-        "link": "https://designcompass.org/2026/06/24/prompt-input/"
-      }
-    ]
-  },
-  {
     "site": "does-web-mobile-platform",
     "url": "https://www.does.kr/projects/web-mobile-platform/",
     "items": [
