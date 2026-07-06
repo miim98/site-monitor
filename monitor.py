@@ -244,13 +244,23 @@ def main():
 
         site_items = extract_items(html, selector, url,
                                    site.get("item_selector"), limit=DETECT_LIMIT)
+        # 기준(seen)이 있는데 이번에 0개면 진짜 무변화가 아니라 차단/구조변경일 확률이 높다.
+        # 그대로 두면 '새 항목 0개'로 위장되므로 눈에 띄게 경고한다.
+        if not site_items and seen.get(name):
+            print(f"[WARN] {name}: 목록 0개 추출(HTML {len(html)}자) — "
+                  f"차단(IP 403 등)/구조 변경 의심. 이번 실행은 이 사이트 무시.",
+                  file=sys.stderr)
+            continue
         if site_items:
             latest.append({"site": name, "url": url,
                            "items": site_items[:LATEST_PER_SITE]})
 
-        # 항목 식별 키: (링크+제목). 링크가 없는 사이트(여러 항목이 같은 목록 URL)도 구분 가능.
+        # 항목 식별 키: 상세 링크가 있으면 '링크'만으로 식별한다(제목이 슬러그↔실제 제목으로
+        # 바뀌어도 같은 글로 취급 → 가짜 새 글 방지). 링크가 목록 URL과 같은(=상세 링크가 없는)
+        # 항목만 '링크||제목'으로 구분한다.
         def key(it):
-            return f'{it["link"]}||{it["title"]}'
+            link = it["link"]
+            return link if link and link != url else f'{link}||{it["title"]}'
 
         prev = seen.get(name)
         if prev is None:
