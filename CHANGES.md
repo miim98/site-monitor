@@ -1,6 +1,6 @@
 # 새 글 모니터 (최근 14일)
 
-_마지막 실행: 2026-07-06 18:55 UTC_
+_마지막 실행: 2026-07-06 20:53 UTC_
 
 - `2026-07-06T02:01:05.515774+00:00` · designcompass-매거진 — [메타 AI 디자인 시스템 ‘Astryx’ 오픈소스로 공개](https://designcompass.org/2026/07/06/meta-open-sources-astryx-design-system/)
 - `2026-07-06T02:01:05.515774+00:00` · designcompass-매거진 — [세계에서 가장 오래된 축구 클럽 로고 논란](https://designcompass.org/2026/07/06/oldest-football-club-sheffield-fc-logo-rebrand/)
