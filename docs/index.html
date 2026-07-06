@@ -200,10 +200,18 @@ function host(u){try{return new URL(u).host.replace(/^www\./,"");}catch(e){retur
 
 let CHANGES = [], SITES = [], LATEST = [], activeSite = null, activeTab = "all";
 let lastSeen = loadLastSeen();
+let readSet = loadRead();   // 내가 클릭해서 본 카드들(개별 읽음)
 
 function loadLastSeen(){try{const v=localStorage.getItem(LS_KEY);return v?new Date(v):new Date(0);}catch(e){return new Date(0);}}
 function saveLastSeen(d){try{localStorage.setItem(LS_KEY,d.toISOString());}catch(e){}}
 function unread(){return CHANGES.filter(c=>new Date(c.timestamp)>lastSeen);}
+
+// 개별 카드 읽음 상태: 클릭해서 본 카드는 빨간 점을 지운다.
+const READ_KEY = "siteMonitor:read";
+function cardKey(c){return c.link || c.url || (c.site+"|"+c.timestamp);}
+function loadRead(){try{return new Set(JSON.parse(localStorage.getItem(READ_KEY)||"[]"));}catch(e){return new Set();}}
+function saveRead(){try{localStorage.setItem(READ_KEY,JSON.stringify([...readSet]));}catch(e){}}
+function markRead(key){if(key&&!readSet.has(key)){readSet.add(key);saveRead();}}
 
 function catTag(cat){
   const icon = cat==="news"?ICON_MAIL : cat==="uiux"?ICON_REF : ICON_EYE;
@@ -212,9 +220,10 @@ function catTag(cat){
 
 function itemCard(c, markNew){
   const cat=catOf(c.site);
-  const isNew = markNew && new Date(c.timestamp)>lastSeen;
+  const key=cardKey(c);
+  const isNew = markNew && new Date(c.timestamp)>lastSeen && !readSet.has(key);
   const link = c.link || c.url;   // 상세 페이지로 이동
-  return `<a class="card cat-${cat}" href="${esc(link)}" ${LINK_ATTR}>
+  return `<a class="card cat-${cat}" href="${esc(link)}" data-key="${esc(key)}" ${LINK_ATTR}>
     <div class="c-head">
       <div><div class="c-title">${esc(c.title || c.site)}${isNew?'<span class="newdot" title="새 글"></span>':""}</div>
       <div class="c-date">${esc(fmtTime(c.timestamp))} · ${esc(c.site)}</div></div>
@@ -331,6 +340,13 @@ async function load(){
     return;
   }
   document.querySelectorAll(".tab").forEach(b=>b.onclick=()=>setTab(b.dataset.tab));
+  // 카드를 클릭해서 보면 그 카드만 읽음 처리(빨간 점 즉시 제거 + 저장 → 재방문 시에도 유지)
+  document.addEventListener("click",e=>{
+    const a=e.target.closest("a.card[data-key]");
+    if(!a)return;
+    markRead(a.dataset.key);
+    const dot=a.querySelector(".newdot"); if(dot)dot.remove();
+  },true);
   updateCounts(); renderFilters(); renderView();
 }
 load();
