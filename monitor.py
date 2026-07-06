@@ -154,12 +154,15 @@ def extract_items(html, selector, base_url, item_selector=None, limit=DETECT_LIM
     return extract_links(html, selector, base_url, limit)
 
 
-def fetch_html(url, selector=None, js=False, attempts=2):
+READER_PREFIX = "https://r.jina.ai/"   # 리더 프록시(자기 서버 IP로 대신 가져와 IP 차단 우회)
+
+
+def fetch_html(url, selector=None, js=False, reader=False, attempts=2):
     """페이지 HTML을 가져온다. 간헐적 차단(403 등)에 대비해 재시도한다."""
     last = None
     for i in range(attempts):
         try:
-            return _fetch_once(url, selector, js)
+            return _fetch_once(url, selector, js, reader)
         except Exception as e:
             last = e
             if i < attempts - 1:
@@ -168,8 +171,17 @@ def fetch_html(url, selector=None, js=False, attempts=2):
     raise last
 
 
-def _fetch_once(url, selector=None, js=False):
-    """페이지 HTML을 한 번 가져온다. js=True 면 Playwright(실제 브라우저)로 렌더링."""
+def _fetch_once(url, selector=None, js=False, reader=False):
+    """페이지 HTML을 한 번 가져온다.
+    reader=True 면 r.jina.ai 리더 프록시로 가져온다(Actions 데이터센터 IP를
+    차단하는 사이트를, 프록시의 서버 IP로 대신 가져와 우회. HTML 형식으로 받음).
+    js=True 면 Playwright(실제 브라우저)로 렌더링."""
+    if reader:
+        resp = requests.get(READER_PREFIX + url,
+                            headers={**HEADERS, "X-Return-Format": "html"},
+                            timeout=60)
+        resp.raise_for_status()
+        return resp.text
     if not js:
         resp = requests.get(url, headers=HEADERS, timeout=30)
         resp.raise_for_status()
@@ -237,7 +249,8 @@ def main():
         name, url = site["name"], site["url"]
         selector = site.get("selector")
         try:
-            html = fetch_html(url, selector, js=bool(site.get("js")))
+            html = fetch_html(url, selector, js=bool(site.get("js")),
+                              reader=bool(site.get("reader")))
         except Exception as e:
             print(f"[ERROR] {name}: {e}", file=sys.stderr)
             continue
