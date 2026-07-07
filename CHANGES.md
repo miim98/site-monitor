@@ -1,7 +1,8 @@
 # 새 글 모니터 (최근 14일)
 
-_마지막 실행: 2026-07-07 00:07 UTC_
+_마지막 실행: 2026-07-07 04:52 UTC_
 
+- `2026-07-07T04:51:03.127565+00:00` · designcompass-매거진 — [구글 NotebookLM, 자료를 60초 숏폼 영상으로 요약](https://designcompass.org/2026/07/07/google-notebooklm-short-video-overviews/)
 - `2026-07-07T00:06:36.119011+00:00` · designcompass-매거진 — [빽다방, 빽보이피자 새 로고 출원](https://designcompass.org/2026/07/07/paiks-coffee-new-logo-2/)
 - `2026-07-06T02:01:05.515774+00:00` · designcompass-매거진 — [메타 AI 디자인 시스템 ‘Astryx’ 오픈소스로 공개](https://designcompass.org/2026/07/06/meta-open-sources-astryx-design-system/)
 - `2026-07-06T02:01:05.515774+00:00` · designcompass-매거진 — [세계에서 가장 오래된 축구 클럽 로고 논란](https://designcompass.org/2026/07/06/oldest-football-club-sheffield-fc-logo-rebrand/)
