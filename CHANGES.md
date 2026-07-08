@@ -1,6 +1,6 @@
 # 새 글 모니터 (최근 14일)
 
-_마지막 실행: 2026-07-08 10:15 UTC_
+_마지막 실행: 2026-07-08 12:21 UTC_
 
 - `2026-07-08T07:27:01.676397+00:00` · designcompass-매거진 — [메타, 새 AI 이미지 생성기 ‘뮤즈 이미지’ 공개…사진 활용 논란도 확산](https://designcompass.org/2026/07/08/meta-muse-image-ai-generator/)
 - `2026-07-08T07:27:01.676397+00:00` · designcompass-매거진 — [앤트로픽, 클로드 코워크 모바일·웹 지원 시작](https://designcompass.org/2026/07/08/claude-cowork-mobile-web-2/)
