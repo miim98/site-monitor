@@ -1,7 +1,8 @@
 # 새 글 모니터 (최근 14일)
 
-_마지막 실행: 2026-07-08 00:07 UTC_
+_마지막 실행: 2026-07-08 04:14 UTC_
 
+- `2026-07-08T04:13:03.444039+00:00` · designcompass-매거진 — [Windows 11 하반기 업데이트](https://designcompass.org/2026/07/08/windows-11-%ed%95%98%eb%b0%98%ea%b8%b0-%ec%97%85%eb%8d%b0%ec%9d%b4%ed%8a%b8/)
 - `2026-07-08T00:06:05.152201+00:00` · designcompass-매거진 — [xAI, 스페이스X와 통합 후 ‘스페이스XAI’로 사명 변경](https://designcompass.org/2026/07/08/xai-spacexai-new-logo/)
 - `2026-07-07T04:51:03.127565+00:00` · designcompass-매거진 — [구글 NotebookLM, 자료를 60초 숏폼 영상으로 요약](https://designcompass.org/2026/07/07/google-notebooklm-short-video-overviews/)
 - `2026-07-07T00:06:36.119011+00:00` · designcompass-매거진 — [빽다방, 빽보이피자 새 로고 출원](https://designcompass.org/2026/07/07/paiks-coffee-new-logo-2/)
