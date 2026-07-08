@@ -1,7 +1,11 @@
 # 새 글 모니터 (최근 14일)
 
-_마지막 실행: 2026-07-08 04:14 UTC_
+_마지막 실행: 2026-07-08 07:28 UTC_
 
+- `2026-07-08T07:27:01.676397+00:00` · designcompass-매거진 — [메타, 새 AI 이미지 생성기 ‘뮤즈 이미지’ 공개…사진 활용 논란도 확산](https://designcompass.org/2026/07/08/meta-muse-image-ai-generator/)
+- `2026-07-08T07:27:01.676397+00:00` · designcompass-매거진 — [앤트로픽, 클로드 코워크 모바일·웹 지원 시작](https://designcompass.org/2026/07/08/claude-cowork-mobile-web-2/)
+- `2026-07-08T07:27:01.676397+00:00` · designcompass-매거진 — [텐센트, 295B 오픈 MoE 모델 ‘Hy3’ 공개…256K 컨텍스트 지원](https://designcompass.org/2026/07/08/tencent-hy3-open-moe-model/)
+- `2026-07-08T07:27:01.676397+00:00` · designcompass-매거진 — [구글, Gemini API 관리형 에이전트 기능 확대](https://designcompass.org/2026/07/08/gemini-api-managed-agents-update/)
 - `2026-07-08T04:13:03.444039+00:00` · designcompass-매거진 — [Windows 11 하반기 업데이트](https://designcompass.org/2026/07/08/windows-11-%ed%95%98%eb%b0%98%ea%b8%b0-%ec%97%85%eb%8d%b0%ec%9d%b4%ed%8a%b8/)
 - `2026-07-08T00:06:05.152201+00:00` · designcompass-매거진 — [xAI, 스페이스X와 통합 후 ‘스페이스XAI’로 사명 변경](https://designcompass.org/2026/07/08/xai-spacexai-new-logo/)
 - `2026-07-07T04:51:03.127565+00:00` · designcompass-매거진 — [구글 NotebookLM, 자료를 60초 숏폼 영상으로 요약](https://designcompass.org/2026/07/07/google-notebooklm-short-video-overviews/)
