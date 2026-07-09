@@ -189,7 +189,7 @@
     border-radius: 9px; cursor: pointer; display: grid; place-items: center; transition: .12s; }
   .icon-btn:hover { background: #e4e6ea; color: var(--ink); }
   .icon-btn svg { width: 17px; height: 17px; }
-  .panel-body { padding: 18px 20px; overflow-y: auto; flex: 1; }
+  .panel-body { padding: 18px 20px; overflow-y: auto; flex: 1; position: relative; }
   .panel-foot { display: flex; align-items: center; justify-content: space-between; gap: 10px;
     padding: 14px 20px; border-top: 1px solid var(--line); flex-shrink: 0; flex-wrap: wrap; }
 
@@ -209,8 +209,33 @@
     word-break: break-word;
   }
   .ed-body:empty::before { content: attr(data-ph); color: #c4c8cf; }
-  .ed-body img { max-width: 100%; height: auto; border-radius: 10px; margin: 8px 0; display: block; }
+  .ed-body img { max-width: 100%; height: auto; border-radius: 10px; margin: 8px 0; display: block; cursor: pointer; }
+  .ed-body img.sel { outline: 2.5px solid var(--uiux); outline-offset: 2px; }
   .ed-body.drag { outline: 2px dashed var(--uiux); outline-offset: 6px; border-radius: 8px; }
+
+  /* 이미지 편집 툴(크기·이동·삭제) */
+  .img-tools { position: absolute; z-index: 6; pointer-events: none; }
+  .img-tools.hidden { display: none; }
+  .it-bar {
+    position: absolute; top: -42px; left: 50%; transform: translateX(-50%);
+    display: flex; align-items: center; gap: 1px; background: var(--ink);
+    border-radius: 10px; padding: 4px; box-shadow: 0 5px 16px rgba(20,22,28,.28);
+    pointer-events: auto; white-space: nowrap;
+  }
+  .it-bar button {
+    border: 0; background: transparent; color: #fff; font-family: inherit; font-weight: 700;
+    font-size: .8rem; padding: 5px 9px; border-radius: 7px; cursor: pointer; line-height: 1;
+    min-width: 28px;
+  }
+  .it-bar button:hover { background: rgba(255,255,255,.18); }
+  .it-bar .it-del:hover { background: var(--del); }
+  .it-sep { width: 1px; align-self: stretch; background: rgba(255,255,255,.22); margin: 3px 3px; }
+  .it-handle {
+    position: absolute; right: -8px; bottom: -8px; width: 17px; height: 17px;
+    background: var(--uiux); border: 2.5px solid #fff; border-radius: 50%;
+    cursor: nwse-resize; pointer-events: auto; box-shadow: 0 1px 5px rgba(20,22,28,.35);
+    touch-action: none;
+  }
 
   /* ── 뷰어 본문 ── */
   .view-body { color: var(--text); font-size: 1rem; line-height: 1.7; word-break: break-word; }
@@ -493,7 +518,9 @@ function openEditor(post){
   body.addEventListener("blur",saveSel);
 
   // 저장해 둔 커서 위치에 이미지를 삽입하고, 다음 삽입이 그 뒤로 이어지도록 위치를 갱신한다.
-  const insertImg=src=>{restoreSel();document.execCommand("insertHTML",false,`<img src="${src}" alt="">`);saveSel();};
+  const insertImg=src=>{restoreSel();document.execCommand("insertHTML",false,`<img src="${src}" alt="">`);saveSel();ensureTrailingLine();};
+  // 이미지가 맨 끝에 오면 그 뒤에 타이핑할 빈 줄을 보장한다(텍스트를 이어 쓸 수 있게).
+  function ensureTrailingLine(){const l=body.lastChild;if(l&&l.nodeName==="IMG"){const d=document.createElement("div");d.innerHTML="<br>";body.appendChild(d);}}
   $("[data-img]").onclick=()=>fileIn.click();
   fileIn.onchange=async()=>{for(const f of [...fileIn.files]){if(f.type.startsWith("image/"))insertImg(await processImageFile(f));}fileIn.value="";};
 
@@ -514,7 +541,56 @@ function openEditor(post){
     else saveSel();
     for(const f of files)insertImg(await processImageFile(f));});
 
+  /* ── 이미지 편집(크기 조절·이동·삭제) — 노션/블로그처럼 ── */
+  try{document.execCommand("enableObjectResizing",false,false);}catch(e){}  // 브라우저 기본 리사이즈 UI 끔
+  const panelBody=ov.querySelector(".panel-body");
+  let selImg=null;
+  const tools=document.createElement("div");tools.className="img-tools hidden";
+  tools.innerHTML=`<div class="it-bar">
+      <button data-sz="35" title="작게">작게</button>
+      <button data-sz="65" title="중간">중간</button>
+      <button data-sz="100" title="크게">크게</button>
+      <span class="it-sep"></span>
+      <button data-move="up" title="위로 이동">↑</button>
+      <button data-move="down" title="아래로 이동">↓</button>
+      <span class="it-sep"></span>
+      <button class="it-del" data-del title="삭제">삭제</button>
+    </div><span class="it-handle" title="드래그해서 크기 조절"></span>`;
+  panelBody.appendChild(tools);
+  const handle=tools.querySelector(".it-handle");
+
+  function showTools(){if(!selImg)return;const pr=panelBody.getBoundingClientRect(),ir=selImg.getBoundingClientRect();
+    tools.style.left=(ir.left-pr.left+panelBody.scrollLeft)+"px";tools.style.top=(ir.top-pr.top+panelBody.scrollTop)+"px";
+    tools.style.width=ir.width+"px";tools.style.height=ir.height+"px";tools.classList.remove("hidden");}
+  function hideTools(){if(selImg)selImg.classList.remove("sel");selImg=null;tools.classList.add("hidden");}
+  function selectImg(img){if(selImg)selImg.classList.remove("sel");selImg=img;img.classList.add("sel");showTools();}
+
+  // 이미지 클릭=선택, 그 외 클릭=선택 해제. 타이핑 시작하면 숨김.
+  ov.addEventListener("pointerdown",e=>{
+    if(e.target.closest&&e.target.closest(".img-tools"))return;
+    if(e.target.tagName==="IMG"&&body.contains(e.target)){selectImg(e.target);return;}
+    hideTools();
+  },true);
+  body.addEventListener("input",hideTools);
+
+  // 크기 프리셋 / 이동 / 삭제
+  tools.querySelectorAll("[data-sz]").forEach(b=>b.addEventListener("click",e=>{e.preventDefault();if(selImg){selImg.style.width=b.dataset.sz+"%";selImg.style.height="auto";showTools();}}));
+  tools.querySelector("[data-move='up']").addEventListener("click",e=>{e.preventDefault();if(selImg&&selImg.previousSibling){selImg.parentNode.insertBefore(selImg,selImg.previousSibling);showTools();}});
+  tools.querySelector("[data-move='down']").addEventListener("click",e=>{e.preventDefault();if(selImg&&selImg.nextSibling){selImg.parentNode.insertBefore(selImg.nextSibling,selImg);showTools();}});
+  tools.querySelector("[data-del]").addEventListener("click",e=>{e.preventDefault();if(selImg){selImg.remove();hideTools();}});
+
+  // 모서리 핸들 드래그로 자유 크기 조절(마우스·터치 공용)
+  handle.addEventListener("pointerdown",e=>{
+    if(!selImg)return;e.preventDefault();e.stopPropagation();
+    try{handle.setPointerCapture(e.pointerId);}catch(_){}
+    const startX=e.clientX,startW=selImg.getBoundingClientRect().width,colW=body.clientWidth||selImg.getBoundingClientRect().width;
+    const mv=ev=>{let w=startW+(ev.clientX-startX);w=Math.max(48,Math.min(colW,w));selImg.style.width=Math.round(w/colW*100)+"%";selImg.style.height="auto";showTools();};
+    const up=()=>{try{handle.releasePointerCapture(e.pointerId);}catch(_){}handle.removeEventListener("pointermove",mv);handle.removeEventListener("pointerup",up);};
+    handle.addEventListener("pointermove",mv);handle.addEventListener("pointerup",up);
+  });
+
   $("[data-save]").onclick=async()=>{
+    hideTools(); body.querySelectorAll("img.sel").forEach(i=>i.classList.remove("sel"));  // 선택 표시 저장 방지
     const title=titleEl.value.trim(), html=body.innerHTML.trim(), text=body.innerText.trim();
     if(!title && !text && !body.querySelector("img")){close();return;}
     const firstImg=body.querySelector("img"), now=Date.now();
