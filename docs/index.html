@@ -146,6 +146,85 @@
   .state { text-align: center; color: var(--muted); padding: 70px 16px; }
   .state .big { font-size: 2.2rem; margin-bottom: 12px; filter: grayscale(1); }
   .hidden { display: none !important; }
+
+  /* ── 게시판 (인사이트) ── */
+  .board-bar { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin: 22px 0 4px; flex-wrap: wrap; }
+  .board-bar .b-actions { display: flex; gap: 8px; flex-wrap: wrap; }
+  .btn-primary {
+    border: 0; background: var(--ink); color: #fff; font-family: inherit; font-weight: 700;
+    font-size: .9rem; padding: 11px 18px; border-radius: 11px; cursor: pointer; transition: .12s;
+    display: inline-flex; align-items: center; gap: 7px;
+  }
+  .btn-primary:hover { background: #3a3d44; transform: translateY(-1px); }
+  .btn-primary svg { width: 16px; height: 16px; }
+  .btn-ghost {
+    border: 1px solid var(--border); background: var(--card); color: var(--text); font-family: inherit;
+    font-weight: 600; font-size: .82rem; padding: 9px 13px; border-radius: 10px; cursor: pointer;
+    transition: .12s; box-shadow: var(--shadow);
+  }
+  .btn-ghost:hover { color: var(--ink); border-color: #d4d8df; }
+
+  .post-card .c-title { padding-right: 6px; }
+  .post-thumb { width: 100%; height: 140px; object-fit: cover; border-radius: 12px; margin: 14px 0 0; background: var(--soft); border: 1px solid var(--line); }
+  .post-preview { color: var(--text); font-size: .9rem; line-height: 1.55; margin-top: 12px;
+    display: -webkit-box; -webkit-line-clamp: 4; -webkit-box-orient: vertical; overflow: hidden; }
+  .post-card { min-height: 0; }
+  .post-card .c-date { margin-top: 14px; }
+
+  /* ── 오버레이 (에디터 / 뷰어 공용) ── */
+  .overlay {
+    position: fixed; inset: 0; z-index: 50; background: rgba(20,22,28,.42);
+    backdrop-filter: blur(3px); display: flex; align-items: center; justify-content: center;
+    padding: 24px; overflow-y: auto;
+  }
+  .panel {
+    background: var(--card); border-radius: 20px; width: 100%; max-width: 720px;
+    max-height: calc(100vh - 48px); display: flex; flex-direction: column;
+    box-shadow: 0 20px 60px rgba(20,22,28,.28); overflow: hidden;
+  }
+  .panel-head { display: flex; align-items: center; justify-content: space-between; gap: 12px;
+    padding: 16px 20px; border-bottom: 1px solid var(--line); flex-shrink: 0; }
+  .panel-head .p-title { font-weight: 800; color: var(--ink); font-size: 1rem; }
+  .icon-btn { border: 0; background: var(--soft); color: var(--text); width: 34px; height: 34px;
+    border-radius: 9px; cursor: pointer; display: grid; place-items: center; transition: .12s; }
+  .icon-btn:hover { background: #e4e6ea; color: var(--ink); }
+  .icon-btn svg { width: 17px; height: 17px; }
+  .panel-body { padding: 18px 20px; overflow-y: auto; flex: 1; }
+  .panel-foot { display: flex; align-items: center; justify-content: space-between; gap: 10px;
+    padding: 14px 20px; border-top: 1px solid var(--line); flex-shrink: 0; flex-wrap: wrap; }
+
+  .ed-title {
+    width: 100%; border: 0; outline: 0; font-family: inherit; font-weight: 800; color: var(--ink);
+    font-size: 1.5rem; letter-spacing: -.02em; padding: 4px 0 10px; background: none;
+  }
+  .ed-title::placeholder { color: #c4c8cf; }
+  .ed-toolbar { display: flex; gap: 6px; padding: 6px 0 12px; border-bottom: 1px solid var(--line); margin-bottom: 12px; flex-wrap: wrap; }
+  .tbtn { border: 1px solid var(--border); background: var(--card); color: var(--text); font-family: inherit;
+    font-size: .82rem; font-weight: 700; padding: 6px 11px; border-radius: 8px; cursor: pointer; transition: .12s;
+    display: inline-flex; align-items: center; gap: 5px; }
+  .tbtn:hover { color: var(--ink); border-color: #d4d8df; background: var(--soft); }
+  .tbtn svg { width: 14px; height: 14px; }
+  .ed-body {
+    min-height: 220px; outline: 0; color: var(--text); font-size: 1rem; line-height: 1.7;
+    word-break: break-word;
+  }
+  .ed-body:empty::before { content: attr(data-ph); color: #c4c8cf; }
+  .ed-body img { max-width: 100%; height: auto; border-radius: 10px; margin: 8px 0; display: block; }
+  .ed-body.drag { outline: 2px dashed var(--uiux); outline-offset: 6px; border-radius: 8px; }
+
+  /* ── 뷰어 본문 ── */
+  .view-body { color: var(--text); font-size: 1rem; line-height: 1.7; word-break: break-word; }
+  .view-body img { max-width: 100%; height: auto; border-radius: 10px; margin: 10px 0; display: block; }
+  .view-date { color: var(--muted); font-size: .82rem; margin: 2px 0 16px; }
+  .view-title { font-size: 1.6rem; font-weight: 800; color: var(--ink); letter-spacing: -.02em; margin: 0 0 4px; line-height: 1.25; }
+
+  .danger { color: var(--del); }
+  .btn-ghost.danger:hover { border-color: var(--del-line); background: var(--del-bg); color: var(--del); }
+
+  @media (max-width: 640px) {
+    .overlay { padding: 0; }
+    .panel { max-width: 100%; max-height: 100%; height: 100%; border-radius: 0; }
+  }
 </style>
 </head>
 <body>
@@ -158,6 +237,7 @@
       <button class="tab active" data-tab="all">전체<span class="n" id="cnt-all">0</span></button>
       <button class="tab" data-tab="changes">변경 내역<span class="n" id="cnt-ch">0</span></button>
       <button class="tab" data-tab="sites">감시 사이트<span class="n" id="cnt-st">0</span></button>
+      <button class="tab" data-tab="board">게시판<span class="n" id="cnt-bd">0</span></button>
     </div>
 
     <div class="filters hidden" id="filters"></div>
@@ -284,6 +364,8 @@ function renderFilters(){
 function renderView(){
   const v=document.getElementById("view");
 
+  if(activeTab==="board"){ renderBoard(); return; }
+
   if(activeTab==="sites"){
     v.innerHTML = SITES.length ? `<div class="grid">${SITES.map(siteCard).join("")}</div>`
       : `<div class="state">감시 사이트 정보를 불러오지 못했습니다.</div>`;
@@ -319,12 +401,200 @@ function updateCounts(){
   document.getElementById("cnt-all").textContent=CHANGES.length;
   document.getElementById("cnt-ch").textContent=unread().length;
   document.getElementById("cnt-st").textContent=SITES.length;
+  document.getElementById("cnt-bd").textContent=POSTS.length;
 }
 
 function setTab(t){
   activeTab=t; activeSite=null;
   document.querySelectorAll(".tab").forEach(b=>b.classList.toggle("active",b.dataset.tab===t));
   renderFilters(); renderView();
+}
+
+/* ═══════════ 게시판(인사이트) — 브라우저 로컬 저장(IndexedDB) ═══════════ */
+const ICON_IMG   = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2.5"/><circle cx="8.5" cy="8.5" r="1.6"/><path d="m21 15-5-5L5 21"/></svg>';
+const ICON_X     = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M18 6 6 18M6 6l12 12"/></svg>';
+const ICON_TRASH = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"><path d="M3 6h18M8 6V4h8v2M6 6l1 14h10l1-14"/></svg>';
+const ICON_EDIT  = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9M16.5 3.5a2.1 2.1 0 0 1 3 3L7 19l-4 1 1-4z"/></svg>';
+
+const DB_NAME="siteMonitorBoard", STORE="posts"; let _db=null;
+function db(){return new Promise((res,rej)=>{
+  if(_db)return res(_db);
+  const rq=indexedDB.open(DB_NAME,1);
+  rq.onupgradeneeded=e=>{const d=e.target.result;if(!d.objectStoreNames.contains(STORE))d.createObjectStore(STORE,{keyPath:"id"});};
+  rq.onsuccess=e=>{_db=e.target.result;res(_db);};
+  rq.onerror=e=>rej(e.target.error);
+});}
+function idbAll(){return db().then(d=>new Promise((res,rej)=>{const t=d.transaction(STORE,"readonly").objectStore(STORE).getAll();t.onsuccess=()=>res(t.result||[]);t.onerror=()=>rej(t.error);}));}
+function idbPut(p){return db().then(d=>new Promise((res,rej)=>{const t=d.transaction(STORE,"readwrite");t.objectStore(STORE).put(p);t.oncomplete=()=>res();t.onerror=()=>rej(t.error);}));}
+function idbDel(id){return db().then(d=>new Promise((res,rej)=>{const t=d.transaction(STORE,"readwrite");t.objectStore(STORE).delete(id);t.oncomplete=()=>res();t.onerror=()=>rej(t.error);}));}
+
+let POSTS=[];
+async function loadPosts(){try{POSTS=(await idbAll()).sort((a,b)=>(b.updated||0)-(a.updated||0));}catch(e){POSTS=[];}}
+function uid(){return Date.now().toString(36)+Math.random().toString(36).slice(2,8);}
+
+/* 이미지: 최대 1400px·JPEG로 축소해 저장 용량을 아낀다 */
+function fileToDataURL(file){return new Promise((res,rej)=>{const r=new FileReader();r.onload=()=>res(r.result);r.onerror=rej;r.readAsDataURL(file);});}
+function downscale(dataUrl,maxDim,quality){return new Promise(res=>{
+  const img=new Image();
+  img.onload=()=>{let w=img.width,h=img.height;
+    if(w>maxDim||h>maxDim){const r=Math.min(maxDim/w,maxDim/h);w=Math.round(w*r);h=Math.round(h*r);}
+    const cv=document.createElement("canvas");cv.width=w;cv.height=h;
+    const ctx=cv.getContext("2d");ctx.fillStyle="#fff";ctx.fillRect(0,0,w,h);ctx.drawImage(img,0,0,w,h);
+    try{res(cv.toDataURL("image/jpeg",quality));}catch(e){res(dataUrl);}};
+  img.onerror=()=>res(dataUrl);
+  img.src=dataUrl;
+});}
+async function processImageFile(file){return downscale(await fileToDataURL(file),1400,.85);}
+
+/* ── 에디터 ── */
+function openEditor(post){
+  const ov=document.createElement("div");ov.className="overlay";
+  ov.innerHTML=`
+    <div class="panel" role="dialog" aria-modal="true">
+      <div class="panel-head">
+        <span class="p-title">${post?"인사이트 편집":"새 인사이트"}</span>
+        <button class="icon-btn" data-x aria-label="닫기">${ICON_X}</button>
+      </div>
+      <div class="panel-body">
+        <input class="ed-title" id="edTitle" placeholder="제목" maxlength="200">
+        <div class="ed-toolbar">
+          <button class="tbtn" data-cmd="bold" title="굵게"><b>B</b> 굵게</button>
+          <button class="tbtn" data-img title="이미지 첨부">${ICON_IMG} 이미지</button>
+          <input type="file" data-file accept="image/*" multiple hidden>
+        </div>
+        <div class="ed-body" id="edBody" contenteditable="true" data-ph="여기에 인사이트를 적어보세요. 이미지는 복사-붙여넣기(Ctrl/⌘+V), 드래그, 또는 위 ‘이미지’ 버튼으로 넣을 수 있어요."></div>
+      </div>
+      <div class="panel-foot">
+        <button class="btn-ghost" data-x>취소</button>
+        <button class="btn-primary" data-save>${ICON_CHECK} 저장</button>
+      </div>
+    </div>`;
+  document.body.appendChild(ov);
+  const $=s=>ov.querySelector(s);
+  const titleEl=$("#edTitle"), body=$("#edBody"), fileIn=$("[data-file]");
+  if(post){titleEl.value=post.title||"";body.innerHTML=post.html||"";}
+  setTimeout(()=>titleEl.focus(),30);
+
+  const close=()=>{document.removeEventListener("keydown",onKey);ov.remove();};
+  const onKey=e=>{if(e.key==="Escape")close();};
+  document.addEventListener("keydown",onKey);
+  ov.querySelectorAll("[data-x]").forEach(b=>b.onclick=close);
+  // 에디터는 배경 클릭으로 닫지 않는다(작성 중 내용 보호).
+
+  ov.querySelectorAll(".tbtn[data-cmd]").forEach(b=>b.onmousedown=e=>{e.preventDefault();document.execCommand(b.dataset.cmd,false);body.focus();});
+  const insertImg=src=>{body.focus();document.execCommand("insertHTML",false,`<img src="${src}" alt="">`);};
+  $("[data-img]").onclick=()=>fileIn.click();
+  fileIn.onchange=async()=>{for(const f of [...fileIn.files]){if(f.type.startsWith("image/"))insertImg(await processImageFile(f));}fileIn.value="";};
+
+  body.addEventListener("paste",async e=>{
+    const imgs=[...(e.clipboardData&&e.clipboardData.items||[])].filter(i=>i.type.startsWith("image/"));
+    if(imgs.length){e.preventDefault();for(const it of imgs){const f=it.getAsFile();if(f)insertImg(await processImageFile(f));}}
+  });
+  body.addEventListener("dragover",e=>{e.preventDefault();body.classList.add("drag");});
+  body.addEventListener("dragleave",()=>body.classList.remove("drag"));
+  body.addEventListener("drop",async e=>{e.preventDefault();body.classList.remove("drag");
+    for(const f of [...(e.dataTransfer&&e.dataTransfer.files||[])]){if(f.type.startsWith("image/"))insertImg(await processImageFile(f));}});
+
+  $("[data-save]").onclick=async()=>{
+    const title=titleEl.value.trim(), html=body.innerHTML.trim(), text=body.innerText.trim();
+    if(!title && !text && !body.querySelector("img")){close();return;}
+    const firstImg=body.querySelector("img"), now=Date.now();
+    const rec=post?POSTS.find(p=>p.id===post.id):null;
+    const rekord={
+      id: post?post.id:uid(),
+      title: title || (text.split("\n")[0]||"").slice(0,60) || "제목 없음",
+      html, text, thumb: firstImg?firstImg.src:"",
+      created: rec?rec.created:now, updated: now
+    };
+    try{await idbPut(rekord);}catch(e){alert("저장에 실패했어요. 저장 공간이 부족할 수 있으니 이미지 개수를 줄여보세요.");return;}
+    await loadPosts();close();updateCounts();if(activeTab==="board")renderBoard();
+  };
+}
+
+/* ── 뷰어 ── */
+function openViewer(id){
+  const post=POSTS.find(p=>p.id===id);if(!post)return;
+  const ov=document.createElement("div");ov.className="overlay";
+  const edited=post.updated&&post.created&&post.updated!==post.created;
+  ov.innerHTML=`
+    <div class="panel" role="dialog" aria-modal="true">
+      <div class="panel-head">
+        <span class="p-title">인사이트</span>
+        <button class="icon-btn" data-x aria-label="닫기">${ICON_X}</button>
+      </div>
+      <div class="panel-body">
+        <h2 class="view-title">${esc(post.title||"제목 없음")}</h2>
+        <div class="view-date">${esc(fmtTime(new Date(post.created).toISOString()))}${edited?" · 수정됨":""}</div>
+        <div class="view-body">${post.html||"<span style='color:var(--muted)'>(내용 없음)</span>"}</div>
+      </div>
+      <div class="panel-foot">
+        <button class="btn-ghost danger" data-del>${ICON_TRASH} 삭제</button>
+        <button class="btn-primary" data-edit>${ICON_EDIT} 편집</button>
+      </div>
+    </div>`;
+  document.body.appendChild(ov);
+  const close=()=>{document.removeEventListener("keydown",onKey);ov.remove();};
+  const onKey=e=>{if(e.key==="Escape")close();};
+  document.addEventListener("keydown",onKey);
+  ov.querySelectorAll("[data-x]").forEach(b=>b.onclick=close);
+  ov.addEventListener("mousedown",e=>{if(e.target===ov)close();});
+  ov.querySelector("[data-edit]").onclick=()=>{close();openEditor(post);};
+  ov.querySelector("[data-del]").onclick=async()=>{
+    if(!confirm("이 인사이트를 삭제할까요? 되돌릴 수 없어요."))return;
+    try{await idbDel(post.id);}catch(e){}
+    await loadPosts();close();updateCounts();if(activeTab==="board")renderBoard();
+  };
+}
+
+/* ── 내보내기 / 가져오기(백업·기기이동) ── */
+function exportPosts(){
+  if(!POSTS.length){alert("내보낼 인사이트가 없어요.");return;}
+  const blob=new Blob([JSON.stringify(POSTS,null,2)],{type:"application/json"});
+  const a=document.createElement("a");a.href=URL.createObjectURL(blob);
+  a.download="insights-backup-"+new Date().toISOString().slice(0,10)+".json";
+  a.click();setTimeout(()=>URL.revokeObjectURL(a.href),1000);
+}
+async function importPosts(file){
+  if(!file)return;
+  try{
+    const arr=JSON.parse(await file.text());
+    if(!Array.isArray(arr))throw 0;
+    let n=0;
+    for(const p of arr){if(p&&p.id&&(p.html!=null||p.text!=null||p.title!=null)){await idbPut(p);n++;}}
+    await loadPosts();updateCounts();if(activeTab==="board")renderBoard();
+    alert(n+"개의 인사이트를 가져왔어요.");
+  }catch(e){alert("가져오기에 실패했어요. 올바른 백업 파일(JSON)인지 확인해 주세요.");}
+}
+
+/* ── 게시판 화면 ── */
+function postCard(p){
+  return `<div class="card post-card cat-etc" data-post="${esc(p.id)}">
+    <div class="c-head"><div class="c-title">${esc(p.title||"제목 없음")}</div></div>
+    ${p.thumb?`<img class="post-thumb" src="${esc(p.thumb)}" alt="">`:""}
+    ${p.text?`<div class="post-preview">${esc(p.text)}</div>`:""}
+    <div class="c-date">${esc(fmtTime(new Date(p.created).toISOString()))}</div>
+  </div>`;
+}
+function renderBoard(){
+  const v=document.getElementById("view");
+  const bar=`<div class="board-bar">
+      <button class="btn-primary" data-new>${ICON_PLUS} 새 인사이트</button>
+      <div class="b-actions">
+        <button class="btn-ghost" data-export>내보내기</button>
+        <button class="btn-ghost" data-import>가져오기</button>
+        <input type="file" data-importfile accept="application/json,.json" hidden>
+      </div>
+    </div>`;
+  const bodyHtml = POSTS.length
+    ? `<div class="grid">${POSTS.map(postCard).join("")}</div>`
+    : `<div class="state"><div class="big">✎</div>아직 저장한 인사이트가 없어요.<br><span style="font-size:.84rem">‘새 인사이트’를 눌러 마음에 드는 걸 적어보세요.</span></div>`;
+  v.innerHTML=bar+bodyHtml;
+  v.querySelector("[data-new]").onclick=()=>openEditor(null);
+  v.querySelectorAll("[data-post]").forEach(el=>el.onclick=()=>openViewer(el.dataset.post));
+  v.querySelector("[data-export]").onclick=exportPosts;
+  const imp=v.querySelector("[data-importfile]");
+  v.querySelector("[data-import]").onclick=()=>imp.click();
+  imp.onchange=()=>importPosts(imp.files[0]).then(()=>imp.value="");
 }
 
 async function getJSON(p){const r=await fetch(p+"?t="+Date.now(),{cache:"no-store"});if(!r.ok)throw new Error(p+" HTTP "+r.status);return r.json();}
@@ -335,6 +605,7 @@ async function load(){
     .filter(c=>c&&c.timestamp).sort((a,b)=>new Date(b.timestamp)-new Date(a.timestamp));
   SITES=(cfg.status==="fulfilled"&&cfg.value&&Array.isArray(cfg.value.sites))?cfg.value.sites:[];
   LATEST=(lt.status==="fulfilled"&&Array.isArray(lt.value))?lt.value:[];
+  await loadPosts();   // 게시판 글(로컬)도 불러와 탭 카운트 표시
   if(ch.status==="rejected"&&cfg.status==="rejected"){
     document.getElementById("view").innerHTML=`<div class="state"><div class="big">!</div>데이터를 불러오지 못했습니다.</div>`;
     return;
