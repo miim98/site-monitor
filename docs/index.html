@@ -481,19 +481,38 @@ function openEditor(post){
   ov.querySelectorAll("[data-x]").forEach(b=>b.onclick=close);
   // 에디터는 배경 클릭으로 닫지 않는다(작성 중 내용 보호).
 
-  ov.querySelectorAll(".tbtn[data-cmd]").forEach(b=>b.onmousedown=e=>{e.preventDefault();document.execCommand(b.dataset.cmd,false);body.focus();});
-  const insertImg=src=>{body.focus();document.execCommand("insertHTML",false,`<img src="${src}" alt="">`);};
+  ov.querySelectorAll(".tbtn[data-cmd]").forEach(b=>b.onmousedown=e=>{e.preventDefault();document.execCommand(b.dataset.cmd,false);body.focus();saveSel();});
+
+  // 커서(선택 영역)를 저장/복원 → 이미지를 '텍스트 사이' 원하는 지점에 넣는다.
+  // (첨부 버튼을 누르면 본문 포커스가 풀려 커서를 잃으므로 마지막 위치를 기억해 둔다.)
+  let savedRange=null;
+  function saveSel(){const s=window.getSelection();if(s&&s.rangeCount&&body.contains(s.anchorNode))savedRange=s.getRangeAt(0).cloneRange();}
+  function restoreSel(){body.focus();if(savedRange){const s=window.getSelection();s.removeAllRanges();s.addRange(savedRange);}}
+  body.addEventListener("keyup",saveSel);
+  body.addEventListener("mouseup",saveSel);
+  body.addEventListener("blur",saveSel);
+
+  // 저장해 둔 커서 위치에 이미지를 삽입하고, 다음 삽입이 그 뒤로 이어지도록 위치를 갱신한다.
+  const insertImg=src=>{restoreSel();document.execCommand("insertHTML",false,`<img src="${src}" alt="">`);saveSel();};
   $("[data-img]").onclick=()=>fileIn.click();
   fileIn.onchange=async()=>{for(const f of [...fileIn.files]){if(f.type.startsWith("image/"))insertImg(await processImageFile(f));}fileIn.value="";};
 
   body.addEventListener("paste",async e=>{
     const imgs=[...(e.clipboardData&&e.clipboardData.items||[])].filter(i=>i.type.startsWith("image/"));
-    if(imgs.length){e.preventDefault();for(const it of imgs){const f=it.getAsFile();if(f)insertImg(await processImageFile(f));}}
+    if(imgs.length){e.preventDefault();saveSel();for(const it of imgs){const f=it.getAsFile();if(f)insertImg(await processImageFile(f));}}
   });
   body.addEventListener("dragover",e=>{e.preventDefault();body.classList.add("drag");});
   body.addEventListener("dragleave",()=>body.classList.remove("drag"));
   body.addEventListener("drop",async e=>{e.preventDefault();body.classList.remove("drag");
-    for(const f of [...(e.dataTransfer&&e.dataTransfer.files||[])]){if(f.type.startsWith("image/"))insertImg(await processImageFile(f));}});
+    const files=[...(e.dataTransfer&&e.dataTransfer.files||[])].filter(f=>f.type.startsWith("image/"));
+    if(!files.length)return;
+    // 떨어뜨린 지점에 커서를 놓아 그 자리에 이미지가 들어가게 한다.
+    let r=null;
+    if(document.caretRangeFromPoint)r=document.caretRangeFromPoint(e.clientX,e.clientY);
+    else if(document.caretPositionFromPoint){const cp=document.caretPositionFromPoint(e.clientX,e.clientY);if(cp){r=document.createRange();r.setStart(cp.offsetNode,cp.offset);r.collapse(true);}}
+    if(r&&body.contains(r.startContainer)){const s=window.getSelection();s.removeAllRanges();s.addRange(r);savedRange=r.cloneRange();}
+    else saveSel();
+    for(const f of files)insertImg(await processImageFile(f));});
 
   $("[data-save]").onclick=async()=>{
     const title=titleEl.value.trim(), html=body.innerHTML.trim(), text=body.innerText.trim();
