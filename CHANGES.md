@@ -1,7 +1,10 @@
 # 새 글 모니터 (최근 14일)
 
-_마지막 실행: 2026-07-09 05:32 UTC_
+_마지막 실행: 2026-07-10 02:04 UTC_
 
+- `2026-07-10T02:03:04.407120+00:00` · designcompass-매거진 — [OpenAI, 업무용 AI 에이전트 ChatGPT Work 발표](https://designcompass.org/2026/07/10/openai-chatgpt-work-public-rollout/)
+- `2026-07-10T02:03:04.407120+00:00` · designcompass-매거진 — [오픈AI, AI 브라우저 챗GPT 아틀라스 종료](https://designcompass.org/2026/07/10/openai-chatgpt-atlas-shutdown/)
+- `2026-07-10T02:03:04.407120+00:00` · designcompass-매거진 — [구글, AI로 만든 광고에 표시 라벨 도입](https://designcompass.org/2026/07/10/google-ai-ad-label/)
 - `2026-07-09T05:31:51.103618+00:00` · designcompass-매거진 — [강남언니 리브랜딩, 내 선택에 확신을](https://designcompass.org/2026/07/09/gangnam-unni-rebrand-2026/)
 - `2026-07-09T05:31:51.103618+00:00` · designcompass-매거진 — [구글 AI 스튜디오, 깃허브 저장소 불러와 앱으로 배포하는 기능 추가](https://designcompass.org/2026/07/09/google-ai-studio-github-import/)
 - `2026-07-09T05:31:51.103618+00:00` · designcompass-매거진 — [오픈AI, 말하고 듣는 동시 처리 음성 모델 공개](https://designcompass.org/2026/07/09/openai-new-voice-models/)
