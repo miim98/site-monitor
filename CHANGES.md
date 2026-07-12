@@ -1,6 +1,6 @@
 # 새 글 모니터 (최근 14일)
 
-_마지막 실행: 2026-07-11 01:51 UTC_
+_마지막 실행: 2026-07-12 01:53 UTC_
 
 - `2026-07-10T02:03:04.407120+00:00` · designcompass-매거진 — [OpenAI, 업무용 AI 에이전트 ChatGPT Work 발표](https://designcompass.org/2026/07/10/openai-chatgpt-work-public-rollout/)
 - `2026-07-10T02:03:04.407120+00:00` · designcompass-매거진 — [오픈AI, AI 브라우저 챗GPT 아틀라스 종료](https://designcompass.org/2026/07/10/openai-chatgpt-atlas-shutdown/)
