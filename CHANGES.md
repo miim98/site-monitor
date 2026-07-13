@@ -1,7 +1,10 @@
 # 새 글 모니터 (최근 14일)
 
-_마지막 실행: 2026-07-12 01:53 UTC_
+_마지막 실행: 2026-07-13 01:56 UTC_
 
+- `2026-07-13T01:55:08.923348+00:00` · designcompass-매거진 — [42년의 헤리티지를 하나의 디자인 시스템으로, 우리강산 푸르게 푸르게 리브랜딩](https://designcompass.org/2026/07/13/keep-korea-green-brand-identity-redesign-2026/)
+- `2026-07-13T01:55:08.923348+00:00` · designcompass-매거진 — [GPT-5.6 솔 울트라, 50년 난제 ‘순환 이중 덮개 추측’ 증명](https://designcompass.org/2026/07/12/gpt-sol-ultra-math-proof/)
+- `2026-07-13T01:55:08.923348+00:00` · designcompass-매거진 — [오픈AI, 챗GPT 워크 출시 후 UX 혼란과 비용 문제 개선 착수](https://designcompass.org/2026/07/12/openai-chatgpt-work-ux-costs/)
 - `2026-07-10T02:03:04.407120+00:00` · designcompass-매거진 — [OpenAI, 업무용 AI 에이전트 ChatGPT Work 발표](https://designcompass.org/2026/07/10/openai-chatgpt-work-public-rollout/)
 - `2026-07-10T02:03:04.407120+00:00` · designcompass-매거진 — [오픈AI, AI 브라우저 챗GPT 아틀라스 종료](https://designcompass.org/2026/07/10/openai-chatgpt-atlas-shutdown/)
 - `2026-07-10T02:03:04.407120+00:00` · designcompass-매거진 — [구글, AI로 만든 광고에 표시 라벨 도입](https://designcompass.org/2026/07/10/google-ai-ad-label/)
