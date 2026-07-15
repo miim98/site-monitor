@@ -1,7 +1,14 @@
 # 새 글 모니터 (최근 14일)
 
-_마지막 실행: 2026-07-14 01:43 UTC_
+_마지막 실행: 2026-07-15 01:29 UTC_
 
+- `2026-07-15T01:28:33.407874+00:00` · designcompass-매거진 — [스포티파이, 대화로 음악 찾는 AI 챗봇 실험](https://designcompass.org/2026/07/15/spotify-ai-chatbot-music-discovery/)
+- `2026-07-15T01:28:33.407874+00:00` · designcompass-매거진 — [애플, iOS 27 공개 베타로 새 Siri AI 개방](https://designcompass.org/2026/07/15/apple-siri-ios-public-beta/)
+- `2026-07-15T01:28:33.407874+00:00` · designcompass-매거진 — [피그마, 팀과 AI가 함께 작업하는 ‘지능형 캔버스’ 공개합니다](https://designcompass.org/2026/07/15/figma-intelligent-canvas-ai-full-stack-creation/)
+- `2026-07-15T01:28:33.407874+00:00` · designcompass-매거진 — [RUGIET, 볼드한 남성 건강 브랜드](https://designcompass.org/2026/07/14/rugiet-man-health/)
+- `2026-07-15T01:28:33.407874+00:00` · designcompass-매거진 — [세븐일레븐 코리아, 7 비주얼 아이덴티티](https://designcompass.org/2026/07/14/7-eleven-korea-new-visual-identity/)
+- `2026-07-15T01:28:33.407874+00:00` · designcompass-매거진 — [그래놀라, AI답지 않은 AI 노트 브랜딩](https://designcompass.org/2026/07/14/granola-rebrand-case-study-ai-notepad/)
+- `2026-07-15T01:28:33.407874+00:00` · designcompass-매거진 — [윈도우 11 검색창, 간결해진 UX](https://designcompass.org/2026/07/14/microsoft-streamlines-windows-11-search-box/)
 - `2026-07-14T01:42:36.606898+00:00` · designcompass-매거진 — [제미나이 품은 웨이즈, 음성 명령으로 목적지 검색과 교통 신고 강화](https://designcompass.org/2026/07/14/waze-gemini-ai-voice/)
 - `2026-07-14T01:42:36.606898+00:00` · designcompass-매거진 — [삼성 메시지 앱 미국서 중단](https://designcompass.org/2026/07/14/samsung-messages-us-end-retain-guide/)
 - `2026-07-14T01:42:36.606898+00:00` · designcompass-매거진 — [앤트로픽, 구독자 대상 클로드 페이블 5 이용 기간 연장](https://designcompass.org/2026/07/14/anthropic-fable-5-free-access/)
