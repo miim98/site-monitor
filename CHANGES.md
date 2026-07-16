@@ -1,7 +1,12 @@
 # 새 글 모니터 (최근 14일)
 
-_마지막 실행: 2026-07-15 01:29 UTC_
+_마지막 실행: 2026-07-16 01:49 UTC_
 
+- `2026-07-16T01:48:25.384452+00:00` · designcompass-매거진 — [구글 이미지, 핀터레스트를 닮은 리디자인](https://designcompass.org/2026/07/16/google-images-25-for-you-redesign/)
+- `2026-07-16T01:48:25.384452+00:00` · designcompass-매거진 — [오픈AI, 코덱스 전용 키보드 출시](https://designcompass.org/2026/07/16/openai-codex-keyboard-launch/)
+- `2026-07-16T01:48:25.384452+00:00` · designcompass-매거진 — [리액터, AI 월드 모델 서비스](https://designcompass.org/2026/07/15/reactor-ai-world-models-brand-identity/)
+- `2026-07-16T01:48:25.384452+00:00` · designcompass-매거진 — [틴더 리브랜딩, 관점이 더해진 데이트](https://designcompass.org/2026/07/15/tinder-first-rebrand-in-nearly-a-decade/)
+- `2026-07-16T01:48:25.384452+00:00` · designcompass-매거진 — [삼성 Home Up 다중 손가락 제스처 업데이트](https://designcompass.org/2026/07/15/samsung-home-up-multifinger-gestures/)
 - `2026-07-15T01:28:33.407874+00:00` · designcompass-매거진 — [스포티파이, 대화로 음악 찾는 AI 챗봇 실험](https://designcompass.org/2026/07/15/spotify-ai-chatbot-music-discovery/)
 - `2026-07-15T01:28:33.407874+00:00` · designcompass-매거진 — [애플, iOS 27 공개 베타로 새 Siri AI 개방](https://designcompass.org/2026/07/15/apple-siri-ios-public-beta/)
 - `2026-07-15T01:28:33.407874+00:00` · designcompass-매거진 — [피그마, 팀과 AI가 함께 작업하는 ‘지능형 캔버스’ 공개합니다](https://designcompass.org/2026/07/15/figma-intelligent-canvas-ai-full-stack-creation/)
@@ -61,5 +66,3 @@ _마지막 실행: 2026-07-15 01:29 UTC_
 - `2026-07-06T02:01:05.515774+00:00` · designcompass-매거진 — [2026 월드컵 로고 논란, 정체성vs시스템](https://designcompass.org/2026/07/02/fifa-world-cup-2026-logo-controversy/)
 - `2026-07-06T02:01:05.515774+00:00` · designcompass-매거진 — [현대카드, 알파벳카드를 독자 브랜드로 분리](https://designcompass.org/2026/07/02/hyundaicard-alphabet-card-branding/)
 - `2026-07-06T02:01:05.515774+00:00` · designcompass-아티클 — [AI 아트워크 제네레이터, 일관성 지키면서 토큰 줄이기](https://designcompass.org/2026/07/06/ai-design-system-artwork-generator/)
-- `2026-07-01T01:51:48.521920+00:00` · designcompass-매거진 — [OpenAI, Codex 전용 미니 키보드](https://designcompass.org/2026/07/01/openai-codex-micro-keyboard/)
-- `2026-07-01T01:51:48.521920+00:00` · designcompass-매거진 — [알프스 2030, 산과 빛으로 만든 새로운 올림픽 브랜드 공개](https://designcompass.org/2026/07/01/alpes-2030-brand-identity/)

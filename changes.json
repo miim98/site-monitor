@@ -1,19 +1,5 @@
 [
   {
-    "timestamp": "2026-07-01T01:51:48.521920+00:00",
-    "site": "designcompass-매거진",
-    "url": "https://designcompass.org/magazine/",
-    "title": "OpenAI, Codex 전용 미니 키보드",
-    "link": "https://designcompass.org/2026/07/01/openai-codex-micro-keyboard/"
-  },
-  {
-    "timestamp": "2026-07-01T01:51:48.521920+00:00",
-    "site": "designcompass-매거진",
-    "url": "https://designcompass.org/magazine/",
-    "title": "알프스 2030, 산과 빛으로 만든 새로운 올림픽 브랜드 공개",
-    "link": "https://designcompass.org/2026/07/01/alpes-2030-brand-identity/"
-  },
-  {
     "timestamp": "2026-07-06T02:01:05.515774+00:00",
     "site": "designcompass-매거진",
     "url": "https://designcompass.org/magazine/",
@@ -425,5 +411,40 @@
     "url": "https://designcompass.org/magazine/",
     "title": "윈도우 11 검색창, 간결해진 UX",
     "link": "https://designcompass.org/2026/07/14/microsoft-streamlines-windows-11-search-box/"
+  },
+  {
+    "timestamp": "2026-07-16T01:48:25.384452+00:00",
+    "site": "designcompass-매거진",
+    "url": "https://designcompass.org/magazine/",
+    "title": "구글 이미지, 핀터레스트를 닮은 리디자인",
+    "link": "https://designcompass.org/2026/07/16/google-images-25-for-you-redesign/"
+  },
+  {
+    "timestamp": "2026-07-16T01:48:25.384452+00:00",
+    "site": "designcompass-매거진",
+    "url": "https://designcompass.org/magazine/",
+    "title": "오픈AI, 코덱스 전용 키보드 출시",
+    "link": "https://designcompass.org/2026/07/16/openai-codex-keyboard-launch/"
+  },
+  {
+    "timestamp": "2026-07-16T01:48:25.384452+00:00",
+    "site": "designcompass-매거진",
+    "url": "https://designcompass.org/magazine/",
+    "title": "리액터, AI 월드 모델 서비스",
+    "link": "https://designcompass.org/2026/07/15/reactor-ai-world-models-brand-identity/"
+  },
+  {
+    "timestamp": "2026-07-16T01:48:25.384452+00:00",
+    "site": "designcompass-매거진",
+    "url": "https://designcompass.org/magazine/",
+    "title": "틴더 리브랜딩, 관점이 더해진 데이트",
+    "link": "https://designcompass.org/2026/07/15/tinder-first-rebrand-in-nearly-a-decade/"
+  },
+  {
+    "timestamp": "2026-07-16T01:48:25.384452+00:00",
+    "site": "designcompass-매거진",
+    "url": "https://designcompass.org/magazine/",
+    "title": "삼성 Home Up 다중 손가락 제스처 업데이트",
+    "link": "https://designcompass.org/2026/07/15/samsung-home-up-multifinger-gestures/"
   }
 ]
