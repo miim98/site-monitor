@@ -1,7 +1,9 @@
 # 새 글 모니터 (최근 14일)
 
-_마지막 실행: 2026-07-16 01:49 UTC_
+_마지막 실행: 2026-07-17 01:53 UTC_
 
+- `2026-07-17T01:52:14.630552+00:00` · designcompass-매거진 — [OVO, 에그타르트 페이스트리가 느껴지는 브랜딩](https://designcompass.org/2026/07/16/ovo-egg-tart-brand-identity-packaging-design/)
+- `2026-07-17T01:52:14.630552+00:00` · designcompass-매거진 — [SFMOMA Sans, 전시 공간을 위한 전용 서체](https://designcompass.org/2026/07/16/sfmoma-sans-custom-typeface-accessibility/)
 - `2026-07-16T01:48:25.384452+00:00` · designcompass-매거진 — [구글 이미지, 핀터레스트를 닮은 리디자인](https://designcompass.org/2026/07/16/google-images-25-for-you-redesign/)
 - `2026-07-16T01:48:25.384452+00:00` · designcompass-매거진 — [오픈AI, 코덱스 전용 키보드 출시](https://designcompass.org/2026/07/16/openai-codex-keyboard-launch/)
 - `2026-07-16T01:48:25.384452+00:00` · designcompass-매거진 — [리액터, AI 월드 모델 서비스](https://designcompass.org/2026/07/15/reactor-ai-world-models-brand-identity/)
