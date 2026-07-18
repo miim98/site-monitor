@@ -1,6 +1,6 @@
 # 새 글 모니터 (최근 14일)
 
-_마지막 실행: 2026-07-17 01:53 UTC_
+_마지막 실행: 2026-07-18 01:43 UTC_
 
 - `2026-07-17T01:52:14.630552+00:00` · designcompass-매거진 — [OVO, 에그타르트 페이스트리가 느껴지는 브랜딩](https://designcompass.org/2026/07/16/ovo-egg-tart-brand-identity-packaging-design/)
 - `2026-07-17T01:52:14.630552+00:00` · designcompass-매거진 — [SFMOMA Sans, 전시 공간을 위한 전용 서체](https://designcompass.org/2026/07/16/sfmoma-sans-custom-typeface-accessibility/)
