@@ -32,12 +32,12 @@
     "url": "https://designcompass.org/magazine/",
     "items": [
       {
-        "title": "OVO, 에그타르트 페이스트리가 느껴지는 브랜딩",
-        "link": "https://designcompass.org/2026/07/16/ovo-egg-tart-brand-identity-packaging-design/"
+        "title": "소나타, 예술적 경험으로 푸는 의료 데이터",
+        "link": "https://designcompass.org/2026/07/20/sonata-health-brand-identity/"
       },
       {
-        "title": "SFMOMA Sans, 전시 공간을 위한 전용 서체",
-        "link": "https://designcompass.org/2026/07/16/sfmoma-sans-custom-typeface-accessibility/"
+        "title": "1Password, Claude 연동으로 비밀번호 노출 없는 AI 작업 지원",
+        "link": "https://designcompass.org/2026/07/17/1password-claude-credentials-integration/"
       }
     ]
   },
@@ -46,12 +46,12 @@
     "url": "https://designcompass.org/article/",
     "items": [
       {
-        "title": "AI 디자인 시스템 아키텍쳐",
-        "link": "https://designcompass.org/2026/07/13/ai-design-system-architecture/"
+        "title": "프로덕트 디자인 코어",
+        "link": "https://designcompass.org/2026/07/20/product-design-core/"
       },
       {
-        "title": "AI 아트워크 제네레이터, 일관성 지키면서 토큰 줄이기",
-        "link": "https://designcompass.org/2026/07/06/ai-design-system-artwork-generator/"
+        "title": "AI 디자인 시스템 아키텍쳐",
+        "link": "https://designcompass.org/2026/07/13/ai-design-system-architecture/"
       }
     ]
   },
