@@ -1,19 +1,5 @@
 [
   {
-    "timestamp": "2026-07-07T04:51:03.127565+00:00",
-    "site": "designcompass-매거진",
-    "url": "https://designcompass.org/magazine/",
-    "title": "구글 NotebookLM, 자료를 60초 숏폼 영상으로 요약",
-    "link": "https://designcompass.org/2026/07/07/google-notebooklm-short-video-overviews/"
-  },
-  {
-    "timestamp": "2026-07-08T00:06:05.152201+00:00",
-    "site": "designcompass-매거진",
-    "url": "https://designcompass.org/magazine/",
-    "title": "xAI, 스페이스X와 통합 후 ‘스페이스XAI’로 사명 변경",
-    "link": "https://designcompass.org/2026/07/08/xai-spacexai-new-logo/"
-  },
-  {
     "timestamp": "2026-07-08T04:13:03.444039+00:00",
     "site": "designcompass-매거진",
     "url": "https://designcompass.org/magazine/",
@@ -439,5 +425,26 @@
     "url": "https://designcompass.org/magazine/",
     "title": "구글 비즈, 스튜디오 없이 만드는 개인 아바타 영상",
     "link": "https://designcompass.org/2026/07/17/google-vids-gemini-avatar/"
+  },
+  {
+    "timestamp": "2026-07-22T01:49:28.873042+00:00",
+    "site": "designcompass-매거진",
+    "url": "https://designcompass.org/magazine/",
+    "title": "Franki, 취향과 커뮤니티 기반 레스토랑 플랫폼",
+    "link": "https://designcompass.org/2026/07/22/franki-make-time-dance-rebrand/"
+  },
+  {
+    "timestamp": "2026-07-22T01:49:28.873042+00:00",
+    "site": "designcompass-매거진",
+    "url": "https://designcompass.org/magazine/",
+    "title": "테슬라, 밸런스 바이크 출시",
+    "link": "https://designcompass.org/2026/07/22/tesla-kids-balance-bike/"
+  },
+  {
+    "timestamp": "2026-07-22T01:49:28.873042+00:00",
+    "site": "designcompass-매거진",
+    "url": "https://designcompass.org/magazine/",
+    "title": "피그마 위브로 만든 디자인 스튜디오 자체 축구 클럽",
+    "link": "https://designcompass.org/2026/07/21/zak-fc-studio-football-club-identity/"
   }
 ]

@@ -1,7 +1,10 @@
 # 새 글 모니터 (최근 14일)
 
-_마지막 실행: 2026-07-21 01:51 UTC_
+_마지막 실행: 2026-07-22 01:50 UTC_
 
+- `2026-07-22T01:49:28.873042+00:00` · designcompass-매거진 — [Franki, 취향과 커뮤니티 기반 레스토랑 플랫폼](https://designcompass.org/2026/07/22/franki-make-time-dance-rebrand/)
+- `2026-07-22T01:49:28.873042+00:00` · designcompass-매거진 — [테슬라, 밸런스 바이크 출시](https://designcompass.org/2026/07/22/tesla-kids-balance-bike/)
+- `2026-07-22T01:49:28.873042+00:00` · designcompass-매거진 — [피그마 위브로 만든 디자인 스튜디오 자체 축구 클럽](https://designcompass.org/2026/07/21/zak-fc-studio-football-club-identity/)
 - `2026-07-21T01:50:36.769073+00:00` · designcompass-매거진 — [코카콜라, 상징 자산을 강화한 글로벌 브랜드 아이덴티티 공개](https://designcompass.org/2026/07/21/coca-cola-global-visual-identity/)
 - `2026-07-21T01:50:36.769073+00:00` · designcompass-매거진 — [구글 비즈, 스튜디오 없이 만드는 개인 아바타 영상](https://designcompass.org/2026/07/17/google-vids-gemini-avatar/)
 - `2026-07-20T02:07:32.903592+00:00` · designcompass-매거진 — [소나타, 예술적 경험으로 푸는 의료 데이터](https://designcompass.org/2026/07/20/sonata-health-brand-identity/)
@@ -63,5 +66,3 @@ _마지막 실행: 2026-07-21 01:51 UTC_
 - `2026-07-08T07:27:01.676397+00:00` · designcompass-매거진 — [텐센트, 295B 오픈 MoE 모델 ‘Hy3’ 공개…256K 컨텍스트 지원](https://designcompass.org/2026/07/08/tencent-hy3-open-moe-model/)
 - `2026-07-08T07:27:01.676397+00:00` · designcompass-매거진 — [구글, Gemini API 관리형 에이전트 기능 확대](https://designcompass.org/2026/07/08/gemini-api-managed-agents-update/)
 - `2026-07-08T04:13:03.444039+00:00` · designcompass-매거진 — [Windows 11 하반기 업데이트](https://designcompass.org/2026/07/08/windows-11-%ed%95%98%eb%b0%98%ea%b8%b0-%ec%97%85%eb%8d%b0%ec%9d%b4%ed%8a%b8/)
-- `2026-07-08T00:06:05.152201+00:00` · designcompass-매거진 — [xAI, 스페이스X와 통합 후 ‘스페이스XAI’로 사명 변경](https://designcompass.org/2026/07/08/xai-spacexai-new-logo/)
-- `2026-07-07T04:51:03.127565+00:00` · designcompass-매거진 — [구글 NotebookLM, 자료를 60초 숏폼 영상으로 요약](https://designcompass.org/2026/07/07/google-notebooklm-short-video-overviews/)
