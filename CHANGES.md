@@ -1,7 +1,9 @@
 # 새 글 모니터 (최근 14일)
 
-_마지막 실행: 2026-07-22 01:50 UTC_
+_마지막 실행: 2026-07-23 01:58 UTC_
 
+- `2026-07-23T01:56:52.253126+00:00` · designcompass-매거진 — [Human, 직접 말로 나누는 대화의 리듬](https://designcompass.org/2026/07/22/human-spoken-language-identity/)
+- `2026-07-23T01:56:52.253126+00:00` · does-web-mobile-platform — [퐁피두센터 한화 미술관 홈페이지](https://www.does.kr/project/centrepompidou-hanwha/)
 - `2026-07-22T01:49:28.873042+00:00` · designcompass-매거진 — [Franki, 취향과 커뮤니티 기반 레스토랑 플랫폼](https://designcompass.org/2026/07/22/franki-make-time-dance-rebrand/)
 - `2026-07-22T01:49:28.873042+00:00` · designcompass-매거진 — [테슬라, 밸런스 바이크 출시](https://designcompass.org/2026/07/22/tesla-kids-balance-bike/)
 - `2026-07-22T01:49:28.873042+00:00` · designcompass-매거진 — [피그마 위브로 만든 디자인 스튜디오 자체 축구 클럽](https://designcompass.org/2026/07/21/zak-fc-studio-football-club-identity/)
@@ -61,8 +63,3 @@ _마지막 실행: 2026-07-22 01:50 UTC_
 - `2026-07-09T02:45:49.687797+00:00` · designcompass-아티클 — [AI에게 기능만 제공하는 프로덕트들](https://designcompass.org/product-backendization/)
 - `2026-07-09T02:45:49.687797+00:00` · designcompass-아티클 — [디자이너의 전문성은 어떻게 될까?](https://designcompass.org/professional-expertise-as-a-designer/)
 - `2026-07-09T02:45:49.687797+00:00` · designcompass-아티클 — [미래를 점치는 신비로운 운세 프로덕트](https://designcompass.org/mystical-fortune-product-that-predicts-the-future/)
-- `2026-07-08T07:27:01.676397+00:00` · designcompass-매거진 — [메타, 새 AI 이미지 생성기 ‘뮤즈 이미지’ 공개…사진 활용 논란도 확산](https://designcompass.org/2026/07/08/meta-muse-image-ai-generator/)
-- `2026-07-08T07:27:01.676397+00:00` · designcompass-매거진 — [앤트로픽, 클로드 코워크 모바일·웹 지원 시작](https://designcompass.org/2026/07/08/claude-cowork-mobile-web-2/)
-- `2026-07-08T07:27:01.676397+00:00` · designcompass-매거진 — [텐센트, 295B 오픈 MoE 모델 ‘Hy3’ 공개…256K 컨텍스트 지원](https://designcompass.org/2026/07/08/tencent-hy3-open-moe-model/)
-- `2026-07-08T07:27:01.676397+00:00` · designcompass-매거진 — [구글, Gemini API 관리형 에이전트 기능 확대](https://designcompass.org/2026/07/08/gemini-api-managed-agents-update/)
-- `2026-07-08T04:13:03.444039+00:00` · designcompass-매거진 — [Windows 11 하반기 업데이트](https://designcompass.org/2026/07/08/windows-11-%ed%95%98%eb%b0%98%ea%b8%b0-%ec%97%85%eb%8d%b0%ec%9d%b4%ed%8a%b8/)
