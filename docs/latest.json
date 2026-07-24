@@ -28,34 +28,6 @@
     ]
   },
   {
-    "site": "designcompass-매거진",
-    "url": "https://designcompass.org/magazine/",
-    "items": [
-      {
-        "title": "Human, 직접 말로 나누는 대화의 리듬",
-        "link": "https://designcompass.org/2026/07/22/human-spoken-language-identity/"
-      },
-      {
-        "title": "Franki, 취향과 커뮤니티 기반 레스토랑 플랫폼",
-        "link": "https://designcompass.org/2026/07/22/franki-make-time-dance-rebrand/"
-      }
-    ]
-  },
-  {
-    "site": "designcompass-아티클",
-    "url": "https://designcompass.org/article/",
-    "items": [
-      {
-        "title": "프로덕트 디자인 코어",
-        "link": "https://designcompass.org/2026/07/20/product-design-core/"
-      },
-      {
-        "title": "AI 디자인 시스템 아키텍쳐",
-        "link": "https://designcompass.org/2026/07/13/ai-design-system-architecture/"
-      }
-    ]
-  },
-  {
     "site": "does-web-mobile-platform",
     "url": "https://www.does.kr/projects/web-mobile-platform/",
     "items": [
