@@ -1,6 +1,6 @@
 # 새 글 모니터 (최근 14일)
 
-_마지막 실행: 2026-07-26 01:57 UTC_
+_마지막 실행: 2026-07-27 02:05 UTC_
 
 - `2026-07-23T01:56:52.253126+00:00` · designcompass-매거진 — [Human, 직접 말로 나누는 대화의 리듬](https://designcompass.org/2026/07/22/human-spoken-language-identity/)
 - `2026-07-23T01:56:52.253126+00:00` · does-web-mobile-platform — [퐁피두센터 한화 미술관 홈페이지](https://www.does.kr/project/centrepompidou-hanwha/)
@@ -34,6 +34,3 @@ _마지막 실행: 2026-07-26 01:57 UTC_
 - `2026-07-14T01:42:36.606898+00:00` · designcompass-매거진 — [뉴욕타임스, 2026 연례 콘퍼런스 위한 새로운 모션 아이덴티티](https://designcompass.org/2026/07/13/new-york-times-annual-conference-2026-motion-identity/)
 - `2026-07-14T01:42:36.606898+00:00` · designcompass-매거진 — [Figma Make에 들어온 GPT‑5.6, 디자이너 업무는 어떻게 바뀔까?](https://designcompass.org/2026/07/13/figma-make-gpt-5-6/)
 - `2026-07-14T01:42:36.606898+00:00` · designcompass-아티클 — [AI 디자인 시스템 아키텍쳐](https://designcompass.org/2026/07/13/ai-design-system-architecture/)
-- `2026-07-13T01:55:08.923348+00:00` · designcompass-매거진 — [42년의 헤리티지를 하나의 디자인 시스템으로, 우리강산 푸르게 푸르게 리브랜딩](https://designcompass.org/2026/07/13/keep-korea-green-brand-identity-redesign-2026/)
-- `2026-07-13T01:55:08.923348+00:00` · designcompass-매거진 — [GPT-5.6 솔 울트라, 50년 난제 ‘순환 이중 덮개 추측’ 증명](https://designcompass.org/2026/07/12/gpt-sol-ultra-math-proof/)
-- `2026-07-13T01:55:08.923348+00:00` · designcompass-매거진 — [오픈AI, 챗GPT 워크 출시 후 UX 혼란과 비용 문제 개선 착수](https://designcompass.org/2026/07/12/openai-chatgpt-work-ux-costs/)
