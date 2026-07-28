@@ -1,6 +1,6 @@
 # 새 글 모니터 (최근 14일)
 
-_마지막 실행: 2026-07-27 02:05 UTC_
+_마지막 실행: 2026-07-28 01:47 UTC_
 
 - `2026-07-23T01:56:52.253126+00:00` · designcompass-매거진 — [Human, 직접 말로 나누는 대화의 리듬](https://designcompass.org/2026/07/22/human-spoken-language-identity/)
 - `2026-07-23T01:56:52.253126+00:00` · does-web-mobile-platform — [퐁피두센터 한화 미술관 홈페이지](https://www.does.kr/project/centrepompidou-hanwha/)
@@ -27,10 +27,3 @@ _마지막 실행: 2026-07-27 02:05 UTC_
 - `2026-07-15T01:28:33.407874+00:00` · designcompass-매거진 — [세븐일레븐 코리아, 7 비주얼 아이덴티티](https://designcompass.org/2026/07/14/7-eleven-korea-new-visual-identity/)
 - `2026-07-15T01:28:33.407874+00:00` · designcompass-매거진 — [그래놀라, AI답지 않은 AI 노트 브랜딩](https://designcompass.org/2026/07/14/granola-rebrand-case-study-ai-notepad/)
 - `2026-07-15T01:28:33.407874+00:00` · designcompass-매거진 — [윈도우 11 검색창, 간결해진 UX](https://designcompass.org/2026/07/14/microsoft-streamlines-windows-11-search-box/)
-- `2026-07-14T01:42:36.606898+00:00` · designcompass-매거진 — [제미나이 품은 웨이즈, 음성 명령으로 목적지 검색과 교통 신고 강화](https://designcompass.org/2026/07/14/waze-gemini-ai-voice/)
-- `2026-07-14T01:42:36.606898+00:00` · designcompass-매거진 — [삼성 메시지 앱 미국서 중단](https://designcompass.org/2026/07/14/samsung-messages-us-end-retain-guide/)
-- `2026-07-14T01:42:36.606898+00:00` · designcompass-매거진 — [앤트로픽, 구독자 대상 클로드 페이블 5 이용 기간 연장](https://designcompass.org/2026/07/14/anthropic-fable-5-free-access/)
-- `2026-07-14T01:42:36.606898+00:00` · designcompass-매거진 — [핫식스, 3년 만에 패키지 전면 리뉴얼…‘가장 뜨거운 불꽃’을 담다](https://designcompass.org/2026/07/13/hot6-package-redesign-2026/)
-- `2026-07-14T01:42:36.606898+00:00` · designcompass-매거진 — [뉴욕타임스, 2026 연례 콘퍼런스 위한 새로운 모션 아이덴티티](https://designcompass.org/2026/07/13/new-york-times-annual-conference-2026-motion-identity/)
-- `2026-07-14T01:42:36.606898+00:00` · designcompass-매거진 — [Figma Make에 들어온 GPT‑5.6, 디자이너 업무는 어떻게 바뀔까?](https://designcompass.org/2026/07/13/figma-make-gpt-5-6/)
-- `2026-07-14T01:42:36.606898+00:00` · designcompass-아티클 — [AI 디자인 시스템 아키텍쳐](https://designcompass.org/2026/07/13/ai-design-system-architecture/)
