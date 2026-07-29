@@ -1,6 +1,6 @@
 # 새 글 모니터 (최근 14일)
 
-_마지막 실행: 2026-07-28 01:47 UTC_
+_마지막 실행: 2026-07-29 01:49 UTC_
 
 - `2026-07-23T01:56:52.253126+00:00` · designcompass-매거진 — [Human, 직접 말로 나누는 대화의 리듬](https://designcompass.org/2026/07/22/human-spoken-language-identity/)
 - `2026-07-23T01:56:52.253126+00:00` · does-web-mobile-platform — [퐁피두센터 한화 미술관 홈페이지](https://www.does.kr/project/centrepompidou-hanwha/)
@@ -20,10 +20,3 @@ _마지막 실행: 2026-07-28 01:47 UTC_
 - `2026-07-16T01:48:25.384452+00:00` · designcompass-매거진 — [리액터, AI 월드 모델 서비스](https://designcompass.org/2026/07/15/reactor-ai-world-models-brand-identity/)
 - `2026-07-16T01:48:25.384452+00:00` · designcompass-매거진 — [틴더 리브랜딩, 관점이 더해진 데이트](https://designcompass.org/2026/07/15/tinder-first-rebrand-in-nearly-a-decade/)
 - `2026-07-16T01:48:25.384452+00:00` · designcompass-매거진 — [삼성 Home Up 다중 손가락 제스처 업데이트](https://designcompass.org/2026/07/15/samsung-home-up-multifinger-gestures/)
-- `2026-07-15T01:28:33.407874+00:00` · designcompass-매거진 — [스포티파이, 대화로 음악 찾는 AI 챗봇 실험](https://designcompass.org/2026/07/15/spotify-ai-chatbot-music-discovery/)
-- `2026-07-15T01:28:33.407874+00:00` · designcompass-매거진 — [애플, iOS 27 공개 베타로 새 Siri AI 개방](https://designcompass.org/2026/07/15/apple-siri-ios-public-beta/)
-- `2026-07-15T01:28:33.407874+00:00` · designcompass-매거진 — [피그마, 팀과 AI가 함께 작업하는 ‘지능형 캔버스’ 공개합니다](https://designcompass.org/2026/07/15/figma-intelligent-canvas-ai-full-stack-creation/)
-- `2026-07-15T01:28:33.407874+00:00` · designcompass-매거진 — [RUGIET, 볼드한 남성 건강 브랜드](https://designcompass.org/2026/07/14/rugiet-man-health/)
-- `2026-07-15T01:28:33.407874+00:00` · designcompass-매거진 — [세븐일레븐 코리아, 7 비주얼 아이덴티티](https://designcompass.org/2026/07/14/7-eleven-korea-new-visual-identity/)
-- `2026-07-15T01:28:33.407874+00:00` · designcompass-매거진 — [그래놀라, AI답지 않은 AI 노트 브랜딩](https://designcompass.org/2026/07/14/granola-rebrand-case-study-ai-notepad/)
-- `2026-07-15T01:28:33.407874+00:00` · designcompass-매거진 — [윈도우 11 검색창, 간결해진 UX](https://designcompass.org/2026/07/14/microsoft-streamlines-windows-11-search-box/)
