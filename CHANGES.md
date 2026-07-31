@@ -1,6 +1,6 @@
 # 새 글 모니터 (최근 14일)
 
-_마지막 실행: 2026-07-30 01:31 UTC_
+_마지막 실행: 2026-07-31 01:58 UTC_
 
 - `2026-07-23T01:56:52.253126+00:00` · designcompass-매거진 — [Human, 직접 말로 나누는 대화의 리듬](https://designcompass.org/2026/07/22/human-spoken-language-identity/)
 - `2026-07-23T01:56:52.253126+00:00` · does-web-mobile-platform — [퐁피두센터 한화 미술관 홈페이지](https://www.does.kr/project/centrepompidou-hanwha/)
@@ -13,10 +13,3 @@ _마지막 실행: 2026-07-30 01:31 UTC_
 - `2026-07-20T02:07:32.903592+00:00` · designcompass-매거진 — [1Password, Claude 연동으로 비밀번호 노출 없는 AI 작업 지원](https://designcompass.org/2026/07/17/1password-claude-credentials-integration/)
 - `2026-07-20T02:07:32.903592+00:00` · designcompass-매거진 — [구글, 노트북LM에서 제미나이 노트북으로](https://designcompass.org/2026/07/17/google-gemini-notebook-renaming/)
 - `2026-07-20T02:07:32.903592+00:00` · designcompass-아티클 — [프로덕트 디자인 코어](https://designcompass.org/2026/07/20/product-design-core/)
-- `2026-07-17T01:52:14.630552+00:00` · designcompass-매거진 — [OVO, 에그타르트 페이스트리가 느껴지는 브랜딩](https://designcompass.org/2026/07/16/ovo-egg-tart-brand-identity-packaging-design/)
-- `2026-07-17T01:52:14.630552+00:00` · designcompass-매거진 — [SFMOMA Sans, 전시 공간을 위한 전용 서체](https://designcompass.org/2026/07/16/sfmoma-sans-custom-typeface-accessibility/)
-- `2026-07-16T01:48:25.384452+00:00` · designcompass-매거진 — [구글 이미지, 핀터레스트를 닮은 리디자인](https://designcompass.org/2026/07/16/google-images-25-for-you-redesign/)
-- `2026-07-16T01:48:25.384452+00:00` · designcompass-매거진 — [오픈AI, 코덱스 전용 키보드 출시](https://designcompass.org/2026/07/16/openai-codex-keyboard-launch/)
-- `2026-07-16T01:48:25.384452+00:00` · designcompass-매거진 — [리액터, AI 월드 모델 서비스](https://designcompass.org/2026/07/15/reactor-ai-world-models-brand-identity/)
-- `2026-07-16T01:48:25.384452+00:00` · designcompass-매거진 — [틴더 리브랜딩, 관점이 더해진 데이트](https://designcompass.org/2026/07/15/tinder-first-rebrand-in-nearly-a-decade/)
-- `2026-07-16T01:48:25.384452+00:00` · designcompass-매거진 — [삼성 Home Up 다중 손가락 제스처 업데이트](https://designcompass.org/2026/07/15/samsung-home-up-multifinger-gestures/)
