@@ -1,26 +1,5 @@
 [
   {
-    "timestamp": "2026-07-22T01:49:28.873042+00:00",
-    "site": "designcompass-매거진",
-    "url": "https://designcompass.org/magazine/",
-    "title": "Franki, 취향과 커뮤니티 기반 레스토랑 플랫폼",
-    "link": "https://designcompass.org/2026/07/22/franki-make-time-dance-rebrand/"
-  },
-  {
-    "timestamp": "2026-07-22T01:49:28.873042+00:00",
-    "site": "designcompass-매거진",
-    "url": "https://designcompass.org/magazine/",
-    "title": "테슬라, 밸런스 바이크 출시",
-    "link": "https://designcompass.org/2026/07/22/tesla-kids-balance-bike/"
-  },
-  {
-    "timestamp": "2026-07-22T01:49:28.873042+00:00",
-    "site": "designcompass-매거진",
-    "url": "https://designcompass.org/magazine/",
-    "title": "피그마 위브로 만든 디자인 스튜디오 자체 축구 클럽",
-    "link": "https://designcompass.org/2026/07/21/zak-fc-studio-football-club-identity/"
-  },
-  {
     "timestamp": "2026-07-23T01:56:52.253126+00:00",
     "site": "designcompass-매거진",
     "url": "https://designcompass.org/magazine/",
@@ -33,5 +12,12 @@
     "url": "https://www.does.kr/projects/web-mobile-platform/",
     "title": "퐁피두센터 한화 미술관 홈페이지",
     "link": "https://www.does.kr/project/centrepompidou-hanwha/"
+  },
+  {
+    "timestamp": "2026-08-06T01:45:58.367656+00:00",
+    "site": "plusx-experience",
+    "url": "https://www.plus-ex.com/experience",
+    "title": "unni",
+    "link": "https://www.plus-ex.com/experience#unni"
   }
 ]
