@@ -1,23 +1,16 @@
 [
   {
-    "timestamp": "2026-07-23T01:56:52.253126+00:00",
-    "site": "designcompass-매거진",
-    "url": "https://designcompass.org/magazine/",
-    "title": "Human, 직접 말로 나누는 대화의 리듬",
-    "link": "https://designcompass.org/2026/07/22/human-spoken-language-identity/"
-  },
-  {
-    "timestamp": "2026-07-23T01:56:52.253126+00:00",
-    "site": "does-web-mobile-platform",
-    "url": "https://www.does.kr/projects/web-mobile-platform/",
-    "title": "퐁피두센터 한화 미술관 홈페이지",
-    "link": "https://www.does.kr/project/centrepompidou-hanwha/"
-  },
-  {
     "timestamp": "2026-08-06T01:45:58.367656+00:00",
     "site": "plusx-experience",
     "url": "https://www.plus-ex.com/experience",
     "title": "unni",
     "link": "https://www.plus-ex.com/experience#unni"
+  },
+  {
+    "timestamp": "2026-08-07T02:10:30.958490+00:00",
+    "site": "plusx-experience",
+    "url": "https://www.plus-ex.com/experience",
+    "title": "kt",
+    "link": "https://www.plus-ex.com/experience#kt"
   }
 ]
