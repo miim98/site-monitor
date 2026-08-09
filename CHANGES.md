@@ -1,6 +1,6 @@
 # 새 글 모니터 (최근 14일)
 
-_마지막 실행: 2026-08-08 00:58 UTC_
+_마지막 실행: 2026-08-09 01:02 UTC_
 
 - `2026-08-08T00:57:31.421536+00:00` · dfy-work — [HOME&SHOPPING (Branding)](https://www.dfy.co.kr/work/homeshopping)
 - `2026-08-08T00:57:31.421536+00:00` · dfy-work — [MOZAIQ (Website)](https://www.dfy.co.kr/work/mozaiq)
