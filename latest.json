@@ -28,6 +28,34 @@
     ]
   },
   {
+    "site": "designcompass-매거진",
+    "url": "https://designcompass.org/magazine/",
+    "items": [
+      {
+        "title": "아스널의 역사를 글자로 옮긴 ‘로캐슬’",
+        "link": "https://designcompass.org/2026/10/13/arsenal-rocastle-blackletter-typeface-david-rudnick/"
+      },
+      {
+        "title": "메타, 기억하며 작업하는 AI ‘뮤즈 원더’ 공개",
+        "link": "https://designcompass.org/2026/10/13/meta-muse-wonder-ai-agent/"
+      }
+    ]
+  },
+  {
+    "site": "designcompass-아티클",
+    "url": "https://designcompass.org/article/",
+    "items": [
+      {
+        "title": "AI 디자인 시스템의 헬베티카를 꿈꾸며",
+        "link": "https://designcompass.org/2026/10/12/the-helvetica-of-ai-design-systems/"
+      },
+      {
+        "title": "크래프트",
+        "link": "https://designcompass.org/category/article/craft/"
+      }
+    ]
+  },
+  {
     "site": "does-web-mobile-platform",
     "url": "https://www.does.kr/projects/web-mobile-platform/",
     "items": [
