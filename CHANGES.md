@@ -1,7 +1,9 @@
 # 새 글 모니터 (최근 14일)
 
-_마지막 실행: 2026-10-13 04:41 UTC_
+_마지막 실행: 2026-10-14 02:49 UTC_
 
+- `2026-10-14T02:48:43.449714+00:00` · dfy-work — [AIR PREMIA IAD LAUNCH (Campaign)](https://www.dfy.co.kr/work/air-premia-iad-launch)
+- `2026-10-14T02:48:43.449714+00:00` · designcompass-매거진 — [애플 홈뷰, 거리에 따라 화면이 바뀌는 스마트 홈 디스플레이](https://designcompass.org/2026/10/14/apple-homeview-smart-home-display-design/)
 - `2026-10-13T04:40:00.158531+00:00` · designcompass-매거진 — [아스널의 역사를 글자로 옮긴 ‘로캐슬’](https://designcompass.org/2026/10/13/arsenal-rocastle-blackletter-typeface-david-rudnick/)
 - `2026-10-13T04:40:00.158531+00:00` · designcompass-매거진 — [메타, 기억하며 작업하는 AI ‘뮤즈 원더’ 공개](https://designcompass.org/2026/10/13/meta-muse-wonder-ai-agent/)
 - `2026-10-13T04:40:00.158531+00:00` · designcompass-매거진 — [로얄코펜하겐, 왕관과 물결을 다듬은 새 아이덴티티 공개](https://designcompass.org/2026/10/12/royal-copenhagen-rebrand/)
