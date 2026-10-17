@@ -1,7 +1,8 @@
 # 새 글 모니터 (최근 14일)
 
-_마지막 실행: 2026-10-16 02:23 UTC_
+_마지막 실행: 2026-10-17 02:15 UTC_
 
+- `2026-10-17T02:14:39.314338+00:00` · designcompass-매거진 — [극장의 장식이 바의 그래픽으로, 테아테르바렌](https://designcompass.org/2026/10/16/theaterbaren-olssonbarbieri-brand-identity/)
 - `2026-10-15T02:27:56.136105+00:00` · designcompass-매거진 — [애플 뮤직, 빨간 앱 아이콘을 흑백으로 바꿉니다](https://designcompass.org/2026/10/15/apple-music-app-icon-redesign/)
 - `2026-10-14T02:48:43.449714+00:00` · dfy-work — [AIR PREMIA IAD LAUNCH (Campaign)](https://www.dfy.co.kr/work/air-premia-iad-launch)
 - `2026-10-14T02:48:43.449714+00:00` · designcompass-매거진 — [애플 홈뷰, 거리에 따라 화면이 바뀌는 스마트 홈 디스플레이](https://designcompass.org/2026/10/14/apple-homeview-smart-home-display-design/)
