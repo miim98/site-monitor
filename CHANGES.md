@@ -1,7 +1,9 @@
 # 새 글 모니터 (최근 14일)
 
-_마지막 실행: 2026-10-18 02:15 UTC_
+_마지막 실행: 2026-10-19 02:31 UTC_
 
+- `2026-10-19T02:30:24.498527+00:00` · designcompass-매거진 — [테슬라 로드스터, 하늘을 나는 자동차](https://designcompass.org/2026/10/19/tesla-roadster-spacex-design/)
+- `2026-10-19T02:30:24.498527+00:00` · designcompass-아티클 — [디자인 인텔리전스, 좋은 디자인을 판단하는 기준](https://designcompass.org/2026/10/19/design-intelligence-criteria-for-great-design/)
 - `2026-10-17T02:14:39.314338+00:00` · designcompass-매거진 — [극장의 장식이 바의 그래픽으로, 테아테르바렌](https://designcompass.org/2026/10/16/theaterbaren-olssonbarbieri-brand-identity/)
 - `2026-10-15T02:27:56.136105+00:00` · designcompass-매거진 — [애플 뮤직, 빨간 앱 아이콘을 흑백으로 바꿉니다](https://designcompass.org/2026/10/15/apple-music-app-icon-redesign/)
 - `2026-10-14T02:48:43.449714+00:00` · dfy-work — [AIR PREMIA IAD LAUNCH (Campaign)](https://www.dfy.co.kr/work/air-premia-iad-launch)
