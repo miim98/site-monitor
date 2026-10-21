@@ -1,7 +1,8 @@
 # 새 글 모니터 (최근 14일)
 
-_마지막 실행: 2026-10-20 02:44 UTC_
+_마지막 실행: 2026-10-21 02:38 UTC_
 
+- `2026-10-21T02:36:52.662496+00:00` · designcompass-매거진 — [피그마, 코드와 기획 문서를 캔버스로 가져오다](https://designcompass.org/2026/10/21/figma-code-layers-specs-payload/)
 - `2026-10-20T02:43:18.631671+00:00` · designcompass-매거진 — [현대카드 디자인 시스템, Architect of Change](https://designcompass.org/2026/10/20/hyundai-card-wolff-olins-brand-design-system/)
 - `2026-10-20T02:43:18.631671+00:00` · designcompass-매거진 — [애플 10월 이벤트, ‘Pro and tell.’](https://designcompass.org/2026/10/20/apple-pro-and-tell-event-october-2026/)
 - `2026-10-20T02:43:18.631671+00:00` · designcompass-매거진 — [컴패스 업데이트, 쓰는 즐거움을 더하는 디자인](https://designcompass.org/2026/10/19/compass-update-designed-to-delight/)
