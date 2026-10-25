@@ -1,6 +1,6 @@
 # 새 글 모니터 (최근 14일)
 
-_마지막 실행: 2026-10-24 02:38 UTC_
+_마지막 실행: 2026-10-25 02:26 UTC_
 
 - `2026-10-22T02:34:21.387348+00:00` · designcompass-매거진 — [소리가 만든 물결, 애플 뮤직의 새 얼굴](https://designcompass.org/2026/10/22/apple-music-made-by-sound-brand-identity/)
 - `2026-10-22T02:34:21.387348+00:00` · designcompass-아티클 — [생존을 위한 나만의 디자인 언어 만들기](https://designcompass.org/2026/10/21/build-your-own-design-language/)
