@@ -1,7 +1,8 @@
 # 새 글 모니터 (최근 14일)
 
-_마지막 실행: 2026-10-28 03:11 UTC_
+_마지막 실행: 2026-10-29 03:37 UTC_
 
+- `2026-10-29T03:36:09.708385+00:00` · designcompass-매거진 — [애플, 터치 되는 맥북 프로 공개](https://designcompass.org/2026/10/29/apple-macbook-pro-oled-touchscreen/)
 - `2026-10-28T03:10:46.711355+00:00` · designcompass-매거진 — [틴에이지 엔지니어링, 듣고 연주하는 스피커 EP–35 공개](https://designcompass.org/2026/10/28/teenage-engineering-ep-35-portable-speaker-amp/)
 - `2026-10-28T03:10:46.711355+00:00` · designcompass-매거진 — [로펌 화이트앤케이스, 에너지를 시각화한 사선 타이포그래피](https://designcompass.org/2026/10/28/white-case-uncommon-brand-identity/)
 - `2026-10-27T03:00:17.327486+00:00` · designcompass-매거진 — [MLB, 야구의 글자에서 새 정체성을 찾다](https://designcompass.org/2026/10/27/mlb-mother-design-heritage-type-system/)
@@ -18,4 +19,3 @@ _마지막 실행: 2026-10-28 03:11 UTC_
 - `2026-10-19T02:30:24.498527+00:00` · designcompass-매거진 — [테슬라 로드스터, 하늘을 나는 자동차](https://designcompass.org/2026/10/19/tesla-roadster-spacex-design/)
 - `2026-10-19T02:30:24.498527+00:00` · designcompass-아티클 — [디자인 인텔리전스, 좋은 디자인을 판단하는 기준](https://designcompass.org/2026/10/19/design-intelligence-criteria-for-great-design/)
 - `2026-10-17T02:14:39.314338+00:00` · designcompass-매거진 — [극장의 장식이 바의 그래픽으로, 테아테르바렌](https://designcompass.org/2026/10/16/theaterbaren-olssonbarbieri-brand-identity/)
-- `2026-10-15T02:27:56.136105+00:00` · designcompass-매거진 — [애플 뮤직, 빨간 앱 아이콘을 흑백으로 바꿉니다](https://designcompass.org/2026/10/15/apple-music-app-icon-redesign/)
