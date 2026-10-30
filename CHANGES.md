@@ -1,7 +1,9 @@
 # 새 글 모니터 (최근 14일)
 
-_마지막 실행: 2026-10-29 03:37 UTC_
+_마지막 실행: 2026-10-30 03:40 UTC_
 
+- `2026-10-30T03:39:43.491776+00:00` · designcompass-매거진 — [애플 맥북 프로 M6, 14인치에 담은 새 칩과 AI 처리 성능](https://designcompass.org/2026/10/30/apple-macbook-pro-14-inch-m6-2026/)
+- `2026-10-30T03:39:43.491776+00:00` · designcompass-매거진 — [구글 지니 4, 소리와 대화까지 생성하는 가상 세계](https://designcompass.org/2026/10/30/google-deepmind-genie-4-interactive-world-model/)
 - `2026-10-29T03:36:09.708385+00:00` · designcompass-매거진 — [애플, 터치 되는 맥북 프로 공개](https://designcompass.org/2026/10/29/apple-macbook-pro-oled-touchscreen/)
 - `2026-10-28T03:10:46.711355+00:00` · designcompass-매거진 — [틴에이지 엔지니어링, 듣고 연주하는 스피커 EP–35 공개](https://designcompass.org/2026/10/28/teenage-engineering-ep-35-portable-speaker-amp/)
 - `2026-10-28T03:10:46.711355+00:00` · designcompass-매거진 — [로펌 화이트앤케이스, 에너지를 시각화한 사선 타이포그래피](https://designcompass.org/2026/10/28/white-case-uncommon-brand-identity/)
