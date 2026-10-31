@@ -1,6 +1,6 @@
 # 새 글 모니터 (최근 14일)
 
-_마지막 실행: 2026-10-30 03:40 UTC_
+_마지막 실행: 2026-10-31 03:24 UTC_
 
 - `2026-10-30T03:39:43.491776+00:00` · designcompass-매거진 — [애플 맥북 프로 M6, 14인치에 담은 새 칩과 AI 처리 성능](https://designcompass.org/2026/10/30/apple-macbook-pro-14-inch-m6-2026/)
 - `2026-10-30T03:39:43.491776+00:00` · designcompass-매거진 — [구글 지니 4, 소리와 대화까지 생성하는 가상 세계](https://designcompass.org/2026/10/30/google-deepmind-genie-4-interactive-world-model/)
@@ -20,4 +20,3 @@ _마지막 실행: 2026-10-30 03:40 UTC_
 - `2026-10-20T02:43:18.631671+00:00` · designcompass-매거진 — [아트크래프트, 개인이 만든 어도비 대체 무료 프로그램](https://designcompass.org/2026/10/19/artcraft-open-source-adobe-alternatives/)
 - `2026-10-19T02:30:24.498527+00:00` · designcompass-매거진 — [테슬라 로드스터, 하늘을 나는 자동차](https://designcompass.org/2026/10/19/tesla-roadster-spacex-design/)
 - `2026-10-19T02:30:24.498527+00:00` · designcompass-아티클 — [디자인 인텔리전스, 좋은 디자인을 판단하는 기준](https://designcompass.org/2026/10/19/design-intelligence-criteria-for-great-design/)
-- `2026-10-17T02:14:39.314338+00:00` · designcompass-매거진 — [극장의 장식이 바의 그래픽으로, 테아테르바렌](https://designcompass.org/2026/10/16/theaterbaren-olssonbarbieri-brand-identity/)
