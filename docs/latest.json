@@ -28,34 +28,6 @@
     ]
   },
   {
-    "site": "designcompass-매거진",
-    "url": "https://designcompass.org/magazine/",
-    "items": [
-      {
-        "title": "애플 맥북 프로 M6, 14인치에 담은 새 칩과 AI 처리 성능",
-        "link": "https://designcompass.org/2026/10/30/apple-macbook-pro-14-inch-m6-2026/"
-      },
-      {
-        "title": "오브젝트",
-        "link": "https://designcompass.org/category/news/object/"
-      }
-    ]
-  },
-  {
-    "site": "designcompass-아티클",
-    "url": "https://designcompass.org/article/",
-    "items": [
-      {
-        "title": "생존을 위한 나만의 디자인 언어 만들기",
-        "link": "https://designcompass.org/2026/10/21/build-your-own-design-language/"
-      },
-      {
-        "title": "크래프트",
-        "link": "https://designcompass.org/category/article/craft/"
-      }
-    ]
-  },
-  {
     "site": "does-web-mobile-platform",
     "url": "https://www.does.kr/projects/web-mobile-platform/",
     "items": [
