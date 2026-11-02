@@ -1,19 +1,5 @@
 [
   {
-    "timestamp": "2026-10-19T02:30:24.498527+00:00",
-    "site": "designcompass-매거진",
-    "url": "https://designcompass.org/magazine/",
-    "title": "테슬라 로드스터, 하늘을 나는 자동차",
-    "link": "https://designcompass.org/2026/10/19/tesla-roadster-spacex-design/"
-  },
-  {
-    "timestamp": "2026-10-19T02:30:24.498527+00:00",
-    "site": "designcompass-아티클",
-    "url": "https://designcompass.org/article/",
-    "title": "디자인 인텔리전스, 좋은 디자인을 판단하는 기준",
-    "link": "https://designcompass.org/2026/10/19/design-intelligence-criteria-for-great-design/"
-  },
-  {
     "timestamp": "2026-10-20T02:43:18.631671+00:00",
     "site": "designcompass-매거진",
     "url": "https://designcompass.org/magazine/",
@@ -124,5 +110,12 @@
     "url": "https://designcompass.org/magazine/",
     "title": "구글 지니 4, 소리와 대화까지 생성하는 가상 세계",
     "link": "https://designcompass.org/2026/10/30/google-deepmind-genie-4-interactive-world-model/"
+  },
+  {
+    "timestamp": "2026-11-02T03:33:20.994611+00:00",
+    "site": "designcompass-매거진",
+    "url": "https://designcompass.org/magazine/",
+    "title": "제미나이, 대화창에서 문서를 만들고 직접 편집하는 기능 추가",
+    "link": "https://designcompass.org/2026/11/02/google-gemini-direct-file-editing-documents-pdf/"
   }
 ]

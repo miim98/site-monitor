@@ -1,7 +1,8 @@
 # 새 글 모니터 (최근 14일)
 
-_마지막 실행: 2026-11-01 03:25 UTC_
+_마지막 실행: 2026-11-02 03:34 UTC_
 
+- `2026-11-02T03:33:20.994611+00:00` · designcompass-매거진 — [제미나이, 대화창에서 문서를 만들고 직접 편집하는 기능 추가](https://designcompass.org/2026/11/02/google-gemini-direct-file-editing-documents-pdf/)
 - `2026-10-30T03:39:43.491776+00:00` · designcompass-매거진 — [애플 맥북 프로 M6, 14인치에 담은 새 칩과 AI 처리 성능](https://designcompass.org/2026/10/30/apple-macbook-pro-14-inch-m6-2026/)
 - `2026-10-30T03:39:43.491776+00:00` · designcompass-매거진 — [구글 지니 4, 소리와 대화까지 생성하는 가상 세계](https://designcompass.org/2026/10/30/google-deepmind-genie-4-interactive-world-model/)
 - `2026-10-29T03:36:09.708385+00:00` · designcompass-매거진 — [애플, 터치 되는 맥북 프로 공개](https://designcompass.org/2026/10/29/apple-macbook-pro-oled-touchscreen/)
@@ -18,5 +19,3 @@ _마지막 실행: 2026-11-01 03:25 UTC_
 - `2026-10-20T02:43:18.631671+00:00` · designcompass-매거진 — [애플 10월 이벤트, ‘Pro and tell.’](https://designcompass.org/2026/10/20/apple-pro-and-tell-event-october-2026/)
 - `2026-10-20T02:43:18.631671+00:00` · designcompass-매거진 — [컴패스 업데이트, 쓰는 즐거움을 더하는 디자인](https://designcompass.org/2026/10/19/compass-update-designed-to-delight/)
 - `2026-10-20T02:43:18.631671+00:00` · designcompass-매거진 — [아트크래프트, 개인이 만든 어도비 대체 무료 프로그램](https://designcompass.org/2026/10/19/artcraft-open-source-adobe-alternatives/)
-- `2026-10-19T02:30:24.498527+00:00` · designcompass-매거진 — [테슬라 로드스터, 하늘을 나는 자동차](https://designcompass.org/2026/10/19/tesla-roadster-spacex-design/)
-- `2026-10-19T02:30:24.498527+00:00` · designcompass-아티클 — [디자인 인텔리전스, 좋은 디자인을 판단하는 기준](https://designcompass.org/2026/10/19/design-intelligence-criteria-for-great-design/)
