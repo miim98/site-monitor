@@ -1,7 +1,14 @@
 # 새 글 모니터 (최근 14일)
 
-_마지막 실행: 2026-11-02 03:34 UTC_
+_마지막 실행: 2026-11-03 04:41 UTC_
 
+- `2026-11-03T04:40:29.290541+00:00` · designcompass-매거진 — [하우하우, 볼륨 조절 장치처럼 늘어나는 로고로 리브랜딩](https://designcompass.org/2026/11/03/how-how-rebrand-volume-dial-logo/)
+- `2026-11-03T04:40:29.290541+00:00` · designcompass-매거진 — [뉴캐슬 유나이티드, 전통 문장의 선과 균형을 다듬은 엠블럼](https://designcompass.org/2026/11/03/newcastle-united-new-crest-futurebrand/)
+- `2026-11-03T04:40:29.290541+00:00` · designcompass-매거진 — [KISS, 큐피드의 화살을 담은 리브랜딩](https://designcompass.org/2026/11/03/kiss-branding-rebrand-cupid-identity/)
+- `2026-11-03T04:40:29.290541+00:00` · designcompass-매거진 — [피그마와 산리오, 헬로키티를 협업 도구에 담은 디자인](https://designcompass.org/2026/11/03/figma-sanrio-hello-kitty-friends-figjam/)
+- `2026-11-03T04:40:29.290541+00:00` · designcompass-매거진 — [COMPASS UPDATE: 웹과 앱의 화면 구성을 위한 블록 업데이트](https://designcompass.org/2026/11/02/compass-update-web-app-ui-blocks/)
+- `2026-11-03T04:40:29.290541+00:00` · designcompass-매거진 — [런던 필름 스쿨, 영화의 프레이밍을 담은 붉은 아이덴티티](https://designcompass.org/2026/11/02/london-film-school-rabbithole-brand-identity/)
+- `2026-11-03T04:40:29.290541+00:00` · designcompass-매거진 — [퍼플 가든, 식물처럼 자라는 글자와 보라색으로 표현한 영적 상담](https://designcompass.org/2026/11/02/purple-garden-mother-design-brand-identity/)
 - `2026-11-02T03:33:20.994611+00:00` · designcompass-매거진 — [제미나이, 대화창에서 문서를 만들고 직접 편집하는 기능 추가](https://designcompass.org/2026/11/02/google-gemini-direct-file-editing-documents-pdf/)
 - `2026-10-30T03:39:43.491776+00:00` · designcompass-매거진 — [애플 맥북 프로 M6, 14인치에 담은 새 칩과 AI 처리 성능](https://designcompass.org/2026/10/30/apple-macbook-pro-14-inch-m6-2026/)
 - `2026-10-30T03:39:43.491776+00:00` · designcompass-매거진 — [구글 지니 4, 소리와 대화까지 생성하는 가상 세계](https://designcompass.org/2026/10/30/google-deepmind-genie-4-interactive-world-model/)
@@ -15,7 +22,3 @@ _마지막 실행: 2026-11-02 03:34 UTC_
 - `2026-10-22T02:34:21.387348+00:00` · designcompass-매거진 — [소리가 만든 물결, 애플 뮤직의 새 얼굴](https://designcompass.org/2026/10/22/apple-music-made-by-sound-brand-identity/)
 - `2026-10-22T02:34:21.387348+00:00` · designcompass-아티클 — [생존을 위한 나만의 디자인 언어 만들기](https://designcompass.org/2026/10/21/build-your-own-design-language/)
 - `2026-10-21T02:36:52.662496+00:00` · designcompass-매거진 — [피그마, 코드와 기획 문서를 캔버스로 가져오다](https://designcompass.org/2026/10/21/figma-code-layers-specs-payload/)
-- `2026-10-20T02:43:18.631671+00:00` · designcompass-매거진 — [현대카드 디자인 시스템, Architect of Change](https://designcompass.org/2026/10/20/hyundai-card-wolff-olins-brand-design-system/)
-- `2026-10-20T02:43:18.631671+00:00` · designcompass-매거진 — [애플 10월 이벤트, ‘Pro and tell.’](https://designcompass.org/2026/10/20/apple-pro-and-tell-event-october-2026/)
-- `2026-10-20T02:43:18.631671+00:00` · designcompass-매거진 — [컴패스 업데이트, 쓰는 즐거움을 더하는 디자인](https://designcompass.org/2026/10/19/compass-update-designed-to-delight/)
-- `2026-10-20T02:43:18.631671+00:00` · designcompass-매거진 — [아트크래프트, 개인이 만든 어도비 대체 무료 프로그램](https://designcompass.org/2026/10/19/artcraft-open-source-adobe-alternatives/)

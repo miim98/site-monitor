@@ -14,30 +14,16 @@
     ]
   },
   {
-    "site": "dfy-work",
-    "url": "https://www.dfy.co.kr/work",
-    "items": [
-      {
-        "title": "HOME&SHOPPING (Branding)",
-        "link": "https://www.dfy.co.kr/work/homeshopping"
-      },
-      {
-        "title": "NYPC (Website)",
-        "link": "https://www.dfy.co.kr/work/nypc"
-      }
-    ]
-  },
-  {
     "site": "designcompass-매거진",
     "url": "https://designcompass.org/magazine/",
     "items": [
       {
-        "title": "제미나이, 대화창에서 문서를 만들고 직접 편집하는 기능 추가",
-        "link": "https://designcompass.org/2026/11/02/google-gemini-direct-file-editing-documents-pdf/"
+        "title": "하우하우, 볼륨 조절 장치처럼 늘어나는 로고로 리브랜딩",
+        "link": "https://designcompass.org/2026/11/03/how-how-rebrand-volume-dial-logo/"
       },
       {
-        "title": "애플 맥북 프로 M6, 14인치에 담은 새 칩과 AI 처리 성능",
-        "link": "https://designcompass.org/2026/10/30/apple-macbook-pro-14-inch-m6-2026/"
+        "title": "뉴캐슬 유나이티드, 전통 문장의 선과 균형을 다듬은 엠블럼",
+        "link": "https://designcompass.org/2026/11/03/newcastle-united-new-crest-futurebrand/"
       }
     ]
   },
