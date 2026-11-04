@@ -1,12 +1,5 @@
 [
   {
-    "timestamp": "2026-10-21T02:36:52.662496+00:00",
-    "site": "designcompass-매거진",
-    "url": "https://designcompass.org/magazine/",
-    "title": "피그마, 코드와 기획 문서를 캔버스로 가져오다",
-    "link": "https://designcompass.org/2026/10/21/figma-code-layers-specs-payload/"
-  },
-  {
     "timestamp": "2026-10-22T02:34:21.387348+00:00",
     "site": "designcompass-매거진",
     "url": "https://designcompass.org/magazine/",
@@ -138,5 +131,33 @@
     "url": "https://designcompass.org/magazine/",
     "title": "퍼플 가든, 식물처럼 자라는 글자와 보라색으로 표현한 영적 상담",
     "link": "https://designcompass.org/2026/11/02/purple-garden-mother-design-brand-identity/"
+  },
+  {
+    "timestamp": "2026-11-04T04:00:05.820513+00:00",
+    "site": "designcompass-매거진",
+    "url": "https://designcompass.org/magazine/",
+    "title": "피그마 위브, AI 제작 과정을 연결하고 재사용하는 캔버스",
+    "link": "https://designcompass.org/2026/11/04/figma-weave-ai-creative-workflows/"
+  },
+  {
+    "timestamp": "2026-11-04T04:00:05.820513+00:00",
+    "site": "designcompass-매거진",
+    "url": "https://designcompass.org/magazine/",
+    "title": "어피니티, 스케치부터 편집까지 하나로 묶은 아이패드 앱 출시",
+    "link": "https://designcompass.org/2026/11/04/affinity-ipad-app-launch/"
+  },
+  {
+    "timestamp": "2026-11-04T04:00:05.820513+00:00",
+    "site": "designcompass-매거진",
+    "url": "https://designcompass.org/magazine/",
+    "title": "애플 헬스, 오늘의 상태와 장기 건강을 나눈 새 화면",
+    "link": "https://designcompass.org/2026/11/04/apple-health-ios-27-3-redesign/"
+  },
+  {
+    "timestamp": "2026-11-04T04:00:05.820513+00:00",
+    "site": "designcompass-아티클",
+    "url": "https://designcompass.org/article/",
+    "title": "시작하기",
+    "link": "https://designcompass.org/membership/?redirect_to=https%3A%2F%2Fdesigncompass.org%2Farticle%2F%3Futm_source%3Dchatgpt.com"
   }
 ]

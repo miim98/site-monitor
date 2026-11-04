@@ -1,7 +1,11 @@
 # 새 글 모니터 (최근 14일)
 
-_마지막 실행: 2026-11-03 04:41 UTC_
+_마지막 실행: 2026-11-04 04:01 UTC_
 
+- `2026-11-04T04:00:05.820513+00:00` · designcompass-매거진 — [피그마 위브, AI 제작 과정을 연결하고 재사용하는 캔버스](https://designcompass.org/2026/11/04/figma-weave-ai-creative-workflows/)
+- `2026-11-04T04:00:05.820513+00:00` · designcompass-매거진 — [어피니티, 스케치부터 편집까지 하나로 묶은 아이패드 앱 출시](https://designcompass.org/2026/11/04/affinity-ipad-app-launch/)
+- `2026-11-04T04:00:05.820513+00:00` · designcompass-매거진 — [애플 헬스, 오늘의 상태와 장기 건강을 나눈 새 화면](https://designcompass.org/2026/11/04/apple-health-ios-27-3-redesign/)
+- `2026-11-04T04:00:05.820513+00:00` · designcompass-아티클 — [시작하기](https://designcompass.org/membership/?redirect_to=https%3A%2F%2Fdesigncompass.org%2Farticle%2F%3Futm_source%3Dchatgpt.com)
 - `2026-11-03T04:40:29.290541+00:00` · designcompass-매거진 — [하우하우, 볼륨 조절 장치처럼 늘어나는 로고로 리브랜딩](https://designcompass.org/2026/11/03/how-how-rebrand-volume-dial-logo/)
 - `2026-11-03T04:40:29.290541+00:00` · designcompass-매거진 — [뉴캐슬 유나이티드, 전통 문장의 선과 균형을 다듬은 엠블럼](https://designcompass.org/2026/11/03/newcastle-united-new-crest-futurebrand/)
 - `2026-11-03T04:40:29.290541+00:00` · designcompass-매거진 — [KISS, 큐피드의 화살을 담은 리브랜딩](https://designcompass.org/2026/11/03/kiss-branding-rebrand-cupid-identity/)
@@ -21,4 +25,3 @@ _마지막 실행: 2026-11-03 04:41 UTC_
 - `2026-10-26T02:25:05.171384+00:00` · designcompass-매거진 — [비자, 결제 화면부터 광고까지 브랜드 디자인 개편](https://designcompass.org/2026/10/26/visa-brand-identity-refresh-digital-payments/)
 - `2026-10-22T02:34:21.387348+00:00` · designcompass-매거진 — [소리가 만든 물결, 애플 뮤직의 새 얼굴](https://designcompass.org/2026/10/22/apple-music-made-by-sound-brand-identity/)
 - `2026-10-22T02:34:21.387348+00:00` · designcompass-아티클 — [생존을 위한 나만의 디자인 언어 만들기](https://designcompass.org/2026/10/21/build-your-own-design-language/)
-- `2026-10-21T02:36:52.662496+00:00` · designcompass-매거진 — [피그마, 코드와 기획 문서를 캔버스로 가져오다](https://designcompass.org/2026/10/21/figma-code-layers-specs-payload/)
