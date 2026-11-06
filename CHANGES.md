@@ -1,7 +1,10 @@
 # 새 글 모니터 (최근 14일)
 
-_마지막 실행: 2026-11-05 04:23 UTC_
+_마지막 실행: 2026-11-06 04:29 UTC_
 
+- `2026-11-06T04:27:52.203328+00:00` · designcompass-매거진 — [고쿠요, 로고의 사선을 반복해 확장하는 브랜드 아이덴티티](https://designcompass.org/2026/11/06/kokuyo-rebranding-diagonal-logo-visual-identity/)
+- `2026-11-06T04:27:52.203328+00:00` · designcompass-매거진 — [에디츠, 멀티트랙 타임라인으로 확장한 맥 영상 편집 앱](https://designcompass.org/2026/11/06/instagram-edits-desktop-mac-video-editor/)
+- `2026-11-06T04:27:52.203328+00:00` · designcompass-매거진 — [뮤즈, 대화에 맞춰 표정과 몸짓을 바꾸는 AI 아바타](https://designcompass.org/2026/11/06/meta-muse-ai-voice-expressive-avatars/)
 - `2026-11-05T04:22:05.781916+00:00` · designcompass-매거진 — [크리스털, 음악에 반응하는 워드마크로 만든 브랜드 정체성](https://designcompass.org/2026/11/05/crystal-music-brand-identity-audio-reactive-wordmark/)
 - `2026-11-05T04:22:05.781916+00:00` · designcompass-매거진 — [아이폰 20주년 모델, 측면까지 감싸는 곡면 유리 디자인 루머](https://designcompass.org/2026/11/05/iphone-20th-anniversary-2027-curved-glass-design/)
 - `2026-11-04T04:00:05.820513+00:00` · designcompass-매거진 — [피그마 위브, AI 제작 과정을 연결하고 재사용하는 캔버스](https://designcompass.org/2026/11/04/figma-weave-ai-creative-workflows/)
