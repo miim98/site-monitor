@@ -1,6 +1,6 @@
 # 새 글 모니터 (최근 14일)
 
-_마지막 실행: 2026-11-07 03:51 UTC_
+_마지막 실행: 2026-11-08 03:32 UTC_
 
 - `2026-11-07T03:49:52.374398+00:00` · designcompass-매거진 — [ChatGPT Images 2.6, 사진과 스케치를 움직이는 GIF로](https://designcompass.org/2026/11/06/chatgpt-images-2-6-gif-animation/)
 - `2026-11-06T04:27:52.203328+00:00` · designcompass-매거진 — [고쿠요, 로고의 사선을 반복해 확장하는 브랜드 아이덴티티](https://designcompass.org/2026/11/06/kokuyo-rebranding-diagonal-logo-visual-identity/)
