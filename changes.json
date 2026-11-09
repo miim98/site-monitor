@@ -1,12 +1,5 @@
 [
   {
-    "timestamp": "2026-10-26T02:25:05.171384+00:00",
-    "site": "designcompass-매거진",
-    "url": "https://designcompass.org/magazine/",
-    "title": "비자, 결제 화면부터 광고까지 브랜드 디자인 개편",
-    "link": "https://designcompass.org/2026/10/26/visa-brand-identity-refresh-digital-payments/"
-  },
-  {
     "timestamp": "2026-10-27T03:00:17.327486+00:00",
     "site": "designcompass-매거진",
     "url": "https://designcompass.org/magazine/",
@@ -187,5 +180,26 @@
     "url": "https://designcompass.org/magazine/",
     "title": "ChatGPT Images 2.6, 사진과 스케치를 움직이는 GIF로",
     "link": "https://designcompass.org/2026/11/06/chatgpt-images-2-6-gif-animation/"
+  },
+  {
+    "timestamp": "2026-11-09T03:46:07.070699+00:00",
+    "site": "designcompass-매거진",
+    "url": "https://designcompass.org/magazine/",
+    "title": "Meta Spaces, 대화로 만드는 나만의 AI 앱 화면",
+    "link": "https://designcompass.org/2026/11/09/meta-muse-spaces-custom-ai-app-interface/"
+  },
+  {
+    "timestamp": "2026-11-09T03:46:07.070699+00:00",
+    "site": "designcompass-매거진",
+    "url": "https://designcompass.org/magazine/",
+    "title": "Simmer, 고대 사자 사냥을 담은 스포츠 게임 아이덴티티",
+    "link": "https://designcompass.org/2026/11/09/simmer-play-studio-sports-brand-identity/"
+  },
+  {
+    "timestamp": "2026-11-09T03:46:07.070699+00:00",
+    "site": "designcompass-아티클",
+    "url": "https://designcompass.org/article/",
+    "title": "매일 쓰는 유료 서비스가 된 식단 관리 앱 3",
+    "link": "https://designcompass.org/2026/11/09/nutrition-app-growth-strategies/"
   }
 ]

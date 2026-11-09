@@ -1,7 +1,10 @@
 # 새 글 모니터 (최근 14일)
 
-_마지막 실행: 2026-11-08 03:32 UTC_
+_마지막 실행: 2026-11-09 03:47 UTC_
 
+- `2026-11-09T03:46:07.070699+00:00` · designcompass-매거진 — [Meta Spaces, 대화로 만드는 나만의 AI 앱 화면](https://designcompass.org/2026/11/09/meta-muse-spaces-custom-ai-app-interface/)
+- `2026-11-09T03:46:07.070699+00:00` · designcompass-매거진 — [Simmer, 고대 사자 사냥을 담은 스포츠 게임 아이덴티티](https://designcompass.org/2026/11/09/simmer-play-studio-sports-brand-identity/)
+- `2026-11-09T03:46:07.070699+00:00` · designcompass-아티클 — [매일 쓰는 유료 서비스가 된 식단 관리 앱 3](https://designcompass.org/2026/11/09/nutrition-app-growth-strategies/)
 - `2026-11-07T03:49:52.374398+00:00` · designcompass-매거진 — [ChatGPT Images 2.6, 사진과 스케치를 움직이는 GIF로](https://designcompass.org/2026/11/06/chatgpt-images-2-6-gif-animation/)
 - `2026-11-06T04:27:52.203328+00:00` · designcompass-매거진 — [고쿠요, 로고의 사선을 반복해 확장하는 브랜드 아이덴티티](https://designcompass.org/2026/11/06/kokuyo-rebranding-diagonal-logo-visual-identity/)
 - `2026-11-06T04:27:52.203328+00:00` · designcompass-매거진 — [에디츠, 멀티트랙 타임라인으로 확장한 맥 영상 편집 앱](https://designcompass.org/2026/11/06/instagram-edits-desktop-mac-video-editor/)
@@ -28,4 +31,3 @@ _마지막 실행: 2026-11-08 03:32 UTC_
 - `2026-10-27T03:00:17.327486+00:00` · designcompass-매거진 — [MLB, 야구의 글자에서 새 정체성을 찾다](https://designcompass.org/2026/10/27/mlb-mother-design-heritage-type-system/)
 - `2026-10-27T03:00:17.327486+00:00` · designcompass-매거진 — [COMPASS UPDATE: 브랜드 비주얼 랭기지 업데이트](https://designcompass.org/2026/10/27/compass-update-brand-visual-language/)
 - `2026-10-27T03:00:17.327486+00:00` · designcompass-매거진 — [구글, 브랜드 스타일을 기억하는 제미나이 공개](https://designcompass.org/2026/10/26/google-gemini-on-brand-visuals/)
-- `2026-10-26T02:25:05.171384+00:00` · designcompass-매거진 — [비자, 결제 화면부터 광고까지 브랜드 디자인 개편](https://designcompass.org/2026/10/26/visa-brand-identity-refresh-digital-payments/)
