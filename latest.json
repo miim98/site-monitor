@@ -14,20 +14,6 @@
     ]
   },
   {
-    "site": "designcompass-매거진",
-    "url": "https://designcompass.org/magazine/",
-    "items": [
-      {
-        "title": "Meta Spaces, 대화로 만드는 나만의 AI 앱 화면",
-        "link": "https://designcompass.org/2026/11/09/meta-muse-spaces-custom-ai-app-interface/"
-      },
-      {
-        "title": "Simmer, 고대 사자 사냥을 담은 스포츠 게임 아이덴티티",
-        "link": "https://designcompass.org/2026/11/09/simmer-play-studio-sports-brand-identity/"
-      }
-    ]
-  },
-  {
     "site": "designcompass-아티클",
     "url": "https://designcompass.org/article/",
     "items": [

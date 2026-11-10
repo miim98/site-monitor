@@ -1,6 +1,6 @@
 # 새 글 모니터 (최근 14일)
 
-_마지막 실행: 2026-11-09 03:47 UTC_
+_마지막 실행: 2026-11-10 05:22 UTC_
 
 - `2026-11-09T03:46:07.070699+00:00` · designcompass-매거진 — [Meta Spaces, 대화로 만드는 나만의 AI 앱 화면](https://designcompass.org/2026/11/09/meta-muse-spaces-custom-ai-app-interface/)
 - `2026-11-09T03:46:07.070699+00:00` · designcompass-매거진 — [Simmer, 고대 사자 사냥을 담은 스포츠 게임 아이덴티티](https://designcompass.org/2026/11/09/simmer-play-studio-sports-brand-identity/)
@@ -28,6 +28,3 @@ _마지막 실행: 2026-11-09 03:47 UTC_
 - `2026-10-29T03:36:09.708385+00:00` · designcompass-매거진 — [애플, 터치 되는 맥북 프로 공개](https://designcompass.org/2026/10/29/apple-macbook-pro-oled-touchscreen/)
 - `2026-10-28T03:10:46.711355+00:00` · designcompass-매거진 — [틴에이지 엔지니어링, 듣고 연주하는 스피커 EP–35 공개](https://designcompass.org/2026/10/28/teenage-engineering-ep-35-portable-speaker-amp/)
 - `2026-10-28T03:10:46.711355+00:00` · designcompass-매거진 — [로펌 화이트앤케이스, 에너지를 시각화한 사선 타이포그래피](https://designcompass.org/2026/10/28/white-case-uncommon-brand-identity/)
-- `2026-10-27T03:00:17.327486+00:00` · designcompass-매거진 — [MLB, 야구의 글자에서 새 정체성을 찾다](https://designcompass.org/2026/10/27/mlb-mother-design-heritage-type-system/)
-- `2026-10-27T03:00:17.327486+00:00` · designcompass-매거진 — [COMPASS UPDATE: 브랜드 비주얼 랭기지 업데이트](https://designcompass.org/2026/10/27/compass-update-brand-visual-language/)
-- `2026-10-27T03:00:17.327486+00:00` · designcompass-매거진 — [구글, 브랜드 스타일을 기억하는 제미나이 공개](https://designcompass.org/2026/10/26/google-gemini-on-brand-visuals/)
