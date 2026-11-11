@@ -1,7 +1,11 @@
 # 새 글 모니터 (최근 14일)
 
-_마지막 실행: 2026-11-10 05:22 UTC_
+_마지막 실행: 2026-11-11 03:53 UTC_
 
+- `2026-11-11T03:51:45.307341+00:00` · designcompass-매거진 — [네이버지도, 대중교통과 내비게이션을 한 탭에](https://designcompass.org/2026/11/11/naver-map-move-tab-live-transit/)
+- `2026-11-11T03:51:45.307341+00:00` · designcompass-매거진 — [Zap Energy, 로고의 사선을 연구실 표지판까지 확장한 아이덴티티](https://designcompass.org/2026/11/10/zap-energy-brand-identity/)
+- `2026-11-11T03:51:45.307341+00:00` · designcompass-매거진 — [피그마, AI로 이미지 속 객체 선택부터 아이콘·일러스트 편집까지](https://designcompass.org/2026/11/10/figma-ai-object-selection-vector-illustration-editing/)
+- `2026-11-11T03:51:45.307341+00:00` · designcompass-아티클 — [요즘 뜨는 사우나 브랜드는 어떤 휴식을 팔까?](https://designcompass.org/2026/11/11/sauna-brand-positioning/)
 - `2026-11-09T03:46:07.070699+00:00` · designcompass-매거진 — [Meta Spaces, 대화로 만드는 나만의 AI 앱 화면](https://designcompass.org/2026/11/09/meta-muse-spaces-custom-ai-app-interface/)
 - `2026-11-09T03:46:07.070699+00:00` · designcompass-매거진 — [Simmer, 고대 사자 사냥을 담은 스포츠 게임 아이덴티티](https://designcompass.org/2026/11/09/simmer-play-studio-sports-brand-identity/)
 - `2026-11-09T03:46:07.070699+00:00` · designcompass-아티클 — [매일 쓰는 유료 서비스가 된 식단 관리 앱 3](https://designcompass.org/2026/11/09/nutrition-app-growth-strategies/)
@@ -26,5 +30,3 @@ _마지막 실행: 2026-11-10 05:22 UTC_
 - `2026-10-30T03:39:43.491776+00:00` · designcompass-매거진 — [애플 맥북 프로 M6, 14인치에 담은 새 칩과 AI 처리 성능](https://designcompass.org/2026/10/30/apple-macbook-pro-14-inch-m6-2026/)
 - `2026-10-30T03:39:43.491776+00:00` · designcompass-매거진 — [구글 지니 4, 소리와 대화까지 생성하는 가상 세계](https://designcompass.org/2026/10/30/google-deepmind-genie-4-interactive-world-model/)
 - `2026-10-29T03:36:09.708385+00:00` · designcompass-매거진 — [애플, 터치 되는 맥북 프로 공개](https://designcompass.org/2026/10/29/apple-macbook-pro-oled-touchscreen/)
-- `2026-10-28T03:10:46.711355+00:00` · designcompass-매거진 — [틴에이지 엔지니어링, 듣고 연주하는 스피커 EP–35 공개](https://designcompass.org/2026/10/28/teenage-engineering-ep-35-portable-speaker-amp/)
-- `2026-10-28T03:10:46.711355+00:00` · designcompass-매거진 — [로펌 화이트앤케이스, 에너지를 시각화한 사선 타이포그래피](https://designcompass.org/2026/10/28/white-case-uncommon-brand-identity/)

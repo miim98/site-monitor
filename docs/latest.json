@@ -14,12 +14,26 @@
     ]
   },
   {
+    "site": "designcompass-매거진",
+    "url": "https://designcompass.org/magazine/",
+    "items": [
+      {
+        "title": "네이버지도, 대중교통과 내비게이션을 한 탭에",
+        "link": "https://designcompass.org/2026/11/11/naver-map-move-tab-live-transit/"
+      },
+      {
+        "title": "Zap Energy, 로고의 사선을 연구실 표지판까지 확장한 아이덴티티",
+        "link": "https://designcompass.org/2026/11/10/zap-energy-brand-identity/"
+      }
+    ]
+  },
+  {
     "site": "designcompass-아티클",
     "url": "https://designcompass.org/article/",
     "items": [
       {
-        "title": "매일 쓰는 유료 서비스가 된 식단 관리 앱 3",
-        "link": "https://designcompass.org/2026/11/09/nutrition-app-growth-strategies/"
+        "title": "요즘 뜨는 사우나 브랜드는 어떤 휴식을 팔까?",
+        "link": "https://designcompass.org/2026/11/11/sauna-brand-positioning/"
       },
       {
         "title": "케이스 스터디",

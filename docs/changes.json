@@ -1,19 +1,5 @@
 [
   {
-    "timestamp": "2026-10-28T03:10:46.711355+00:00",
-    "site": "designcompass-매거진",
-    "url": "https://designcompass.org/magazine/",
-    "title": "틴에이지 엔지니어링, 듣고 연주하는 스피커 EP–35 공개",
-    "link": "https://designcompass.org/2026/10/28/teenage-engineering-ep-35-portable-speaker-amp/"
-  },
-  {
-    "timestamp": "2026-10-28T03:10:46.711355+00:00",
-    "site": "designcompass-매거진",
-    "url": "https://designcompass.org/magazine/",
-    "title": "로펌 화이트앤케이스, 에너지를 시각화한 사선 타이포그래피",
-    "link": "https://designcompass.org/2026/10/28/white-case-uncommon-brand-identity/"
-  },
-  {
     "timestamp": "2026-10-29T03:36:09.708385+00:00",
     "site": "designcompass-매거진",
     "url": "https://designcompass.org/magazine/",
@@ -180,5 +166,33 @@
     "url": "https://designcompass.org/article/",
     "title": "매일 쓰는 유료 서비스가 된 식단 관리 앱 3",
     "link": "https://designcompass.org/2026/11/09/nutrition-app-growth-strategies/"
+  },
+  {
+    "timestamp": "2026-11-11T03:51:45.307341+00:00",
+    "site": "designcompass-매거진",
+    "url": "https://designcompass.org/magazine/",
+    "title": "네이버지도, 대중교통과 내비게이션을 한 탭에",
+    "link": "https://designcompass.org/2026/11/11/naver-map-move-tab-live-transit/"
+  },
+  {
+    "timestamp": "2026-11-11T03:51:45.307341+00:00",
+    "site": "designcompass-매거진",
+    "url": "https://designcompass.org/magazine/",
+    "title": "Zap Energy, 로고의 사선을 연구실 표지판까지 확장한 아이덴티티",
+    "link": "https://designcompass.org/2026/11/10/zap-energy-brand-identity/"
+  },
+  {
+    "timestamp": "2026-11-11T03:51:45.307341+00:00",
+    "site": "designcompass-매거진",
+    "url": "https://designcompass.org/magazine/",
+    "title": "피그마, AI로 이미지 속 객체 선택부터 아이콘·일러스트 편집까지",
+    "link": "https://designcompass.org/2026/11/10/figma-ai-object-selection-vector-illustration-editing/"
+  },
+  {
+    "timestamp": "2026-11-11T03:51:45.307341+00:00",
+    "site": "designcompass-아티클",
+    "url": "https://designcompass.org/article/",
+    "title": "요즘 뜨는 사우나 브랜드는 어떤 휴식을 팔까?",
+    "link": "https://designcompass.org/2026/11/11/sauna-brand-positioning/"
   }
 ]
