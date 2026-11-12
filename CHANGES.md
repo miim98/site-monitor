@@ -1,7 +1,9 @@
 # 새 글 모니터 (최근 14일)
 
-_마지막 실행: 2026-11-11 03:53 UTC_
+_마지막 실행: 2026-11-12 05:00 UTC_
 
+- `2026-11-12T04:59:14.757791+00:00` · designcompass-매거진 — [오픈온, 두 개의 O가 움직이는 브랜드 아이덴티티](https://designcompass.org/2026/11/12/openon-motion-identity/)
+- `2026-11-12T04:59:14.757791+00:00` · designcompass-매거진 — [유튜브, 굵고 좁아진 영상 제목과 위로 옮긴 구독 탭](https://designcompass.org/2026/11/12/youtube-video-title-font-and-subscriptions-tab/)
 - `2026-11-11T03:51:45.307341+00:00` · designcompass-매거진 — [네이버지도, 대중교통과 내비게이션을 한 탭에](https://designcompass.org/2026/11/11/naver-map-move-tab-live-transit/)
 - `2026-11-11T03:51:45.307341+00:00` · designcompass-매거진 — [Zap Energy, 로고의 사선을 연구실 표지판까지 확장한 아이덴티티](https://designcompass.org/2026/11/10/zap-energy-brand-identity/)
 - `2026-11-11T03:51:45.307341+00:00` · designcompass-매거진 — [피그마, AI로 이미지 속 객체 선택부터 아이콘·일러스트 편집까지](https://designcompass.org/2026/11/10/figma-ai-object-selection-vector-illustration-editing/)
@@ -29,4 +31,3 @@ _마지막 실행: 2026-11-11 03:53 UTC_
 - `2026-11-02T03:33:20.994611+00:00` · designcompass-매거진 — [제미나이, 대화창에서 문서를 만들고 직접 편집하는 기능 추가](https://designcompass.org/2026/11/02/google-gemini-direct-file-editing-documents-pdf/)
 - `2026-10-30T03:39:43.491776+00:00` · designcompass-매거진 — [애플 맥북 프로 M6, 14인치에 담은 새 칩과 AI 처리 성능](https://designcompass.org/2026/10/30/apple-macbook-pro-14-inch-m6-2026/)
 - `2026-10-30T03:39:43.491776+00:00` · designcompass-매거진 — [구글 지니 4, 소리와 대화까지 생성하는 가상 세계](https://designcompass.org/2026/10/30/google-deepmind-genie-4-interactive-world-model/)
-- `2026-10-29T03:36:09.708385+00:00` · designcompass-매거진 — [애플, 터치 되는 맥북 프로 공개](https://designcompass.org/2026/10/29/apple-macbook-pro-oled-touchscreen/)

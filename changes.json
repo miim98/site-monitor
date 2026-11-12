@@ -1,12 +1,5 @@
 [
   {
-    "timestamp": "2026-10-29T03:36:09.708385+00:00",
-    "site": "designcompass-매거진",
-    "url": "https://designcompass.org/magazine/",
-    "title": "애플, 터치 되는 맥북 프로 공개",
-    "link": "https://designcompass.org/2026/10/29/apple-macbook-pro-oled-touchscreen/"
-  },
-  {
     "timestamp": "2026-10-30T03:39:43.491776+00:00",
     "site": "designcompass-매거진",
     "url": "https://designcompass.org/magazine/",
@@ -194,5 +187,19 @@
     "url": "https://designcompass.org/article/",
     "title": "요즘 뜨는 사우나 브랜드는 어떤 휴식을 팔까?",
     "link": "https://designcompass.org/2026/11/11/sauna-brand-positioning/"
+  },
+  {
+    "timestamp": "2026-11-12T04:59:14.757791+00:00",
+    "site": "designcompass-매거진",
+    "url": "https://designcompass.org/magazine/",
+    "title": "오픈온, 두 개의 O가 움직이는 브랜드 아이덴티티",
+    "link": "https://designcompass.org/2026/11/12/openon-motion-identity/"
+  },
+  {
+    "timestamp": "2026-11-12T04:59:14.757791+00:00",
+    "site": "designcompass-매거진",
+    "url": "https://designcompass.org/magazine/",
+    "title": "유튜브, 굵고 좁아진 영상 제목과 위로 옮긴 구독 탭",
+    "link": "https://designcompass.org/2026/11/12/youtube-video-title-font-and-subscriptions-tab/"
   }
 ]
