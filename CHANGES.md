@@ -1,7 +1,10 @@
 # 새 글 모니터 (최근 14일)
 
-_마지막 실행: 2026-11-12 05:00 UTC_
+_마지막 실행: 2026-11-13 04:15 UTC_
 
+- `2026-11-13T04:14:17.728231+00:00` · designcompass-매거진 — [브랜드닷에이아이, 하나의 규칙으로 여러 심볼을 만드는 아이덴티티](https://designcompass.org/2026/11/13/brand-ai-generative-visual-identity-mouthwash-studio/)
+- `2026-11-13T04:14:17.728231+00:00` · designcompass-매거진 — [애플 뮤직, 내 얼굴 위에 가사를 띄우는 ‘셀피 싱’](https://designcompass.org/2026/11/13/apple-music-selfie-sing-ios-27-3/)
+- `2026-11-13T04:14:17.728231+00:00` · designcompass-아티클 — [같은 밝기라는 거짓말, 사람의 눈에 맞게 색 바꾸기](https://designcompass.org/2026/11/13/the-lightness-lie/)
 - `2026-11-12T04:59:14.757791+00:00` · designcompass-매거진 — [오픈온, 두 개의 O가 움직이는 브랜드 아이덴티티](https://designcompass.org/2026/11/12/openon-motion-identity/)
 - `2026-11-12T04:59:14.757791+00:00` · designcompass-매거진 — [유튜브, 굵고 좁아진 영상 제목과 위로 옮긴 구독 탭](https://designcompass.org/2026/11/12/youtube-video-title-font-and-subscriptions-tab/)
 - `2026-11-11T03:51:45.307341+00:00` · designcompass-매거진 — [네이버지도, 대중교통과 내비게이션을 한 탭에](https://designcompass.org/2026/11/11/naver-map-move-tab-live-transit/)
@@ -29,5 +32,3 @@ _마지막 실행: 2026-11-12 05:00 UTC_
 - `2026-11-03T04:40:29.290541+00:00` · designcompass-매거진 — [런던 필름 스쿨, 영화의 프레이밍을 담은 붉은 아이덴티티](https://designcompass.org/2026/11/02/london-film-school-rabbithole-brand-identity/)
 - `2026-11-03T04:40:29.290541+00:00` · designcompass-매거진 — [퍼플 가든, 식물처럼 자라는 글자와 보라색으로 표현한 영적 상담](https://designcompass.org/2026/11/02/purple-garden-mother-design-brand-identity/)
 - `2026-11-02T03:33:20.994611+00:00` · designcompass-매거진 — [제미나이, 대화창에서 문서를 만들고 직접 편집하는 기능 추가](https://designcompass.org/2026/11/02/google-gemini-direct-file-editing-documents-pdf/)
-- `2026-10-30T03:39:43.491776+00:00` · designcompass-매거진 — [애플 맥북 프로 M6, 14인치에 담은 새 칩과 AI 처리 성능](https://designcompass.org/2026/10/30/apple-macbook-pro-14-inch-m6-2026/)
-- `2026-10-30T03:39:43.491776+00:00` · designcompass-매거진 — [구글 지니 4, 소리와 대화까지 생성하는 가상 세계](https://designcompass.org/2026/10/30/google-deepmind-genie-4-interactive-world-model/)
