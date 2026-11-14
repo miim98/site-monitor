@@ -1,6 +1,6 @@
 # 새 글 모니터 (최근 14일)
 
-_마지막 실행: 2026-11-13 04:15 UTC_
+_마지막 실행: 2026-11-14 04:11 UTC_
 
 - `2026-11-13T04:14:17.728231+00:00` · designcompass-매거진 — [브랜드닷에이아이, 하나의 규칙으로 여러 심볼을 만드는 아이덴티티](https://designcompass.org/2026/11/13/brand-ai-generative-visual-identity-mouthwash-studio/)
 - `2026-11-13T04:14:17.728231+00:00` · designcompass-매거진 — [애플 뮤직, 내 얼굴 위에 가사를 띄우는 ‘셀피 싱’](https://designcompass.org/2026/11/13/apple-music-selfie-sing-ios-27-3/)
