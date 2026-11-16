@@ -1,12 +1,5 @@
 [
   {
-    "timestamp": "2026-11-02T03:33:20.994611+00:00",
-    "site": "designcompass-매거진",
-    "url": "https://designcompass.org/magazine/",
-    "title": "제미나이, 대화창에서 문서를 만들고 직접 편집하는 기능 추가",
-    "link": "https://designcompass.org/2026/11/02/google-gemini-direct-file-editing-documents-pdf/"
-  },
-  {
     "timestamp": "2026-11-03T04:40:29.290541+00:00",
     "site": "designcompass-매거진",
     "url": "https://designcompass.org/magazine/",
@@ -208,5 +201,12 @@
     "url": "https://designcompass.org/article/",
     "title": "같은 밝기라는 거짓말, 사람의 눈에 맞게 색 바꾸기",
     "link": "https://designcompass.org/2026/11/13/the-lightness-lie/"
+  },
+  {
+    "timestamp": "2026-11-16T03:55:50.104037+00:00",
+    "site": "designcompass-매거진",
+    "url": "https://designcompass.org/magazine/",
+    "title": "피그마, 레이어 3D 편집 기능 공개",
+    "link": "https://designcompass.org/2026/11/16/figma-3d-transforms/"
   }
 ]

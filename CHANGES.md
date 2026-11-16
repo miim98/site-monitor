@@ -1,7 +1,8 @@
 # 새 글 모니터 (최근 14일)
 
-_마지막 실행: 2026-11-15 03:57 UTC_
+_마지막 실행: 2026-11-16 03:57 UTC_
 
+- `2026-11-16T03:55:50.104037+00:00` · designcompass-매거진 — [피그마, 레이어 3D 편집 기능 공개](https://designcompass.org/2026/11/16/figma-3d-transforms/)
 - `2026-11-13T04:14:17.728231+00:00` · designcompass-매거진 — [브랜드닷에이아이, 하나의 규칙으로 여러 심볼을 만드는 아이덴티티](https://designcompass.org/2026/11/13/brand-ai-generative-visual-identity-mouthwash-studio/)
 - `2026-11-13T04:14:17.728231+00:00` · designcompass-매거진 — [애플 뮤직, 내 얼굴 위에 가사를 띄우는 ‘셀피 싱’](https://designcompass.org/2026/11/13/apple-music-selfie-sing-ios-27-3/)
 - `2026-11-13T04:14:17.728231+00:00` · designcompass-아티클 — [같은 밝기라는 거짓말, 사람의 눈에 맞게 색 바꾸기](https://designcompass.org/2026/11/13/the-lightness-lie/)
@@ -31,4 +32,3 @@ _마지막 실행: 2026-11-15 03:57 UTC_
 - `2026-11-03T04:40:29.290541+00:00` · designcompass-매거진 — [COMPASS UPDATE: 웹과 앱의 화면 구성을 위한 블록 업데이트](https://designcompass.org/2026/11/02/compass-update-web-app-ui-blocks/)
 - `2026-11-03T04:40:29.290541+00:00` · designcompass-매거진 — [런던 필름 스쿨, 영화의 프레이밍을 담은 붉은 아이덴티티](https://designcompass.org/2026/11/02/london-film-school-rabbithole-brand-identity/)
 - `2026-11-03T04:40:29.290541+00:00` · designcompass-매거진 — [퍼플 가든, 식물처럼 자라는 글자와 보라색으로 표현한 영적 상담](https://designcompass.org/2026/11/02/purple-garden-mother-design-brand-identity/)
-- `2026-11-02T03:33:20.994611+00:00` · designcompass-매거진 — [제미나이, 대화창에서 문서를 만들고 직접 편집하는 기능 추가](https://designcompass.org/2026/11/02/google-gemini-direct-file-editing-documents-pdf/)
