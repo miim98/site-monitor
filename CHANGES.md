@@ -1,7 +1,12 @@
 # 새 글 모니터 (최근 14일)
 
-_마지막 실행: 2026-11-16 03:57 UTC_
+_마지막 실행: 2026-11-17 05:50 UTC_
 
+- `2026-11-17T05:48:37.326784+00:00` · designcompass-매거진 — [싱가포르, 작은 붉은 점을 빛나는 구체로 확장하다](https://designcompass.org/2026/11/17/singapore-brand-identity-refresh/)
+- `2026-11-17T05:48:37.326784+00:00` · designcompass-매거진 — [구글 전화 앱, 수화기를 키우고 파란 그라데이션을 입히다](https://designcompass.org/2026/11/17/google-phone-gradient-icon-redesign/)
+- `2026-11-17T05:48:37.326784+00:00` · designcompass-매거진 — [로티 AI, 문장으로 만들고 직접 편집하는 애니메이션](https://designcompass.org/2026/11/16/lottie-ai-editable-vector-animation/)
+- `2026-11-17T05:48:37.326784+00:00` · designcompass-매거진 — [밀크샤, 바람에 흔들리는 풀을 담은 브랜드 아이덴티티](https://designcompass.org/2026/11/16/milksha-bito-brand-identity/)
+- `2026-11-17T05:48:37.326784+00:00` · designcompass-아티클 — [AI가 내 대신 전화를 걸기 시작했다](https://designcompass.org/2026/11/17/ai-agents-light-and-shadow/)
 - `2026-11-16T03:55:50.104037+00:00` · designcompass-매거진 — [피그마, 레이어 3D 편집 기능 공개](https://designcompass.org/2026/11/16/figma-3d-transforms/)
 - `2026-11-13T04:14:17.728231+00:00` · designcompass-매거진 — [브랜드닷에이아이, 하나의 규칙으로 여러 심볼을 만드는 아이덴티티](https://designcompass.org/2026/11/13/brand-ai-generative-visual-identity-mouthwash-studio/)
 - `2026-11-13T04:14:17.728231+00:00` · designcompass-매거진 — [애플 뮤직, 내 얼굴 위에 가사를 띄우는 ‘셀피 싱’](https://designcompass.org/2026/11/13/apple-music-selfie-sing-ios-27-3/)
@@ -25,10 +30,3 @@ _마지막 실행: 2026-11-16 03:57 UTC_
 - `2026-11-04T04:00:05.820513+00:00` · designcompass-매거진 — [어피니티, 스케치부터 편집까지 하나로 묶은 아이패드 앱 출시](https://designcompass.org/2026/11/04/affinity-ipad-app-launch/)
 - `2026-11-04T04:00:05.820513+00:00` · designcompass-매거진 — [애플 헬스, 오늘의 상태와 장기 건강을 나눈 새 화면](https://designcompass.org/2026/11/04/apple-health-ios-27-3-redesign/)
 - `2026-11-04T04:00:05.820513+00:00` · designcompass-아티클 — [시작하기](https://designcompass.org/membership/?redirect_to=https%3A%2F%2Fdesigncompass.org%2Farticle%2F%3Futm_source%3Dchatgpt.com)
-- `2026-11-03T04:40:29.290541+00:00` · designcompass-매거진 — [하우하우, 볼륨 조절 장치처럼 늘어나는 로고로 리브랜딩](https://designcompass.org/2026/11/03/how-how-rebrand-volume-dial-logo/)
-- `2026-11-03T04:40:29.290541+00:00` · designcompass-매거진 — [뉴캐슬 유나이티드, 전통 문장의 선과 균형을 다듬은 엠블럼](https://designcompass.org/2026/11/03/newcastle-united-new-crest-futurebrand/)
-- `2026-11-03T04:40:29.290541+00:00` · designcompass-매거진 — [KISS, 큐피드의 화살을 담은 리브랜딩](https://designcompass.org/2026/11/03/kiss-branding-rebrand-cupid-identity/)
-- `2026-11-03T04:40:29.290541+00:00` · designcompass-매거진 — [피그마와 산리오, 헬로키티를 협업 도구에 담은 디자인](https://designcompass.org/2026/11/03/figma-sanrio-hello-kitty-friends-figjam/)
-- `2026-11-03T04:40:29.290541+00:00` · designcompass-매거진 — [COMPASS UPDATE: 웹과 앱의 화면 구성을 위한 블록 업데이트](https://designcompass.org/2026/11/02/compass-update-web-app-ui-blocks/)
-- `2026-11-03T04:40:29.290541+00:00` · designcompass-매거진 — [런던 필름 스쿨, 영화의 프레이밍을 담은 붉은 아이덴티티](https://designcompass.org/2026/11/02/london-film-school-rabbithole-brand-identity/)
-- `2026-11-03T04:40:29.290541+00:00` · designcompass-매거진 — [퍼플 가든, 식물처럼 자라는 글자와 보라색으로 표현한 영적 상담](https://designcompass.org/2026/11/02/purple-garden-mother-design-brand-identity/)

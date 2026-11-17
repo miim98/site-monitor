@@ -1,54 +1,5 @@
 [
   {
-    "timestamp": "2026-11-03T04:40:29.290541+00:00",
-    "site": "designcompass-매거진",
-    "url": "https://designcompass.org/magazine/",
-    "title": "하우하우, 볼륨 조절 장치처럼 늘어나는 로고로 리브랜딩",
-    "link": "https://designcompass.org/2026/11/03/how-how-rebrand-volume-dial-logo/"
-  },
-  {
-    "timestamp": "2026-11-03T04:40:29.290541+00:00",
-    "site": "designcompass-매거진",
-    "url": "https://designcompass.org/magazine/",
-    "title": "뉴캐슬 유나이티드, 전통 문장의 선과 균형을 다듬은 엠블럼",
-    "link": "https://designcompass.org/2026/11/03/newcastle-united-new-crest-futurebrand/"
-  },
-  {
-    "timestamp": "2026-11-03T04:40:29.290541+00:00",
-    "site": "designcompass-매거진",
-    "url": "https://designcompass.org/magazine/",
-    "title": "KISS, 큐피드의 화살을 담은 리브랜딩",
-    "link": "https://designcompass.org/2026/11/03/kiss-branding-rebrand-cupid-identity/"
-  },
-  {
-    "timestamp": "2026-11-03T04:40:29.290541+00:00",
-    "site": "designcompass-매거진",
-    "url": "https://designcompass.org/magazine/",
-    "title": "피그마와 산리오, 헬로키티를 협업 도구에 담은 디자인",
-    "link": "https://designcompass.org/2026/11/03/figma-sanrio-hello-kitty-friends-figjam/"
-  },
-  {
-    "timestamp": "2026-11-03T04:40:29.290541+00:00",
-    "site": "designcompass-매거진",
-    "url": "https://designcompass.org/magazine/",
-    "title": "COMPASS UPDATE: 웹과 앱의 화면 구성을 위한 블록 업데이트",
-    "link": "https://designcompass.org/2026/11/02/compass-update-web-app-ui-blocks/"
-  },
-  {
-    "timestamp": "2026-11-03T04:40:29.290541+00:00",
-    "site": "designcompass-매거진",
-    "url": "https://designcompass.org/magazine/",
-    "title": "런던 필름 스쿨, 영화의 프레이밍을 담은 붉은 아이덴티티",
-    "link": "https://designcompass.org/2026/11/02/london-film-school-rabbithole-brand-identity/"
-  },
-  {
-    "timestamp": "2026-11-03T04:40:29.290541+00:00",
-    "site": "designcompass-매거진",
-    "url": "https://designcompass.org/magazine/",
-    "title": "퍼플 가든, 식물처럼 자라는 글자와 보라색으로 표현한 영적 상담",
-    "link": "https://designcompass.org/2026/11/02/purple-garden-mother-design-brand-identity/"
-  },
-  {
     "timestamp": "2026-11-04T04:00:05.820513+00:00",
     "site": "designcompass-매거진",
     "url": "https://designcompass.org/magazine/",
@@ -208,5 +159,40 @@
     "url": "https://designcompass.org/magazine/",
     "title": "피그마, 레이어 3D 편집 기능 공개",
     "link": "https://designcompass.org/2026/11/16/figma-3d-transforms/"
+  },
+  {
+    "timestamp": "2026-11-17T05:48:37.326784+00:00",
+    "site": "designcompass-매거진",
+    "url": "https://designcompass.org/magazine/",
+    "title": "싱가포르, 작은 붉은 점을 빛나는 구체로 확장하다",
+    "link": "https://designcompass.org/2026/11/17/singapore-brand-identity-refresh/"
+  },
+  {
+    "timestamp": "2026-11-17T05:48:37.326784+00:00",
+    "site": "designcompass-매거진",
+    "url": "https://designcompass.org/magazine/",
+    "title": "구글 전화 앱, 수화기를 키우고 파란 그라데이션을 입히다",
+    "link": "https://designcompass.org/2026/11/17/google-phone-gradient-icon-redesign/"
+  },
+  {
+    "timestamp": "2026-11-17T05:48:37.326784+00:00",
+    "site": "designcompass-매거진",
+    "url": "https://designcompass.org/magazine/",
+    "title": "로티 AI, 문장으로 만들고 직접 편집하는 애니메이션",
+    "link": "https://designcompass.org/2026/11/16/lottie-ai-editable-vector-animation/"
+  },
+  {
+    "timestamp": "2026-11-17T05:48:37.326784+00:00",
+    "site": "designcompass-매거진",
+    "url": "https://designcompass.org/magazine/",
+    "title": "밀크샤, 바람에 흔들리는 풀을 담은 브랜드 아이덴티티",
+    "link": "https://designcompass.org/2026/11/16/milksha-bito-brand-identity/"
+  },
+  {
+    "timestamp": "2026-11-17T05:48:37.326784+00:00",
+    "site": "designcompass-아티클",
+    "url": "https://designcompass.org/article/",
+    "title": "AI가 내 대신 전화를 걸기 시작했다",
+    "link": "https://designcompass.org/2026/11/17/ai-agents-light-and-shadow/"
   }
 ]
