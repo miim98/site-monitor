@@ -1,7 +1,10 @@
 # 새 글 모니터 (최근 14일)
 
-_마지막 실행: 2026-11-17 05:50 UTC_
+_마지막 실행: 2026-11-18 05:15 UTC_
 
+- `2026-11-18T05:13:52.907855+00:00` · designcompass-매거진 — [크리스털 스키, 로고의 ‘y’로 만든 눈송이 렌즈](https://designcompass.org/2026/11/18/crystal-ski-landor-rebrand/)
+- `2026-11-18T05:13:52.907855+00:00` · designcompass-매거진 — [인스타그램, DM 전용 앱 ‘다이렉트’ 테스트](https://designcompass.org/2026/11/18/instagram-direct-messaging-app/)
+- `2026-11-18T05:13:52.907855+00:00` · designcompass-매거진 — [아이폰 듀오, 얼굴 잠금 해제에 새 애니메이션](https://designcompass.org/2026/11/18/iphone-duo-face-unlock-animation/)
 - `2026-11-17T05:48:37.326784+00:00` · designcompass-매거진 — [싱가포르, 작은 붉은 점을 빛나는 구체로 확장하다](https://designcompass.org/2026/11/17/singapore-brand-identity-refresh/)
 - `2026-11-17T05:48:37.326784+00:00` · designcompass-매거진 — [구글 전화 앱, 수화기를 키우고 파란 그라데이션을 입히다](https://designcompass.org/2026/11/17/google-phone-gradient-icon-redesign/)
 - `2026-11-17T05:48:37.326784+00:00` · designcompass-매거진 — [로티 AI, 문장으로 만들고 직접 편집하는 애니메이션](https://designcompass.org/2026/11/16/lottie-ai-editable-vector-animation/)
@@ -26,7 +29,3 @@ _마지막 실행: 2026-11-17 05:50 UTC_
 - `2026-11-06T04:27:52.203328+00:00` · designcompass-매거진 — [뮤즈, 대화에 맞춰 표정과 몸짓을 바꾸는 AI 아바타](https://designcompass.org/2026/11/06/meta-muse-ai-voice-expressive-avatars/)
 - `2026-11-05T04:22:05.781916+00:00` · designcompass-매거진 — [크리스털, 음악에 반응하는 워드마크로 만든 브랜드 정체성](https://designcompass.org/2026/11/05/crystal-music-brand-identity-audio-reactive-wordmark/)
 - `2026-11-05T04:22:05.781916+00:00` · designcompass-매거진 — [아이폰 20주년 모델, 측면까지 감싸는 곡면 유리 디자인 루머](https://designcompass.org/2026/11/05/iphone-20th-anniversary-2027-curved-glass-design/)
-- `2026-11-04T04:00:05.820513+00:00` · designcompass-매거진 — [피그마 위브, AI 제작 과정을 연결하고 재사용하는 캔버스](https://designcompass.org/2026/11/04/figma-weave-ai-creative-workflows/)
-- `2026-11-04T04:00:05.820513+00:00` · designcompass-매거진 — [어피니티, 스케치부터 편집까지 하나로 묶은 아이패드 앱 출시](https://designcompass.org/2026/11/04/affinity-ipad-app-launch/)
-- `2026-11-04T04:00:05.820513+00:00` · designcompass-매거진 — [애플 헬스, 오늘의 상태와 장기 건강을 나눈 새 화면](https://designcompass.org/2026/11/04/apple-health-ios-27-3-redesign/)
-- `2026-11-04T04:00:05.820513+00:00` · designcompass-아티클 — [시작하기](https://designcompass.org/membership/?redirect_to=https%3A%2F%2Fdesigncompass.org%2Farticle%2F%3Futm_source%3Dchatgpt.com)

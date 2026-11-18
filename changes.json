@@ -1,33 +1,5 @@
 [
   {
-    "timestamp": "2026-11-04T04:00:05.820513+00:00",
-    "site": "designcompass-매거진",
-    "url": "https://designcompass.org/magazine/",
-    "title": "피그마 위브, AI 제작 과정을 연결하고 재사용하는 캔버스",
-    "link": "https://designcompass.org/2026/11/04/figma-weave-ai-creative-workflows/"
-  },
-  {
-    "timestamp": "2026-11-04T04:00:05.820513+00:00",
-    "site": "designcompass-매거진",
-    "url": "https://designcompass.org/magazine/",
-    "title": "어피니티, 스케치부터 편집까지 하나로 묶은 아이패드 앱 출시",
-    "link": "https://designcompass.org/2026/11/04/affinity-ipad-app-launch/"
-  },
-  {
-    "timestamp": "2026-11-04T04:00:05.820513+00:00",
-    "site": "designcompass-매거진",
-    "url": "https://designcompass.org/magazine/",
-    "title": "애플 헬스, 오늘의 상태와 장기 건강을 나눈 새 화면",
-    "link": "https://designcompass.org/2026/11/04/apple-health-ios-27-3-redesign/"
-  },
-  {
-    "timestamp": "2026-11-04T04:00:05.820513+00:00",
-    "site": "designcompass-아티클",
-    "url": "https://designcompass.org/article/",
-    "title": "시작하기",
-    "link": "https://designcompass.org/membership/?redirect_to=https%3A%2F%2Fdesigncompass.org%2Farticle%2F%3Futm_source%3Dchatgpt.com"
-  },
-  {
     "timestamp": "2026-11-05T04:22:05.781916+00:00",
     "site": "designcompass-매거진",
     "url": "https://designcompass.org/magazine/",
@@ -194,5 +166,26 @@
     "url": "https://designcompass.org/article/",
     "title": "AI가 내 대신 전화를 걸기 시작했다",
     "link": "https://designcompass.org/2026/11/17/ai-agents-light-and-shadow/"
+  },
+  {
+    "timestamp": "2026-11-18T05:13:52.907855+00:00",
+    "site": "designcompass-매거진",
+    "url": "https://designcompass.org/magazine/",
+    "title": "크리스털 스키, 로고의 ‘y’로 만든 눈송이 렌즈",
+    "link": "https://designcompass.org/2026/11/18/crystal-ski-landor-rebrand/"
+  },
+  {
+    "timestamp": "2026-11-18T05:13:52.907855+00:00",
+    "site": "designcompass-매거진",
+    "url": "https://designcompass.org/magazine/",
+    "title": "인스타그램, DM 전용 앱 ‘다이렉트’ 테스트",
+    "link": "https://designcompass.org/2026/11/18/instagram-direct-messaging-app/"
+  },
+  {
+    "timestamp": "2026-11-18T05:13:52.907855+00:00",
+    "site": "designcompass-매거진",
+    "url": "https://designcompass.org/magazine/",
+    "title": "아이폰 듀오, 얼굴 잠금 해제에 새 애니메이션",
+    "link": "https://designcompass.org/2026/11/18/iphone-duo-face-unlock-animation/"
   }
 ]
