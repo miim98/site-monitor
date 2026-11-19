@@ -1,7 +1,11 @@
 # 새 글 모니터 (최근 14일)
 
-_마지막 실행: 2026-11-18 05:15 UTC_
+_마지막 실행: 2026-11-19 05:10 UTC_
 
+- `2026-11-19T05:08:59.918045+00:00` · designcompass-매거진 — [에이바 스튜디오, 인기 출시 영상의 컷을 내 제품 화면으로](https://designcompass.org/2026/11/19/ava-studio-launch-videos/)
+- `2026-11-19T05:08:59.918045+00:00` · designcompass-매거진 — [애플, 2026 앱스토어 어워드 최종 후보 45개 공개](https://designcompass.org/2026/11/19/apple-app-store-awards-2026-finalists/)
+- `2026-11-19T05:08:59.918045+00:00` · designcompass-매거진 — [구글 지도, 여행 일정에 방문 순서를 표시하는 번호 핀 추가](https://designcompass.org/2026/11/19/google-maps-numbered-itinerary-pins/)
+- `2026-11-19T05:08:59.918045+00:00` · designcompass-매거진 — [퓨저, 문장으로 만드는 맞춤형 편집 도구 공개](https://designcompass.org/2026/11/18/fuser-tool-node/)
 - `2026-11-18T05:13:52.907855+00:00` · designcompass-매거진 — [크리스털 스키, 로고의 ‘y’로 만든 눈송이 렌즈](https://designcompass.org/2026/11/18/crystal-ski-landor-rebrand/)
 - `2026-11-18T05:13:52.907855+00:00` · designcompass-매거진 — [인스타그램, DM 전용 앱 ‘다이렉트’ 테스트](https://designcompass.org/2026/11/18/instagram-direct-messaging-app/)
 - `2026-11-18T05:13:52.907855+00:00` · designcompass-매거진 — [아이폰 듀오, 얼굴 잠금 해제에 새 애니메이션](https://designcompass.org/2026/11/18/iphone-duo-face-unlock-animation/)
@@ -27,5 +31,3 @@ _마지막 실행: 2026-11-18 05:15 UTC_
 - `2026-11-06T04:27:52.203328+00:00` · designcompass-매거진 — [고쿠요, 로고의 사선을 반복해 확장하는 브랜드 아이덴티티](https://designcompass.org/2026/11/06/kokuyo-rebranding-diagonal-logo-visual-identity/)
 - `2026-11-06T04:27:52.203328+00:00` · designcompass-매거진 — [에디츠, 멀티트랙 타임라인으로 확장한 맥 영상 편집 앱](https://designcompass.org/2026/11/06/instagram-edits-desktop-mac-video-editor/)
 - `2026-11-06T04:27:52.203328+00:00` · designcompass-매거진 — [뮤즈, 대화에 맞춰 표정과 몸짓을 바꾸는 AI 아바타](https://designcompass.org/2026/11/06/meta-muse-ai-voice-expressive-avatars/)
-- `2026-11-05T04:22:05.781916+00:00` · designcompass-매거진 — [크리스털, 음악에 반응하는 워드마크로 만든 브랜드 정체성](https://designcompass.org/2026/11/05/crystal-music-brand-identity-audio-reactive-wordmark/)
-- `2026-11-05T04:22:05.781916+00:00` · designcompass-매거진 — [아이폰 20주년 모델, 측면까지 감싸는 곡면 유리 디자인 루머](https://designcompass.org/2026/11/05/iphone-20th-anniversary-2027-curved-glass-design/)
