@@ -1,7 +1,9 @@
 # 새 글 모니터 (최근 14일)
 
-_마지막 실행: 2026-11-19 05:10 UTC_
+_마지막 실행: 2026-11-20 04:59 UTC_
 
+- `2026-11-20T04:57:40.549741+00:00` · designcompass-매거진 — [피그마 AI, 여러 모델이 만든 이미지를 한 화면에서 비교](https://designcompass.org/2026/11/20/figma-ai-image-model-comparison/)
+- `2026-11-20T04:57:40.549741+00:00` · designcompass-매거진 — [메이커스 마크, 병목의 붉은 왁스를 브랜드 그래픽으로 확장](https://designcompass.org/2026/11/20/makers-mark-red-wax-brand-identity/)
 - `2026-11-19T05:08:59.918045+00:00` · designcompass-매거진 — [에이바 스튜디오, 인기 출시 영상의 컷을 내 제품 화면으로](https://designcompass.org/2026/11/19/ava-studio-launch-videos/)
 - `2026-11-19T05:08:59.918045+00:00` · designcompass-매거진 — [애플, 2026 앱스토어 어워드 최종 후보 45개 공개](https://designcompass.org/2026/11/19/apple-app-store-awards-2026-finalists/)
 - `2026-11-19T05:08:59.918045+00:00` · designcompass-매거진 — [구글 지도, 여행 일정에 방문 순서를 표시하는 번호 핀 추가](https://designcompass.org/2026/11/19/google-maps-numbered-itinerary-pins/)
@@ -28,6 +30,3 @@ _마지막 실행: 2026-11-19 05:10 UTC_
 - `2026-11-09T03:46:07.070699+00:00` · designcompass-매거진 — [Simmer, 고대 사자 사냥을 담은 스포츠 게임 아이덴티티](https://designcompass.org/2026/11/09/simmer-play-studio-sports-brand-identity/)
 - `2026-11-09T03:46:07.070699+00:00` · designcompass-아티클 — [매일 쓰는 유료 서비스가 된 식단 관리 앱 3](https://designcompass.org/2026/11/09/nutrition-app-growth-strategies/)
 - `2026-11-07T03:49:52.374398+00:00` · designcompass-매거진 — [ChatGPT Images 2.6, 사진과 스케치를 움직이는 GIF로](https://designcompass.org/2026/11/06/chatgpt-images-2-6-gif-animation/)
-- `2026-11-06T04:27:52.203328+00:00` · designcompass-매거진 — [고쿠요, 로고의 사선을 반복해 확장하는 브랜드 아이덴티티](https://designcompass.org/2026/11/06/kokuyo-rebranding-diagonal-logo-visual-identity/)
-- `2026-11-06T04:27:52.203328+00:00` · designcompass-매거진 — [에디츠, 멀티트랙 타임라인으로 확장한 맥 영상 편집 앱](https://designcompass.org/2026/11/06/instagram-edits-desktop-mac-video-editor/)
-- `2026-11-06T04:27:52.203328+00:00` · designcompass-매거진 — [뮤즈, 대화에 맞춰 표정과 몸짓을 바꾸는 AI 아바타](https://designcompass.org/2026/11/06/meta-muse-ai-voice-expressive-avatars/)

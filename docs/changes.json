@@ -1,26 +1,5 @@
 [
   {
-    "timestamp": "2026-11-06T04:27:52.203328+00:00",
-    "site": "designcompass-매거진",
-    "url": "https://designcompass.org/magazine/",
-    "title": "고쿠요, 로고의 사선을 반복해 확장하는 브랜드 아이덴티티",
-    "link": "https://designcompass.org/2026/11/06/kokuyo-rebranding-diagonal-logo-visual-identity/"
-  },
-  {
-    "timestamp": "2026-11-06T04:27:52.203328+00:00",
-    "site": "designcompass-매거진",
-    "url": "https://designcompass.org/magazine/",
-    "title": "에디츠, 멀티트랙 타임라인으로 확장한 맥 영상 편집 앱",
-    "link": "https://designcompass.org/2026/11/06/instagram-edits-desktop-mac-video-editor/"
-  },
-  {
-    "timestamp": "2026-11-06T04:27:52.203328+00:00",
-    "site": "designcompass-매거진",
-    "url": "https://designcompass.org/magazine/",
-    "title": "뮤즈, 대화에 맞춰 표정과 몸짓을 바꾸는 AI 아바타",
-    "link": "https://designcompass.org/2026/11/06/meta-muse-ai-voice-expressive-avatars/"
-  },
-  {
     "timestamp": "2026-11-07T03:49:52.374398+00:00",
     "site": "designcompass-매거진",
     "url": "https://designcompass.org/magazine/",
@@ -201,5 +180,19 @@
     "url": "https://designcompass.org/magazine/",
     "title": "퓨저, 문장으로 만드는 맞춤형 편집 도구 공개",
     "link": "https://designcompass.org/2026/11/18/fuser-tool-node/"
+  },
+  {
+    "timestamp": "2026-11-20T04:57:40.549741+00:00",
+    "site": "designcompass-매거진",
+    "url": "https://designcompass.org/magazine/",
+    "title": "피그마 AI, 여러 모델이 만든 이미지를 한 화면에서 비교",
+    "link": "https://designcompass.org/2026/11/20/figma-ai-image-model-comparison/"
+  },
+  {
+    "timestamp": "2026-11-20T04:57:40.549741+00:00",
+    "site": "designcompass-매거진",
+    "url": "https://designcompass.org/magazine/",
+    "title": "메이커스 마크, 병목의 붉은 왁스를 브랜드 그래픽으로 확장",
+    "link": "https://designcompass.org/2026/11/20/makers-mark-red-wax-brand-identity/"
   }
 ]
