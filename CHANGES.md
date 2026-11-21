@@ -1,6 +1,6 @@
 # 새 글 모니터 (최근 14일)
 
-_마지막 실행: 2026-11-20 04:59 UTC_
+_마지막 실행: 2026-11-21 04:54 UTC_
 
 - `2026-11-20T04:57:40.549741+00:00` · designcompass-매거진 — [피그마 AI, 여러 모델이 만든 이미지를 한 화면에서 비교](https://designcompass.org/2026/11/20/figma-ai-image-model-comparison/)
 - `2026-11-20T04:57:40.549741+00:00` · designcompass-매거진 — [메이커스 마크, 병목의 붉은 왁스를 브랜드 그래픽으로 확장](https://designcompass.org/2026/11/20/makers-mark-red-wax-brand-identity/)
@@ -29,4 +29,3 @@ _마지막 실행: 2026-11-20 04:59 UTC_
 - `2026-11-09T03:46:07.070699+00:00` · designcompass-매거진 — [Meta Spaces, 대화로 만드는 나만의 AI 앱 화면](https://designcompass.org/2026/11/09/meta-muse-spaces-custom-ai-app-interface/)
 - `2026-11-09T03:46:07.070699+00:00` · designcompass-매거진 — [Simmer, 고대 사자 사냥을 담은 스포츠 게임 아이덴티티](https://designcompass.org/2026/11/09/simmer-play-studio-sports-brand-identity/)
 - `2026-11-09T03:46:07.070699+00:00` · designcompass-아티클 — [매일 쓰는 유료 서비스가 된 식단 관리 앱 3](https://designcompass.org/2026/11/09/nutrition-app-growth-strategies/)
-- `2026-11-07T03:49:52.374398+00:00` · designcompass-매거진 — [ChatGPT Images 2.6, 사진과 스케치를 움직이는 GIF로](https://designcompass.org/2026/11/06/chatgpt-images-2-6-gif-animation/)
