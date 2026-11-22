@@ -1,6 +1,6 @@
 # 새 글 모니터 (최근 14일)
 
-_마지막 실행: 2026-11-21 04:54 UTC_
+_마지막 실행: 2026-11-22 04:11 UTC_
 
 - `2026-11-20T04:57:40.549741+00:00` · designcompass-매거진 — [피그마 AI, 여러 모델이 만든 이미지를 한 화면에서 비교](https://designcompass.org/2026/11/20/figma-ai-image-model-comparison/)
 - `2026-11-20T04:57:40.549741+00:00` · designcompass-매거진 — [메이커스 마크, 병목의 붉은 왁스를 브랜드 그래픽으로 확장](https://designcompass.org/2026/11/20/makers-mark-red-wax-brand-identity/)
