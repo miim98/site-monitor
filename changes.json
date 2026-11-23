@@ -1,26 +1,5 @@
 [
   {
-    "timestamp": "2026-11-09T03:46:07.070699+00:00",
-    "site": "designcompass-매거진",
-    "url": "https://designcompass.org/magazine/",
-    "title": "Meta Spaces, 대화로 만드는 나만의 AI 앱 화면",
-    "link": "https://designcompass.org/2026/11/09/meta-muse-spaces-custom-ai-app-interface/"
-  },
-  {
-    "timestamp": "2026-11-09T03:46:07.070699+00:00",
-    "site": "designcompass-매거진",
-    "url": "https://designcompass.org/magazine/",
-    "title": "Simmer, 고대 사자 사냥을 담은 스포츠 게임 아이덴티티",
-    "link": "https://designcompass.org/2026/11/09/simmer-play-studio-sports-brand-identity/"
-  },
-  {
-    "timestamp": "2026-11-09T03:46:07.070699+00:00",
-    "site": "designcompass-아티클",
-    "url": "https://designcompass.org/article/",
-    "title": "매일 쓰는 유료 서비스가 된 식단 관리 앱 3",
-    "link": "https://designcompass.org/2026/11/09/nutrition-app-growth-strategies/"
-  },
-  {
     "timestamp": "2026-11-11T03:51:45.307341+00:00",
     "site": "designcompass-매거진",
     "url": "https://designcompass.org/magazine/",
@@ -187,5 +166,19 @@
     "url": "https://designcompass.org/magazine/",
     "title": "메이커스 마크, 병목의 붉은 왁스를 브랜드 그래픽으로 확장",
     "link": "https://designcompass.org/2026/11/20/makers-mark-red-wax-brand-identity/"
+  },
+  {
+    "timestamp": "2026-11-23T04:51:40.329085+00:00",
+    "site": "designcompass-매거진",
+    "url": "https://designcompass.org/magazine/",
+    "title": "도커, 컨테이너를 내려놓은 고래 로고 공개",
+    "link": "https://designcompass.org/2026/11/23/docker-moby-whale-logo-redesign/"
+  },
+  {
+    "timestamp": "2026-11-23T04:51:40.329085+00:00",
+    "site": "designcompass-매거진",
+    "url": "https://designcompass.org/magazine/",
+    "title": "클로드 모바일, 채팅·프로젝트·코드·아티팩트를 탭으로",
+    "link": "https://designcompass.org/2026/11/23/claude-mobile-app-tab-bar-redesign/"
   }
 ]

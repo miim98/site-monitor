@@ -1,7 +1,9 @@
 # 새 글 모니터 (최근 14일)
 
-_마지막 실행: 2026-11-22 04:11 UTC_
+_마지막 실행: 2026-11-23 04:53 UTC_
 
+- `2026-11-23T04:51:40.329085+00:00` · designcompass-매거진 — [도커, 컨테이너를 내려놓은 고래 로고 공개](https://designcompass.org/2026/11/23/docker-moby-whale-logo-redesign/)
+- `2026-11-23T04:51:40.329085+00:00` · designcompass-매거진 — [클로드 모바일, 채팅·프로젝트·코드·아티팩트를 탭으로](https://designcompass.org/2026/11/23/claude-mobile-app-tab-bar-redesign/)
 - `2026-11-20T04:57:40.549741+00:00` · designcompass-매거진 — [피그마 AI, 여러 모델이 만든 이미지를 한 화면에서 비교](https://designcompass.org/2026/11/20/figma-ai-image-model-comparison/)
 - `2026-11-20T04:57:40.549741+00:00` · designcompass-매거진 — [메이커스 마크, 병목의 붉은 왁스를 브랜드 그래픽으로 확장](https://designcompass.org/2026/11/20/makers-mark-red-wax-brand-identity/)
 - `2026-11-19T05:08:59.918045+00:00` · designcompass-매거진 — [에이바 스튜디오, 인기 출시 영상의 컷을 내 제품 화면으로](https://designcompass.org/2026/11/19/ava-studio-launch-videos/)
@@ -26,6 +28,3 @@ _마지막 실행: 2026-11-22 04:11 UTC_
 - `2026-11-11T03:51:45.307341+00:00` · designcompass-매거진 — [Zap Energy, 로고의 사선을 연구실 표지판까지 확장한 아이덴티티](https://designcompass.org/2026/11/10/zap-energy-brand-identity/)
 - `2026-11-11T03:51:45.307341+00:00` · designcompass-매거진 — [피그마, AI로 이미지 속 객체 선택부터 아이콘·일러스트 편집까지](https://designcompass.org/2026/11/10/figma-ai-object-selection-vector-illustration-editing/)
 - `2026-11-11T03:51:45.307341+00:00` · designcompass-아티클 — [요즘 뜨는 사우나 브랜드는 어떤 휴식을 팔까?](https://designcompass.org/2026/11/11/sauna-brand-positioning/)
-- `2026-11-09T03:46:07.070699+00:00` · designcompass-매거진 — [Meta Spaces, 대화로 만드는 나만의 AI 앱 화면](https://designcompass.org/2026/11/09/meta-muse-spaces-custom-ai-app-interface/)
-- `2026-11-09T03:46:07.070699+00:00` · designcompass-매거진 — [Simmer, 고대 사자 사냥을 담은 스포츠 게임 아이덴티티](https://designcompass.org/2026/11/09/simmer-play-studio-sports-brand-identity/)
-- `2026-11-09T03:46:07.070699+00:00` · designcompass-아티클 — [매일 쓰는 유료 서비스가 된 식단 관리 앱 3](https://designcompass.org/2026/11/09/nutrition-app-growth-strategies/)
