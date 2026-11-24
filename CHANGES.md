@@ -1,7 +1,11 @@
 # 새 글 모니터 (최근 14일)
 
-_마지막 실행: 2026-11-23 04:53 UTC_
+_마지막 실행: 2026-11-24 07:42 UTC_
 
+- `2026-11-24T07:41:14.695091+00:00` · designcompass-매거진 — [누뱅크, 로고의 두 글자로 전용 서체를 만들다](https://designcompass.org/2026/11/24/nubank-rebrand-nu-sans/)
+- `2026-11-24T07:41:14.695091+00:00` · designcompass-매거진 — [네이버 멤버십, 로고에서 플러스를 빼고 초록색으로 통일](https://designcompass.org/2026/11/24/naver-membership-logo-redesign/)
+- `2026-11-24T07:41:14.695091+00:00` · designcompass-매거진 — [구글 검색, 홈 화면의 검색 버튼 자리에 AI 도구를 놓다](https://designcompass.org/2026/11/24/google-search-homepage-ai-redesign/)
+- `2026-11-24T07:41:14.695091+00:00` · designcompass-매거진 — [테슬라, GTA처럼 도로 위에 회전 방향을 띄운 주행 화면](https://designcompass.org/2026/11/24/tesla-fsd-v15-reality-view/)
 - `2026-11-23T04:51:40.329085+00:00` · designcompass-매거진 — [도커, 컨테이너를 내려놓은 고래 로고 공개](https://designcompass.org/2026/11/23/docker-moby-whale-logo-redesign/)
 - `2026-11-23T04:51:40.329085+00:00` · designcompass-매거진 — [클로드 모바일, 채팅·프로젝트·코드·아티팩트를 탭으로](https://designcompass.org/2026/11/23/claude-mobile-app-tab-bar-redesign/)
 - `2026-11-20T04:57:40.549741+00:00` · designcompass-매거진 — [피그마 AI, 여러 모델이 만든 이미지를 한 화면에서 비교](https://designcompass.org/2026/11/20/figma-ai-image-model-comparison/)
