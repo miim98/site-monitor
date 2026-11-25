@@ -1,7 +1,12 @@
 # 새 글 모니터 (최근 14일)
 
-_마지막 실행: 2026-11-24 07:42 UTC_
+_마지막 실행: 2026-11-25 06:12 UTC_
 
+- `2026-11-25T06:10:59.957146+00:00` · designcompass-매거진 — [컴퍼스 디자인 시스템 디지털 회원 카드](https://designcompass.org/2026/11/25/compass-design-system-membership-card/)
+- `2026-11-25T06:10:59.957146+00:00` · designcompass-매거진 — [포에트리 재단, 시구 사이를 달리는 페가수스 로고](https://designcompass.org/2026/11/25/poetry-foundation-pegasus-motion-identity/)
+- `2026-11-25T06:10:59.957146+00:00` · designcompass-매거진 — [고기야, 달리는 빨간 마스코트를 내세운 한국식 바비큐 브랜딩](https://designcompass.org/2026/11/25/gogiya-korean-bbq-mascot-branding/)
+- `2026-11-25T06:10:59.957146+00:00` · designcompass-매거진 — [구글 번역, 11년 만에 종이 접힌 자국을 지운 새 아이콘](https://designcompass.org/2026/11/25/google-translate-gradient-icon-redesign/)
+- `2026-11-25T06:10:59.957146+00:00` · designcompass-매거진 — [클로드 쉽, 코드 검토부터 팀 규칙에 따른 승인까지](https://designcompass.org/2026/11/25/claude-ship-code-review-approval/)
 - `2026-11-24T07:41:14.695091+00:00` · designcompass-매거진 — [누뱅크, 로고의 두 글자로 전용 서체를 만들다](https://designcompass.org/2026/11/24/nubank-rebrand-nu-sans/)
 - `2026-11-24T07:41:14.695091+00:00` · designcompass-매거진 — [네이버 멤버십, 로고에서 플러스를 빼고 초록색으로 통일](https://designcompass.org/2026/11/24/naver-membership-logo-redesign/)
 - `2026-11-24T07:41:14.695091+00:00` · designcompass-매거진 — [구글 검색, 홈 화면의 검색 버튼 자리에 AI 도구를 놓다](https://designcompass.org/2026/11/24/google-search-homepage-ai-redesign/)
@@ -28,7 +33,3 @@ _마지막 실행: 2026-11-24 07:42 UTC_
 - `2026-11-13T04:14:17.728231+00:00` · designcompass-아티클 — [같은 밝기라는 거짓말, 사람의 눈에 맞게 색 바꾸기](https://designcompass.org/2026/11/13/the-lightness-lie/)
 - `2026-11-12T04:59:14.757791+00:00` · designcompass-매거진 — [오픈온, 두 개의 O가 움직이는 브랜드 아이덴티티](https://designcompass.org/2026/11/12/openon-motion-identity/)
 - `2026-11-12T04:59:14.757791+00:00` · designcompass-매거진 — [유튜브, 굵고 좁아진 영상 제목과 위로 옮긴 구독 탭](https://designcompass.org/2026/11/12/youtube-video-title-font-and-subscriptions-tab/)
-- `2026-11-11T03:51:45.307341+00:00` · designcompass-매거진 — [네이버지도, 대중교통과 내비게이션을 한 탭에](https://designcompass.org/2026/11/11/naver-map-move-tab-live-transit/)
-- `2026-11-11T03:51:45.307341+00:00` · designcompass-매거진 — [Zap Energy, 로고의 사선을 연구실 표지판까지 확장한 아이덴티티](https://designcompass.org/2026/11/10/zap-energy-brand-identity/)
-- `2026-11-11T03:51:45.307341+00:00` · designcompass-매거진 — [피그마, AI로 이미지 속 객체 선택부터 아이콘·일러스트 편집까지](https://designcompass.org/2026/11/10/figma-ai-object-selection-vector-illustration-editing/)
-- `2026-11-11T03:51:45.307341+00:00` · designcompass-아티클 — [요즘 뜨는 사우나 브랜드는 어떤 휴식을 팔까?](https://designcompass.org/2026/11/11/sauna-brand-positioning/)

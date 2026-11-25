@@ -1,33 +1,5 @@
 [
   {
-    "timestamp": "2026-11-11T03:51:45.307341+00:00",
-    "site": "designcompass-매거진",
-    "url": "https://designcompass.org/magazine/",
-    "title": "네이버지도, 대중교통과 내비게이션을 한 탭에",
-    "link": "https://designcompass.org/2026/11/11/naver-map-move-tab-live-transit/"
-  },
-  {
-    "timestamp": "2026-11-11T03:51:45.307341+00:00",
-    "site": "designcompass-매거진",
-    "url": "https://designcompass.org/magazine/",
-    "title": "Zap Energy, 로고의 사선을 연구실 표지판까지 확장한 아이덴티티",
-    "link": "https://designcompass.org/2026/11/10/zap-energy-brand-identity/"
-  },
-  {
-    "timestamp": "2026-11-11T03:51:45.307341+00:00",
-    "site": "designcompass-매거진",
-    "url": "https://designcompass.org/magazine/",
-    "title": "피그마, AI로 이미지 속 객체 선택부터 아이콘·일러스트 편집까지",
-    "link": "https://designcompass.org/2026/11/10/figma-ai-object-selection-vector-illustration-editing/"
-  },
-  {
-    "timestamp": "2026-11-11T03:51:45.307341+00:00",
-    "site": "designcompass-아티클",
-    "url": "https://designcompass.org/article/",
-    "title": "요즘 뜨는 사우나 브랜드는 어떤 휴식을 팔까?",
-    "link": "https://designcompass.org/2026/11/11/sauna-brand-positioning/"
-  },
-  {
     "timestamp": "2026-11-12T04:59:14.757791+00:00",
     "site": "designcompass-매거진",
     "url": "https://designcompass.org/magazine/",
@@ -208,5 +180,40 @@
     "url": "https://designcompass.org/magazine/",
     "title": "테슬라, GTA처럼 도로 위에 회전 방향을 띄운 주행 화면",
     "link": "https://designcompass.org/2026/11/24/tesla-fsd-v15-reality-view/"
+  },
+  {
+    "timestamp": "2026-11-25T06:10:59.957146+00:00",
+    "site": "designcompass-매거진",
+    "url": "https://designcompass.org/magazine/",
+    "title": "컴퍼스 디자인 시스템 디지털 회원 카드",
+    "link": "https://designcompass.org/2026/11/25/compass-design-system-membership-card/"
+  },
+  {
+    "timestamp": "2026-11-25T06:10:59.957146+00:00",
+    "site": "designcompass-매거진",
+    "url": "https://designcompass.org/magazine/",
+    "title": "포에트리 재단, 시구 사이를 달리는 페가수스 로고",
+    "link": "https://designcompass.org/2026/11/25/poetry-foundation-pegasus-motion-identity/"
+  },
+  {
+    "timestamp": "2026-11-25T06:10:59.957146+00:00",
+    "site": "designcompass-매거진",
+    "url": "https://designcompass.org/magazine/",
+    "title": "고기야, 달리는 빨간 마스코트를 내세운 한국식 바비큐 브랜딩",
+    "link": "https://designcompass.org/2026/11/25/gogiya-korean-bbq-mascot-branding/"
+  },
+  {
+    "timestamp": "2026-11-25T06:10:59.957146+00:00",
+    "site": "designcompass-매거진",
+    "url": "https://designcompass.org/magazine/",
+    "title": "구글 번역, 11년 만에 종이 접힌 자국을 지운 새 아이콘",
+    "link": "https://designcompass.org/2026/11/25/google-translate-gradient-icon-redesign/"
+  },
+  {
+    "timestamp": "2026-11-25T06:10:59.957146+00:00",
+    "site": "designcompass-매거진",
+    "url": "https://designcompass.org/magazine/",
+    "title": "클로드 쉽, 코드 검토부터 팀 규칙에 따른 승인까지",
+    "link": "https://designcompass.org/2026/11/25/claude-ship-code-review-approval/"
   }
 ]
