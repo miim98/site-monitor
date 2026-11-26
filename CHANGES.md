@@ -1,7 +1,10 @@
 # 새 글 모니터 (최근 14일)
 
-_마지막 실행: 2026-11-25 06:12 UTC_
+_마지막 실행: 2026-11-26 06:03 UTC_
 
+- `2026-11-26T06:02:23.485104+00:00` · designcompass-매거진 — [파토스, 노래하는 백조에 펑크를 입히다](https://designcompass.org/2026/11/26/pathos-punk-swan-brand-identity/)
+- `2026-11-26T06:02:23.485104+00:00` · designcompass-매거진 — [유튜브, 홈 영상 아래 좋아요·댓글·저장 버튼 테스트](https://designcompass.org/2026/11/26/youtube-home-feed-like-comment-save-buttons-test/)
+- `2026-11-26T06:02:23.485104+00:00` · designcompass-매거진 — [삼성 One UI 9.5, 카메라 주변으로 옮긴 실시간 알림 테스트](https://designcompass.org/2026/11/26/samsung-one-ui-9-5-now-bar-live-notifications-redesign/)
 - `2026-11-25T06:10:59.957146+00:00` · designcompass-매거진 — [컴퍼스 디자인 시스템 디지털 회원 카드](https://designcompass.org/2026/11/25/compass-design-system-membership-card/)
 - `2026-11-25T06:10:59.957146+00:00` · designcompass-매거진 — [포에트리 재단, 시구 사이를 달리는 페가수스 로고](https://designcompass.org/2026/11/25/poetry-foundation-pegasus-motion-identity/)
 - `2026-11-25T06:10:59.957146+00:00` · designcompass-매거진 — [고기야, 달리는 빨간 마스코트를 내세운 한국식 바비큐 브랜딩](https://designcompass.org/2026/11/25/gogiya-korean-bbq-mascot-branding/)
@@ -31,5 +34,3 @@ _마지막 실행: 2026-11-25 06:12 UTC_
 - `2026-11-13T04:14:17.728231+00:00` · designcompass-매거진 — [브랜드닷에이아이, 하나의 규칙으로 여러 심볼을 만드는 아이덴티티](https://designcompass.org/2026/11/13/brand-ai-generative-visual-identity-mouthwash-studio/)
 - `2026-11-13T04:14:17.728231+00:00` · designcompass-매거진 — [애플 뮤직, 내 얼굴 위에 가사를 띄우는 ‘셀피 싱’](https://designcompass.org/2026/11/13/apple-music-selfie-sing-ios-27-3/)
 - `2026-11-13T04:14:17.728231+00:00` · designcompass-아티클 — [같은 밝기라는 거짓말, 사람의 눈에 맞게 색 바꾸기](https://designcompass.org/2026/11/13/the-lightness-lie/)
-- `2026-11-12T04:59:14.757791+00:00` · designcompass-매거진 — [오픈온, 두 개의 O가 움직이는 브랜드 아이덴티티](https://designcompass.org/2026/11/12/openon-motion-identity/)
-- `2026-11-12T04:59:14.757791+00:00` · designcompass-매거진 — [유튜브, 굵고 좁아진 영상 제목과 위로 옮긴 구독 탭](https://designcompass.org/2026/11/12/youtube-video-title-font-and-subscriptions-tab/)

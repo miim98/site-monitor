@@ -1,19 +1,5 @@
 [
   {
-    "timestamp": "2026-11-12T04:59:14.757791+00:00",
-    "site": "designcompass-매거진",
-    "url": "https://designcompass.org/magazine/",
-    "title": "오픈온, 두 개의 O가 움직이는 브랜드 아이덴티티",
-    "link": "https://designcompass.org/2026/11/12/openon-motion-identity/"
-  },
-  {
-    "timestamp": "2026-11-12T04:59:14.757791+00:00",
-    "site": "designcompass-매거진",
-    "url": "https://designcompass.org/magazine/",
-    "title": "유튜브, 굵고 좁아진 영상 제목과 위로 옮긴 구독 탭",
-    "link": "https://designcompass.org/2026/11/12/youtube-video-title-font-and-subscriptions-tab/"
-  },
-  {
     "timestamp": "2026-11-13T04:14:17.728231+00:00",
     "site": "designcompass-매거진",
     "url": "https://designcompass.org/magazine/",
@@ -215,5 +201,26 @@
     "url": "https://designcompass.org/magazine/",
     "title": "클로드 쉽, 코드 검토부터 팀 규칙에 따른 승인까지",
     "link": "https://designcompass.org/2026/11/25/claude-ship-code-review-approval/"
+  },
+  {
+    "timestamp": "2026-11-26T06:02:23.485104+00:00",
+    "site": "designcompass-매거진",
+    "url": "https://designcompass.org/magazine/",
+    "title": "파토스, 노래하는 백조에 펑크를 입히다",
+    "link": "https://designcompass.org/2026/11/26/pathos-punk-swan-brand-identity/"
+  },
+  {
+    "timestamp": "2026-11-26T06:02:23.485104+00:00",
+    "site": "designcompass-매거진",
+    "url": "https://designcompass.org/magazine/",
+    "title": "유튜브, 홈 영상 아래 좋아요·댓글·저장 버튼 테스트",
+    "link": "https://designcompass.org/2026/11/26/youtube-home-feed-like-comment-save-buttons-test/"
+  },
+  {
+    "timestamp": "2026-11-26T06:02:23.485104+00:00",
+    "site": "designcompass-매거진",
+    "url": "https://designcompass.org/magazine/",
+    "title": "삼성 One UI 9.5, 카메라 주변으로 옮긴 실시간 알림 테스트",
+    "link": "https://designcompass.org/2026/11/26/samsung-one-ui-9-5-now-bar-live-notifications-redesign/"
   }
 ]
