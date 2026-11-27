@@ -1,7 +1,10 @@
 # 새 글 모니터 (최근 14일)
 
-_마지막 실행: 2026-11-26 06:03 UTC_
+_마지막 실행: 2026-11-27 05:57 UTC_
 
+- `2026-11-27T05:56:13.957568+00:00` · designcompass-매거진 — [디익스팅션, 퇴비화 포장재에 형광빛 공룡을 그리다](https://designcompass.org/2026/11/27/de-extinction-dinosaur-packaging/)
+- `2026-11-27T05:56:13.957568+00:00` · designcompass-매거진 — [사파리 27.3 베타, 세로 탭과 웹사이트용 적응형 다크 모드 추가](https://designcompass.org/2026/11/27/safari-vertical-tabs-adaptive-dark-mode/)
+- `2026-11-27T05:56:13.957568+00:00` · designcompass-매거진 — [피그마, FigJam·Slides로 보드 정리와 발표 자료 제작 에이전트 확대](https://designcompass.org/2026/11/27/figma-agent-figjam-slides/)
 - `2026-11-26T06:02:23.485104+00:00` · designcompass-매거진 — [파토스, 노래하는 백조에 펑크를 입히다](https://designcompass.org/2026/11/26/pathos-punk-swan-brand-identity/)
 - `2026-11-26T06:02:23.485104+00:00` · designcompass-매거진 — [유튜브, 홈 영상 아래 좋아요·댓글·저장 버튼 테스트](https://designcompass.org/2026/11/26/youtube-home-feed-like-comment-save-buttons-test/)
 - `2026-11-26T06:02:23.485104+00:00` · designcompass-매거진 — [삼성 One UI 9.5, 카메라 주변으로 옮긴 실시간 알림 테스트](https://designcompass.org/2026/11/26/samsung-one-ui-9-5-now-bar-live-notifications-redesign/)
@@ -31,6 +34,3 @@ _마지막 실행: 2026-11-26 06:03 UTC_
 - `2026-11-17T05:48:37.326784+00:00` · designcompass-매거진 — [밀크샤, 바람에 흔들리는 풀을 담은 브랜드 아이덴티티](https://designcompass.org/2026/11/16/milksha-bito-brand-identity/)
 - `2026-11-17T05:48:37.326784+00:00` · designcompass-아티클 — [AI가 내 대신 전화를 걸기 시작했다](https://designcompass.org/2026/11/17/ai-agents-light-and-shadow/)
 - `2026-11-16T03:55:50.104037+00:00` · designcompass-매거진 — [피그마, 레이어 3D 편집 기능 공개](https://designcompass.org/2026/11/16/figma-3d-transforms/)
-- `2026-11-13T04:14:17.728231+00:00` · designcompass-매거진 — [브랜드닷에이아이, 하나의 규칙으로 여러 심볼을 만드는 아이덴티티](https://designcompass.org/2026/11/13/brand-ai-generative-visual-identity-mouthwash-studio/)
-- `2026-11-13T04:14:17.728231+00:00` · designcompass-매거진 — [애플 뮤직, 내 얼굴 위에 가사를 띄우는 ‘셀피 싱’](https://designcompass.org/2026/11/13/apple-music-selfie-sing-ios-27-3/)
-- `2026-11-13T04:14:17.728231+00:00` · designcompass-아티클 — [같은 밝기라는 거짓말, 사람의 눈에 맞게 색 바꾸기](https://designcompass.org/2026/11/13/the-lightness-lie/)

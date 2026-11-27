@@ -1,26 +1,5 @@
 [
   {
-    "timestamp": "2026-11-13T04:14:17.728231+00:00",
-    "site": "designcompass-매거진",
-    "url": "https://designcompass.org/magazine/",
-    "title": "브랜드닷에이아이, 하나의 규칙으로 여러 심볼을 만드는 아이덴티티",
-    "link": "https://designcompass.org/2026/11/13/brand-ai-generative-visual-identity-mouthwash-studio/"
-  },
-  {
-    "timestamp": "2026-11-13T04:14:17.728231+00:00",
-    "site": "designcompass-매거진",
-    "url": "https://designcompass.org/magazine/",
-    "title": "애플 뮤직, 내 얼굴 위에 가사를 띄우는 ‘셀피 싱’",
-    "link": "https://designcompass.org/2026/11/13/apple-music-selfie-sing-ios-27-3/"
-  },
-  {
-    "timestamp": "2026-11-13T04:14:17.728231+00:00",
-    "site": "designcompass-아티클",
-    "url": "https://designcompass.org/article/",
-    "title": "같은 밝기라는 거짓말, 사람의 눈에 맞게 색 바꾸기",
-    "link": "https://designcompass.org/2026/11/13/the-lightness-lie/"
-  },
-  {
     "timestamp": "2026-11-16T03:55:50.104037+00:00",
     "site": "designcompass-매거진",
     "url": "https://designcompass.org/magazine/",
@@ -222,5 +201,26 @@
     "url": "https://designcompass.org/magazine/",
     "title": "삼성 One UI 9.5, 카메라 주변으로 옮긴 실시간 알림 테스트",
     "link": "https://designcompass.org/2026/11/26/samsung-one-ui-9-5-now-bar-live-notifications-redesign/"
+  },
+  {
+    "timestamp": "2026-11-27T05:56:13.957568+00:00",
+    "site": "designcompass-매거진",
+    "url": "https://designcompass.org/magazine/",
+    "title": "디익스팅션, 퇴비화 포장재에 형광빛 공룡을 그리다",
+    "link": "https://designcompass.org/2026/11/27/de-extinction-dinosaur-packaging/"
+  },
+  {
+    "timestamp": "2026-11-27T05:56:13.957568+00:00",
+    "site": "designcompass-매거진",
+    "url": "https://designcompass.org/magazine/",
+    "title": "사파리 27.3 베타, 세로 탭과 웹사이트용 적응형 다크 모드 추가",
+    "link": "https://designcompass.org/2026/11/27/safari-vertical-tabs-adaptive-dark-mode/"
+  },
+  {
+    "timestamp": "2026-11-27T05:56:13.957568+00:00",
+    "site": "designcompass-매거진",
+    "url": "https://designcompass.org/magazine/",
+    "title": "피그마, FigJam·Slides로 보드 정리와 발표 자료 제작 에이전트 확대",
+    "link": "https://designcompass.org/2026/11/27/figma-agent-figjam-slides/"
   }
 ]
