@@ -1,6 +1,6 @@
 # 새 글 모니터 (최근 14일)
 
-_마지막 실행: 2026-11-27 05:57 UTC_
+_마지막 실행: 2026-11-28 05:38 UTC_
 
 - `2026-11-27T05:56:13.957568+00:00` · designcompass-매거진 — [디익스팅션, 퇴비화 포장재에 형광빛 공룡을 그리다](https://designcompass.org/2026/11/27/de-extinction-dinosaur-packaging/)
 - `2026-11-27T05:56:13.957568+00:00` · designcompass-매거진 — [사파리 27.3 베타, 세로 탭과 웹사이트용 적응형 다크 모드 추가](https://designcompass.org/2026/11/27/safari-vertical-tabs-adaptive-dark-mode/)
